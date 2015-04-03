@@ -31,15 +31,21 @@
 \input{tipos/flor.tex}
 
 \begin{problema}{nuevaF}{v : \ent, cP : \ent, hs : [Habilidad]}{Flor}
+	\asegura[HabilidadesSinRepetir]{mismos(habilidades(res),SinRepetir(hs)}
+	\asegura[tieneVida]{vida(res) == 100 / (|habilidades(res)|+1)}
+	\asegura[tePegaSiAtaca]{ ifThenElse(Atacar \in habilidades(res), cuantoPega(res) == 12 / |habilidades(res)|, 0)}
 \end{problema}
 
 \begin{problema}{vidaF}{f: Flor}{\ent}
+	\asegura{res == vida(f)}
 \end{problema}
 
 \begin{problema}{cuantoPegaF}{f: Flor}{\ent}
+	\asegura{res == cuantoPega(f)}
 \end{problema}
 
 \begin{problema}{habilidadesF}{f: Flor}{[Habilidad]}
+	\asegura{res == habilidades(f)}
 \end{problema}
 
 
@@ -68,25 +74,32 @@
 \end{problema}
 
 \begin{problema}{anchoN}{n : Nivel}{\ent}
+	\asegura{res==ancho(n)}
 \end{problema}
 
 \begin{problema}{altoN}{n : Nivel}{\ent}
+	\asegura{res==alto(n)}
 \end{problema}
 
 
 \begin{problema}{turnoN}{n : Nivel}{\ent}
+	\asegura{res==turno(n)}
 \end{problema}
 
 \begin{problema}{solesN}{n : Nivel}{\ent}
+	\asegura{res==soles(n)}
 \end{problema}
 
 \begin{problema}{floresN}{n : Nivel}{[(Flor, Posicion, Vida)]}
+	\asegura{res==flores(n)}
 \end{problema}
 
 \begin{problema}{vampirosN}{n : Nivel}{[(Vampiro, Posicion, Vida)]}
+	\asegura{res==vampiros(n)}
 \end{problema}
 
 \begin{problema}{spawningN}{n : Nivel}{[(Vampiro, \ent, \ent)]}
+	\asegura{res==spawning(n)}
 \end{problema}
 
 \begin{problema}{comprarSoles}{n: Nivel, s : \ent}{}
@@ -136,5 +149,8 @@
 \section{Auxiliares}
 \aux{vidaFloresOk}{fs: [(Flor, Posicion, Vida)]}{\bool}{(\forall f \selec fs) trd(f) > 0 \land trd(f) \leq vida(prm(f))}
 \aux{vidaVampirosOk}{fs: [(Vampiro, Posicion, Vida)]}{\bool}{(\forall f \selec fs) trd(f) > 0 \land trd(f) \leq vida(prm(f))}
-\aux{floresIguales}{x, y}{\bool}{mismos(habilidades(x), habilidades(y))}
+\aux{floresIguales}{x, y : Flor}{\bool}{mismos(habilidades(x), habilidades(y))}
+\aux{cuenta}{x: T, a: [T]}{Int}{|[y | y  \in  a, y == x]|}
+\aux{mismos}{a, b : [T]}{\bool}{(|a| == |b| \land (\forall c \in a) cuenta(c,a) == cuenta(c,b))}
 \end{document}
+
