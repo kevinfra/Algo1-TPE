@@ -31,9 +31,12 @@
 \input{tipos/flor.tex}
 
 \begin{problema}{nuevaF}{v : \ent, cP : \ent, hs : [Habilidad]}{Flor}
-	\asegura[HabilidadesSinRepetir]{mismos(habilidades(res),SinRepetir(hs)}
-	\asegura[tieneVida]{vida(res) == 100 / (|habilidades(res)|+1)}
-	\asegura[tePegaSiAtaca]{ ifThenElse(Atacar \in habilidades(res), cuantoPega(res) == 12 / |habilidades(res)|, 0)}
+	\requiere[habilidadesCoherentes]{sinRepetir(hs)}
+	\requiere[viveDelInvariante]{v == \frac{100}{|hs|+1} }
+	\requiere[pegameSinVariar]{if \ Atacar \in habilidades(f) \ Then \ cP == \frac{12}{|hs|} \ Else \ cP == 0}
+	\asegura[tendriaHabilidades]{mismos(habilidades(res),hs)}
+	\asegura[tieneVida]{vida(res) == v}
+	\asegura[siAtacaTePega]{cuantoPega(res) == cP}
 \end{problema}
 
 \begin{problema}{vidaF}{f: Flor}{\ent}
@@ -53,7 +56,14 @@
 \section{Vampiro}
 \input{tipos/vampiro.tex}
 
+\newpage
+
 \begin{problema}{nuevoV}{cv : ClaseVampiro, v : \ent, cP : \ent}{Vampiro}
+	\requiere{v \geq 0 \ \land v \leq 100}
+	\requiere{cP > 0}
+	\asegura[tieneVida]{vida(res) == v}
+	\asegura[estePega]{cuantoPega(res) == cP}
+	\asegura[esVampiro]{clase(res) == cv}
 \end{problema}
 
 \begin{problema}{claseVampiroV}{v : Vampiro}{ClaseVampiro}
@@ -155,5 +165,6 @@
 \aux{floresIguales}{x, y : Flor}{\bool}{mismos(habilidades(x), habilidades(y))}
 \aux{cuenta}{x: T, a: [T]}{Int}{|[y | y  \in  a, y == x]|}
 \aux{mismos}{a, b : [T]}{\bool}{(|a| == |b| \land (\forall c \in a) cuenta(c,a) == cuenta(c,b))}
+\aux{sinRepetir}{xs : [T]}{\bool}{(\forall i, j \leftarrow [0..|xs|), \ i \neq j) xs_i \neq xs_j}
 \end{document}
 
