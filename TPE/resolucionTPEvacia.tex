@@ -31,7 +31,7 @@
 \input{tipos/flor.tex}
 
 \begin{problema}{nuevaF}{v : \ent, cP : \ent, hs : [Habilidad]}{Flor}
-	\requiere[habilidadesCoherentes]{sinRepetir(hs)}
+	\requiere[habilidadesCoherentes]{sinRepetidos(hs)}
 	\requiere[viveDelInvariante]{v == \frac{100}{|hs|+1} }
 	\requiere[pegameSinVariar]{if \ Atacar \in habilidades(f) \ Then \ cP == \frac{12}{|hs|} \ Else \ cP == 0}
 	\asegura[tendriaHabilidades]{mismos(habilidades(res),hs)}
@@ -84,6 +84,12 @@
 \input{tipos/nivel.tex}
 
 \begin{problema}{nuevoN}{an : \ent, al : \ent, s : \ent, spaw : [(Vampiro, \ent, \ent)]}{Nivel}
+	\requiere[esBienRazonable]{an > 0, \ al > 0, \ (\forall t \leftarrow spaw)sgd(t) \geq 1 \ \land \ sgd(t) \leq al \ \land \ trd(t) \geq 0}
+	\asegura[empezasEnTurnoCero]{turno(res) == 0}
+	\asegura[tieneTablero]{ancho(res) == an \ \land \ alto(res) == al}
+	\asegura[esDiaSoleado]{soles(res) == s}
+	\asegura[elTableroEstaVacio]{vampiros(res) == [] \land \ flores(res) == []}
+	\asegura[habraEnemigosOrdenados]{mismos(spawning(res),spaw)}
 \end{problema}
 
 \begin{problema}{anchoN}{n : Nivel}{\ent}
@@ -165,6 +171,6 @@
 \aux{floresIguales}{x, y : Flor}{\bool}{mismos(habilidades(x), habilidades(y))}
 \aux{cuenta}{x: T, a: [T]}{Int}{|[y | y  \in  a, y == x]|}
 \aux{mismos}{a, b : [T]}{\bool}{(|a| == |b| \land (\forall c \in a) cuenta(c,a) == cuenta(c,b))}
-\aux{sinRepetir}{xs : [T]}{\bool}{(\forall i, j \leftarrow [0..|xs|), \ i \neq j) xs_i \neq xs_j}
+\aux{sinRepetidos}{xs : [T]}{\bool}{(\forall i, j \leftarrow [0..|xs|), \ i \neq j) xs_i \neq xs_j}
 \end{document}
 
