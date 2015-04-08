@@ -142,15 +142,29 @@
 \input{tipos/juego.tex}
 
 \begin{problema}{floresJ}{j: Juego}{[Flor]}
+	\asegura{res==flores(j)}
 \end{problema}
 
 \begin{problema}{vampirosJ}{j: Juego}{[Vampiro]}
+	\asegura{res==vampiros(j)}
 \end{problema}
 
 \begin{problema}{nivelesJ}{j: Juego}{[Nivel]}
+	\asegura{res==niveles(j)}
 \end{problema}
 
 \begin{problema}{agregarNivelJ}{j: Juego, n: Nivel, i: \ent}{}
+	\requiere {turno(n)==0}
+	\requiere {|flores(n)|==0}
+	\requiere {|vampiros(n)|==0}
+	\requiere {i\geq 0}
+	\requiere {i \leq |niveles(pre(j))|}
+	\modifica {j}
+	\asegura {(\forall k \leftarrow [0..i)) niveles(j)_k == niveles(pre(j))_k}
+	\asegura {niveles(j)_i == n}
+	\asegura {(\forall k \leftarrow (i..|niveles(j)|)) niveles(j)_k == niveles(pre(j))_k-1)}
+	\asegura {flores(j)==flores(pre(j))}
+	\asegura {vampiros(j)==vampiros(pre(j))}	
 \end{problema}
 
 \begin{problema}{estosSalenFacil}{j: Juego}{[Nivel]}
