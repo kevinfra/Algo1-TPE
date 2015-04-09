@@ -4,6 +4,6 @@
 	\observador{niveles}{j: Juego}{[Nivel]}
 	\invariante[floresDistintas]{(\forall i, k \selec [0..\longitud{flores(j)}), i \neq k) \neg floresIguales(flores(j)_i, flores(j)_k)}
 	\invariante[vampirosDistintos]{sinRepetidos(vampiros(j))}
-	\invariante[nivelesConFloresValidas]{\ldots}
-	\invariante[nivelesConVampirosValidos]{\ldots}
+	\invariante[nivelesConFloresValidas]{(\forall n \selec niveles(j)) (\forall f \selec flores(n)) prm(f) \in flores(j)}
+	\invariante[nivelesConVampirosValidos]{(\forall n \selec niveles(j)) (\forall v \selec vampiros(n)) prm(v) \in vampiros(j)}
 \end{tipo}

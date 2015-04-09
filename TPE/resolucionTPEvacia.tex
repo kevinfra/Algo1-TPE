@@ -160,11 +160,11 @@
 	\requiere {i\geq 0}
 	\requiere {i \leq |niveles(pre(j))|}
 	\modifica {j}
-	\asegura {(\forall k \leftarrow [0..i)) niveles(j)_k == niveles(pre(j))_k}
-	\asegura {niveles(j)_i == n}
-	\asegura {(\forall k \leftarrow (i..|niveles(j)|)) niveles(j)_k == niveles(pre(j))_k-1)}
-	\asegura {flores(j)==flores(pre(j))}
-	\asegura {vampiros(j)==vampiros(pre(j))}	
+	\asegura {(\forall k \leftarrow [0..i)) nivelesIguales(niveles(j)_{k},niveles(pre(j))_{k})}
+	\asegura {nivelesIguales(niveles(j)_{i},n)}
+	\asegura {(\forall k \leftarrow (i..|niveles(j)|)) nivelesIguales(niveles(j)_{k},niveles(pre(j))_{k-1})}
+	\asegura {mismos(flores(j),flores(pre(j)))}
+	\asegura {mismos(vampiros(j),vampiros(pre(j)))}	
 \end{problema}
 
 \begin{problema}{estosSalenFacil}{j: Juego}{[Nivel]}
@@ -186,5 +186,6 @@
 \aux{cuenta}{x: T, a: [T]}{Int}{|[y | y  \in  a, y == x]|}
 \aux{mismos}{a, b : [T]}{\bool}{(|a| == |b| \land (\forall c \in a) cuenta(c,a) == cuenta(c,b))}
 \aux{sinRepetidos}{xs : [T]}{\bool}{(\forall i, j \leftarrow [0..|xs|), \ i \neq j) xs_i \neq xs_j}
+\aux{nivelesIguales} {n1,n2: Nivel}{\bool}{ancho(n1)==ancho(n2)\land alto(n1)==alto(n2)\land turno(n1)==turno(n2) \land soles(n1)==soles(n2) \land mismos(flores(n1),flores(n2)) \land mismos(vampiros(n1),vampiros(n2))\land spawning(n1)==spawning(n2)}
 \end{document}
 
