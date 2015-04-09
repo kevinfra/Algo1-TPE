@@ -100,7 +100,6 @@
 	\asegura{res==alto(n)}
 \end{problema}
 
-
 \begin{problema}{turnoN}{n : Nivel}{\ent}
 	\asegura{res==turno(n)}
 \end{problema}
@@ -132,7 +131,20 @@
 
 \noindent\aux{terminado}{n: Nivel}{\bool}{}
 
-\begin{problema}{pasarTurno}{n: Nivel}{}
+\begin{problema}{pasarTurno}{n: Nivel}{}{
+	\modifica{n}
+	\requiere[noEsElFin]{terminado(n) == False}
+	\asegura[graciasPachamama]{soles(n)==soles(pre(n))+1+ \newline |[1 | j \in flores(n), Generar \in habilidadesF(j_1)]| * (turno(pre(n))+1)}
+	\asegura[soloPasaUnTurno]{turno(n) == turno(pre(n))+1}
+	\asegura[lasFloresSeMarchitan1]{(\forall k \in flores(n))(\exists f \in flores(pre(n)))k==f \lor \newline (k_1==f_1 \land k_2==f_2 \land k_3 == f_3 - \sum[cuantoPegaV(v_1) \ | v \in vampiros(pre(n)), \ v_2==f_2] }
+	%\asegura[lasFloresSeMarchitan2]{(\forall f \in flores(pre(n)))(\exists v \in vampiros(pre(n)), f_2==v_2 \land \newline (f_3 - \sum[cuantoPegaV(v_1) \ | v \in vampiros(pre(n)), \ v_2==f_2]) > 0) \land Explotar \notin habilidadesF(f_1)) f \in flores(n)}
+	\asegura[lasQueChocanExplotan]{(\not\exists k \in flores(pre(n)), v \in vampiros(pre(n)), k_2==v_2 \ \land \ Explotar \in habilidadesF(k_1)) \newline k \in flores(n)}
+	\asegura[losVampirosTambienSufren]{(\forall t \in vampiros(n))(\exists v \in vampiros(pre(n)))t == v \lor \newline (t_1 == v_1 \land t_2 == v_2 \land t_3 == v_3 - \sum [cuantoPegaF(f) | f \in flores(pre(n)), f_{2,1}==v_{2,1} \ \lor \newline (f_{2,2} \leq v_{2,2} \land noHayVampirosEnElMedio(v, f, pre(n))] \land t_3 > 0)}
+	 
+	 %Hay que preguntar como distinguir entre vampiros iguales y flores iguales, porque la auxiliar que hay no alcanza
+	
+		
+}
 \end{problema}
 
 
@@ -162,7 +174,7 @@
 	\modifica {j}
 	\asegura {(\forall k \leftarrow [0..i)) niveles(j)_k == niveles(pre(j))_k}
 	\asegura {niveles(j)_i == n}
-	\asegura {(\forall k \leftarrow (i..|niveles(j)|)) niveles(j)_k == niveles(pre(j))_k-1)}
+	\asegura {(\forall k \leftarrow (i..|niveles(j)|)) niveles(j)_k == niveles(pre(j))_{k-1})}
 	\asegura {flores(j)==flores(pre(j))}
 	\asegura {vampiros(j)==vampiros(pre(j))}	
 \end{problema}
@@ -177,6 +189,8 @@
 \end{problema}
 
 \begin{problema}{muyDeExactas}{j: Juego}{\bool}
+	\asegura{listaNivelesGanados(j) == fibonacci(|listaNivelesGanados(j)|)}
+	
 \end{problema}
 
 \section{Auxiliares}
@@ -186,5 +200,9 @@
 \aux{cuenta}{x: T, a: [T]}{Int}{|[y | y  \in  a, y == x]|}
 \aux{mismos}{a, b : [T]}{\bool}{(|a| == |b| \land (\forall c \in a) cuenta(c,a) == cuenta(c,b))}
 \aux{sinRepetidos}{xs : [T]}{\bool}{(\forall i, j \leftarrow [0..|xs|), \ i \neq j) xs_i \neq xs_j}
+\aux{noHayVampirosEnElMedio}{v : (Vampiro, Posicion, Vida), f : (Flor, Posicion, Vida), n : Nivel}{\bool}{(\not\exists k \in vampiros(n))k_{2,2} \geq f_{2,2} \land k_{2,2} < v_{2,2}}
+\aux{nivelGanado}{n:Nivel}{\bool}{vampiros(n)==\lvacia}
+\aux{listaNivelesGanados}{j: Juego}{[\ent]}{[i \ | \ i \in [0..|nivelesJ(j)|), nivelGanado(nivelesJ(j)_i)]}
+\aux{fibonacci}{t: \ent}{[\ent]}{[\frac{\phi^{n} - (1-\phi)^{n}}{\sqrt{5}} \ | \ n \in [1..t]]}
 \end{document}
 
