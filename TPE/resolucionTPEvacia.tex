@@ -137,13 +137,8 @@
 	\asegura[graciasPachamama]{soles(n)==soles(pre(n))+1+ \newline |[1 | j \in flores(n), Generar \in habilidadesF(j_1)]| * (turno(pre(n))+1)}
 	\asegura[soloPasaUnTurno]{turno(n) == turno(pre(n))+1}
 	
-	\asegura{	
-	
-	
-	
-	
-	
-	
+	%\asegura{	
+		
 	%\asegura[lasFloresSeMarchitan1]{(\forall k \in flores(n))(\exists f \in flores(pre(n)))k==f \lor \newline (prm(k)==prm(f) \land sgd(k)==sgd(f) \land trd(k) == trd(f) - \sum[cuantoPegaV(prm(v)) \ | v \in vampiros(pre(n)), \ sgd(v)==sgd(f)] }
 	
 	%\asegura[lasFloresSeMarchitan2]{(\forall f \in flores(pre(n)))(\exists k \in flores(n))k==f \lor \newline (prm(k)==prm(f) \land sgd(k)==sgd(f) \land trd(k) == trd(f) - \sum[cuantoPegaV(prm(v)) \ | v \in vampiros(pre(n)), \ sgd(v)==sgd(f)] }
@@ -151,12 +146,10 @@
 	%\asegura[lasFloresSeMarchitan2]{(\forall f \in flores(pre(n)))(\exists v \in vampiros(pre(n)), f_2==v_2 \land \newline (f_3 - \sum[cuantoPegaV(v_1) \ | v \in vampiros(pre(n)), \ v_2==f_2]) > 0) \land Explotar \notin habilidadesF(f_1)) f \in flores(n)}
 	
 	%\asegura[lasQueChocanExplotan]{(\not\exists k \in flores(pre(n)), v \in vampiros(pre(n)), k_2==v_2 \ \land \ Explotar \in habilidadesF(k_1)) \newline k \in flores(n)}
-	\asegura[losVampirosTambienSufren]{(\forall t \in vampiros(n))(\exists v \in vampiros(pre(n)))t == v \lor \newline (t_1 == v_1 \land t_2 == v_2 \land t_3 == v_3 - \sum [cuantoPegaF(f) | f \in flores(pre(n)), f_{2,1}==v_{2,1} \ \lor \newline (f_{2,2} \leq v_{2,2} \land noHayVampirosEnElMedio(v, f, pre(n))] \land t_3 > 0)}
+	%\asegura[losVampirosTambienSufren]{(\forall t \in vampiros(n))(\exists v \in vampiros(pre(n)))t == v \lor \newline (t_1 == v_1 \land t_2 == v_2 \land t_3 == v_3 - \sum [cuantoPegaF(f) | f \in flores(pre(n)), f_{2,1}==v_{2,1} \ \lor \newline (f_{2,2} \leq v_{2,2} \land noHayVampirosEnElMedio(v, f, pre(n))] \land t_3 > 0)}
 	 
 	 %Hay que preguntar como distinguir entre vampiros iguales y flores iguales, porque la auxiliar que hay no alcanza
-	
-		
-}
+%}
 \end{problema}
 
 
@@ -181,12 +174,11 @@
 	\requiere {turno(n)==0}
 	\requiere {|flores(n)|==0}
 	\requiere {|vampiros(n)|==0}
-	\requiere {i\geq 0}
-	\requiere {i \leq |niveles(pre(j))|}
+	\requiere {i\geq 0 \ land i \leq |niveles(j)|}
 	\modifica {j}
-	\asegura {(\forall k \leftarrow [0..i)) nivelesIguales(niveles(j)_{k},niveles(pre(j))_{k})}
-	\asegura {nivelesIguales(niveles(j)_{i},n)}
-	\asegura {(\forall k \leftarrow (i..|niveles(j)|)) nivelesIguales(niveles(j)_{k},niveles(pre(j))_{k-1})}
+	\asegura[losAnterioresSonIguales] {(\forall k \leftarrow (0..i)) nivelesIguales(niveles(j)_{k},niveles(pre(j))_{k})}
+	\asegura[esElNivelQueQuiero] {nivelesIguales(niveles(j)_{i},n)}
+	\asegura[losSiguientesSonIguales] {(\forall k \leftarrow (i..|niveles(j)|)) nivelesIguales(niveles(j)_{k},niveles(pre(j))_{k-1})}
 	\asegura {mismos(flores(j),flores(pre(j)))}
 	\asegura {mismos(vampiros(j),vampiros(pre(j)))}	
 \end{problema}
@@ -195,6 +187,15 @@
 \end{problema}
 
 \begin{problema}{jugarNivel}{j: Juego, n: Nivel, i: \ent}{}
+	\requiere[rangoValido]{alto(n) == alto(niveles(j)_i) \land ancho(n)==ancho(niveles(j)_i)}
+	\requiere[noTeQuedesSinTurno]{turno(niveles(j)_i) \leq turno(n)}
+	\requiere[noGanasteNiPerdisteAun]{|spawning(n)| \geq |spawning(niveles(j)_i)| \land (\forall k \in spawning(niveles(j)_i)) k \in spawning(n)}
+	\modifica{j}
+	\asegura[floresYVampirosNoCambian]{vampiros(j)==vampiros(pre(j)) \land flores(j)==flores(pre(j))}
+	\asegura[losAnterioresSonIguales2] {(\forall k \leftarrow (0..i)) nivelesIguales(niveles(j)_{k},niveles(pre(j))_{k})}
+	\asegura[esElNivelQueQuiero2] {soles(n)==soles(niveles(j)_i) \newline \land mismos(flores(n),flores(niveles(j)_i)) \land mismos(vampiros(n),vampiros(niveles(j)_i)) }
+	\asegura[losSiguientesSonIguales2] {(\forall k \leftarrow (i..|niveles(j)|)) nivelesIguales(niveles(j)_{k},niveles(pre(j))_{k-1})}
+
 \end{problema}
 
 \begin{problema}{altoCheat}{j: Juego, i: \ent}{}
