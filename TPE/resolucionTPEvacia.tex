@@ -45,11 +45,11 @@
 
 % Datos de caratula
 \materia{Algoritmos y Estructuras de Datos I}
-\titulo{Trabajo Pr\'actico N\'umero 1}
+\titulo{TPE - Flores vs Vampiros}
 %\subtitulo{}
 \grupo{Grupo: 07}
 
-\integrante{Bukovits, Nicolás Axel}{546/14}{aturing@ejemplo.com}
+\integrante{Bukovits, Nicol\'as Axel}{546/14}{aturing@ejemplo.com}
 \integrante{Chizzoli, Lucas}{782/14}{edjikstra@ejemplo.com}
 \integrante{Frachtenberg Goldsmit, Kevin}{247/14}{kevinfra94@gmail.com}
 \integrante{Garrett, Philip}{318/14}{pgarret@gmail.com}
@@ -239,7 +239,9 @@
 \end{problema}
 
 \begin{problema}{muyDeExactas}{j: Juego}{\bool}
-	\asegura{listaNivelesGanados(j) == fibonacci(|listaNivelesGanados(j)|)}
+	\asegura[base1]{ifThenElse(|nivGsL(j)| \geq 1 \land nivGsL(j)_0 == 1, True, False)}
+	\asegura[base2]{ifThenElse(|nivGsL(j)| \geq 2 \land nivGsL(j)_0 == 1 \land nivGsL(j)_1 == 2, True, False)}
+	\asegura[sumaDeDos]{ifThenElse(|nivGsL(j)| \geq 3 \ \land \ nivGsL(j)_0 == 1 \ \land \ nivGsL(j)_1 == 2 \newline \land (\forall k \in [2..|nivGsL(j)|-1]) \ nivGsL(j)_k == nivGsL(j)_{k-1} + nivGsL(j)_{k-2}, True, False)}
 	
 \end{problema}
 
@@ -252,8 +254,7 @@
 \aux{sinRepetidos}{xs : [T]}{\bool}{(\forall i, j \leftarrow [0..|xs|), \ i \neq j) xs_i \neq xs_j}
 \aux{noHayVampirosEnElMedio}{v : (Vampiro, Posicion, Vida), f : (Flor, Posicion, Vida), n : Nivel}{\bool}{\newline (\not\exists k \in vampiros(n))k_{2,2} \geq f_{2,2} \land k_{2,2} < v_{2,2}}
 \aux{nivelGanado}{n:Nivel}{\bool}{vampiros(n)==\lvacia}
-\aux{listaNivelesGanados}{j: Juego}{[\ent]}{[i \ | \ i \in [1..|niveles(j)|), nivelGanado(niveles(j)_i)]}
-\aux{fibonacci}{t: \ent}{[\ent]}{[\frac{\phi^{n} - (1-\phi)^{n}}{\sqrt{5}} \ | \ n \in [1..t]]}
+\aux{nivGsL}{j: Juego}{[\ent]}{[i \ | \ i \in [1..|niveles(j)|), nivelGanado(niveles(j)_i)]}
 \aux{nivelesIguales} {n1,n2: Nivel}{\bool}{ancho(n1)==ancho(n2)\land alto(n1)==alto(n2) \land \newline turno(n1)==turno(n2) \land soles(n1)==soles(n2) \land mismos(flores(n1),flores(n2)) \land \newline mismos(vampiros(n1),vampiros(n2))\land spawning(n1)==spawning(n2)}
 \end{document}
 
