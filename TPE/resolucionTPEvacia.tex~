@@ -50,9 +50,9 @@
 \grupo{Grupo: 07}
 
 \integrante{Bukovits, Nicol\'as Axel}{546/14}{aturing@ejemplo.com}
-\integrante{Chizzoli, Lucas}{782/14}{chizzoli.lucas13@gmail.com}
+\integrante{Chizzoli, Lucas}{782/14}{edjikstra@ejemplo.com}
 \integrante{Frachtenberg Goldsmit, Kevin}{247/14}{kevinfra94@gmail.com}
-\integrante{Garrett, Philip}{318/14}{garrett.phg@gmail.com}
+\integrante{Garrett, Philip}{318/14}{pgarret@gmail.com}
 
 \maketitle
 
@@ -158,35 +158,12 @@
 \end{problema}
 
 \begin{problema}{comprarSoles}{n: Nivel, s : \ent}{}
-	\requiere{s>0}
-	\modifica{n}
-	\asegura{soles(n)==soles(pre(n)) + s}
-	\asegura{ancho(n)==ancho(pre(n))}
-	\asegura{alto(n)==alto(pre(n))}
-	\asegura{turno(n)==turno(pre(n))}
-	\asegura{flores(n)==flores(pre(n))}
-	\asegura{vampiros(n)==vampiros(pre(n))}
-	\asegura{spawning(n)==spawning(pre(n))}
 \end{problema}
 
 \begin{problema}{obsesivoCompusilvo}{n: Nivel}{\bool}
-	\asegura [estaOrdenada]{(\not\exists i \in [0..|estaOrdenada|-1))Ataca\in habilidades(prm(ordenada_i))\land Ataca \in habilidades(prm(ordenada_{i+1}))}
 \end{problema}
 
 \begin{problema}{agregarFlor}{n: Nivel, f : Flor, p : Posicion}{}
-	\requiere{(\forall f \in flores(n))sgd(f)\neq p}
-	\requiere{(\forall v \in vampiros(n))sgd(v)\neq p}
-	\requiere{prim(p)\leq ancho(n) \land prm(p) \geq 0}
-	\requiere{sgd(p)\leq alto(n) \land sgd(p) \geq 0}
-	\requiere{soles(n)\geq 2^{|habilidades(f)|}}
-	\modifica{n}
-	\asegura{flores(n)==mismos(flores(n),(cons(f,p,vida(f))))}
-	\asegura{soles(n)==soles(pre(n))-2^{|habilidades(f)|}}
-	\asegura{ancho(n)==ancho(pre(n))}
-	\asegura{alto(n)==alto(pre(n))}
-	\asegura{turno(n)==turno(pre(n))}
-	\asegura{vampiros(n)==vampiros(pre(n))}
-	\asegura{spawning(n)==spawning(pre(n))}
 \end{problema}
 
 \noindent\aux{terminado}{n: Nivel}{\bool}{}
