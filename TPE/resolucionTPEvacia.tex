@@ -189,7 +189,9 @@
 	\asegura{spawning(n)==spawning(pre(n))}
 \end{problema}
 
-\noindent\aux{terminado}{n: Nivel}{\bool}{}
+\noindent\aux{terminado}{n: Nivel}{\bool}{
+	(|vampiros(n)| == 0 \land |spawning(n)| == 0) \newline \lor ((\exists i [0..|vampiros(n)|]))prm(sgd(vampiros(n)_i)) == 0
+}
 
 \begin{problema}{pasarTurno}{n: Nivel}{}{
 	\requiere[noEsElFin]{terminado(n) == False}
@@ -244,21 +246,29 @@
 \end{problema}
 
 \begin{problema}{estosSalenFacil}{j: Juego}{[Nivel]}
+	\asegura{mismos(result,nivelesConSoles(niveles(j)))}
+	\asegura {(\forall f \in [0..|result| - 1)) |flores(result_f)| \leq |flores(result_{f + 1})|}
 \end{problema}
 
 \begin{problema}{jugarNivel}{j: Juego, n: Nivel, i: \ent}{}
 	\requiere[rangoValido]{alto(n) == alto(niveles(j)_i) \land ancho(n)==ancho(niveles(j)_i)}
 	\requiere[noTeQuedesSinTurno]{turno(niveles(j)_i) \leq turno(n)}
-	\requiere[noGanasteNiPerdisteAun]{|spawning(n)| \geq |spawning(niveles(j)_i)| \land (\forall k \in spawning(niveles(j)_i)) k \in spawning(n)}
+	\requiere[noGanasteNiPerdisteAun]{|spawning(n)| \geq |spawning(niveles(j)_i)| \newline \land (\forall k \in spawning(niveles(j)_i)) k \in spawning(n)}
 	\modifica{j}
 	\asegura[floresYVampirosNoCambian]{vampiros(j)==vampiros(pre(j)) \land flores(j)==flores(pre(j))}
 	\asegura[losAnterioresSonIguales2] {(\forall k \leftarrow (0..i)) nivelesIguales(niveles(j)_{k},niveles(pre(j))_{k})}
 	\asegura[esElNivelQueQuiero2] {soles(n)==soles(niveles(j)_i) \newline \land mismos(flores(n),flores(niveles(j)_i)) \land mismos(vampiros(n),vampiros(niveles(j)_i)) }
-	\asegura[losSiguientesSonIguales2] {(\forall k \leftarrow (i..|niveles(j)|)) nivelesIguales(niveles(j)_{k},niveles(pre(j))_{k-1})}
+	\asegura[losSiguientesSonIguales2] {(\forall k \leftarrow (i..|niveles(j)|)) \newline nivelesIguales(niveles(j)_{k},niveles(pre(j))_{k-1})}
 
 \end{problema}
 
 \begin{problema}{altoCheat}{j: Juego, i: \ent}{}
+	\requiere {i>=0}
+	\requiere {i < |niveles(pre(j))|}
+	\modifica {j}
+	\asegura {(\forall v \in vampiros(niveles(pre(j)_i)))(\exists x \in vampiros(niveles(j)_i))prm(x) == prm(v) \land sgd(x) == sgd(v) \land trd(x) == {\frac{trd(v)}{2}}}
+	\asegura {|vampiros(niveles(pre(j)))| == |vampiros(niveles(j))|}
+	\asegura {(\forall v \in vampiros(niveles(j)_i))(\exists x \in vampiros(niveles(pre(j))_i))prm(v) == prm(x) \land sgd(v) == sgd(x) \land trd(v) == \frac{trd(x)}{2}}
 \end{problema}
 
 \begin{problema}{muyDeExactas}{j: Juego}{\bool}
@@ -279,5 +289,8 @@
 \aux{nivelGanado}{n:Nivel}{\bool}{vampiros(n)==\lvacia}
 \aux{nivGsL}{j: Juego}{[\ent]}{[i \ | \ i \in [1..|niveles(j)|), nivelGanado(niveles(j)_i)]}
 \aux{nivelesIguales} {n1,n2: Nivel}{\bool}{ancho(n1)==ancho(n2)\land alto(n1)==alto(n2) \land \newline turno(n1)==turno(n2) \land soles(n1)==soles(n2) \land mismos(flores(n1),flores(n2)) \land \newline mismos(vampiros(n1),vampiros(n2))\land spawning(n1)==spawning(n2)}
+\aux{nivelesConSoles}{m : [Nivel]}{[Nivel]}{
+	[niveles(j)_i | i \in [0..|niveles(j)|),(\forall k \in [0..|niveles(j)|)) soles(niveles(j)_i) \geq soles(niveles(j)_k)]
+}
 \end{document}
 
