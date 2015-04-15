@@ -240,14 +240,14 @@
 	\modifica {j}
 	\asegura[losAnterioresSonIguales] {(\forall k \leftarrow (0..i)) nivelesIguales(niveles(j)_{k},niveles(pre(j))_{k})}
 	\asegura[esElNivelQueQuiero] {nivelesIguales(niveles(j)_{i},n)}
-	\asegura[losSiguientesSonIguales] {(\forall k \leftarrow (i..|niveles(j)|)) nivelesIguales(niveles(j)_{k},niveles(pre(j))_{k-1})}
+	\asegura[losSiguientesSonIguales] {(\forall k \leftarrow (i..|niveles(j)|)) \newline nivelesIguales(niveles(j)_{k},niveles(pre(j))_{k-1})}
 	\asegura {mismos(flores(j),flores(pre(j)))}
 	\asegura {mismos(vampiros(j),vampiros(pre(j)))}	
 \end{problema}
 
 \begin{problema}{estosSalenFacil}{j: Juego}{[Nivel]}
 	\asegura{mismos(result,nivelesConSoles(niveles(j)))}
-	\asegura {(\forall f \in [0..|result| - 1)) |flores(result_f)| \leq |flores(result_{f + 1})|}
+	\asegura {(\forall f \in [0..|result| - 1)) \ |flores(result_f)| \leq |flores(result_{f + 1})|}
 \end{problema}
 
 \begin{problema}{jugarNivel}{j: Juego, n: Nivel, i: \ent}{}
