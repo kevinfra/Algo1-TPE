@@ -7,7 +7,7 @@
 	\observador{vampiros}{n: Nivel}{[(Vampiro, Posicion, Vida)]}
 	\observador{spawning}{n: Nivel}{[(Vampiro, \ent, \ent)]}
 	\invariante[valoresRazonables]{ancho(n) > 0 \land alto(n) > 0 \land soles(n) \geq 0 \land turno(n) \geq 0}
-	\invariante[posicionesValidas]{(\forall f \in flores(n))(prm(sgd(f)) > 0)\land(prm(sgd(f))\leq ancho(n))\land(sgd(sgd(f)) > 0)\land(sgd(sgd(f))\leq alto(n))\land(\forall v \in vampiros(n))(prm(sgd(v))\geq 0)\land(prm(sgd(v))\leq ancho(n))\land(sgd(sgd(v)) > 0)\land(sgd(sgd(v))\leq alto(n))}
+	\invariante[posicionesValidas]{( \ (\forall f \in flores(n))(prm(sgd(f)) > 0)\land(prm(sgd(f))\leq ancho(n))\land(sgd(sgd(f)) > 0)\land(sgd(sgd(f))\leq alto(n)) \ )\land( \ (\forall v \in vampiros(n))(prm(sgd(v))\geq 0)\land(prm(sgd(v))\leq ancho(n))\land(sgd(sgd(v)) > 0)\land(sgd(sgd(v))\leq alto(n)) \ )}
 	\invariante[spawningOrdenado]{(\forall s \in spawning(n))(((\forall i \in [0..|spawning(n)|-1))trd(spawning(n)_i)\leq trd(spawning(n)_{i+1}))\land \newline ((\forall j \in [0..|spawning(n)|-1), trd(spawning(n)_j)==trd(spawning(n)_{j+1}) sgd(spawning(n)_j)\leq sgd(spawning(n)_{j+1}))}
 	\invariante[necesitoMiEspacio]{(\forall i,j \selec [0..|flores(n)|), i \neq j) sgd(flores(n)_i) \neq sgd(flores(n)_j)}
 	\invariante[vivosPeroNoTanto]{vidaFloresOk(flores(n)) \land vidaVampirosOk(vampiros(n))}
