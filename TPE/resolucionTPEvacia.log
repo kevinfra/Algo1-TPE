@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.10.31)  15 APR 2015 15:48
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.4.16)  17 APR 2015 03:12
 entering extended mode
-**C:/Users/soporte/Documents/GitHub/Algo1-TPE/TPE/resolucionTPEvacia.tex
-(C:/Users/soporte/Documents/GitHub/Algo1-TPE/TPE/resolucionTPEvacia.tex
+**resolucionTPEvacia.tex
+(C:\Users\Nicolás\Documents\GitHub\Algo1-TPE\TPE\resolucionTPEvacia.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -13,9 +13,9 @@ german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
 ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
 an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
 ishmax, welsh, loaded.
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\article.cls"
 Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\size10.clo"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\size10.clo"
 File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -30,19 +30,19 @@ File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.sty"
 Package: babel 2008/07/08 v3.8m The Babel package
 
 *************************************
 * Local config file bblopts.cfg used
 *
-("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\bblopts.cfg"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\bblopts.cfg"
 File: bblopts.cfg 2006/07/31 v1.0 MiKTeX 'babel' configuration
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\babel\spanish.ldf"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\spanish.ldf"
 Language: spanish.ldf 2009/01/02 v5.0h Spanish support from the babel system
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.def"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.def"
 File: babel.def 2008/07/08 v3.8m Babel common definitions
 \babel@savecnt=\count87
 \U@D=\dimen103
@@ -55,7 +55,7 @@ Package babel Info: Making . an active character on input line 585.
 Package babel Info: Making < an active character on input line 630.
 Package babel Info: Making > an active character on input line 630.
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\soul\soul.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\soul\soul.sty"
 Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
 \SOUL@word=\toks15
 \SOUL@lasttoken=\toks16
@@ -67,15 +67,15 @@ Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
 \SOUL@uldp=\dimen105
 \SOUL@ulht=\dimen106
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\inputenc.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\inputenc.sty"
 Package: inputenc 2008/03/30 v1.1d Input encoding file
 \inpenc@prehook=\toks20
 \inpenc@posthook=\toks21
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\latin1.def"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\latin1.def"
 File: latin1.def 2008/03/30 v1.1d Input encoding file
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\framed\framed.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\framed\framed.sty"
 Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
 \OuterFrameSep=\skip44
 \fb@frw=\dimen107
@@ -83,24 +83,24 @@ Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
 \FrameRule=\dimen109
 \FrameSep=\dimen110
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
 Package: amsmath 2013/01/14 v2.14 AMS math features
 \@mathmargin=\skip45
 
 For additional information on amsmath, use the `?' option.
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
 Package: amstext 2000/06/29 v2.01
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks22
 \ex@=\dimen111
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
 Package: amsbsy 1999/11/29 v1.2d
 \pmbraise@=\dimen112
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
 Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count90
@@ -141,24 +141,24 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amscd.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amscd.sty"
 Package: amscd 1999/11/29 v2.0
 \athelp@=\toks27
 \minaw@=\dimen120
 \bigaw@=\dimen121
 \minCDarrowwidth=\dimen122
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\amscls\amsthm.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amscls\amsthm.sty"
 Package: amsthm 2004/08/06 v2.20
 \thm@style=\toks28
 \thm@bodyfont=\toks29
@@ -170,28 +170,28 @@ Package: amsthm 2004/08/06 v2.20
 \thm@headsep=\skip50
 \dth@everypar=\toks33
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\latexsym.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\latexsym.sty"
 Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
 \symlasy=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
 (Font)                  U/lasy/m/n --> U/lasy/b/n on input line 47.
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
 Package: geometry 2010/09/12 v5.6 Page Geometry
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks34
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
 Package ifpdf Info: pdfTeX in PDF mode is detected.
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty"
 Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
 \Gm@cnth=\count102
@@ -207,8 +207,8 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layoutvoffset=\dimen130
 \Gm@dimlist=\toks35
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
-("C:\Program Files\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr.sty"
 \fancy@headwidth=\skip51
 \f@ncyO@elh=\skip52
 \f@ncyO@erh=\skip53
@@ -219,11 +219,11 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \f@ncyO@olf=\skip58
 \f@ncyO@orf=\skip59
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\tools\enumerate.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\enumerate.sty"
 Package: enumerate 1999/03/05 v3.00 enumerate extensions (DPC)
 \@enLab=\toks36
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\tools\longtable.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\longtable.sty"
 Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
 \LTleft=\skip60
 \LTright=\skip61
@@ -241,17 +241,17 @@ Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
 \c@LT@chunks=\count109
 \LT@p@ftn=\toks37
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\tools\verbatim.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\verbatim.sty"
 Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
 \every@verbatim=\toks38
 \verbatim@line=\toks39
 \verbatim@in@stream=\read1
 )
-(C:\Users\soporte\Documents\GitHub\Algo1-TPE\macros\Algo1Macros.tex
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+(C:\Users\Nicolás\Documents\GitHub\Algo1-TPE\macros\Algo1Macros.tex
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ifthen.sty"
 Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\tools\multicol.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\multicol.sty"
 Package: multicol 2011/06/27 v1.7a multicolumn formatting (FMi)
 \c@tracingmulticols=\count110
 \mult@box=\box32
@@ -299,11 +299,11 @@ Package: multicol 2011/06/27 v1.7a multicolumn formatting (FMi)
 \colbreak@box=\box57
 \multicol@sort@counter=\count118
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\textpos\textpos.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\textpos\textpos.sty"
 Package: textpos 2014/01/03 v1.7j
 
 Package: textpos 2014/01/03 1.7j, absolute positioning of text on the page
-("C:\Program Files\MiKTeX 2.9\tex\latex\ms\everyshi.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ms\everyshi.sty"
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 )
 \TP@textbox=\box58
@@ -320,27 +320,27 @@ Grid set 16 x 16 = 37.34424pt x 52.81541pt
 \TP@tbargs=\toks40
 \TP@prevdepth=\dimen147
 TextBlockOrigin set to 0pt x 0pt
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
 File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count119
@@ -357,11 +357,20 @@ Type  H <return>  for immediate help.
                                                   
 l.22 }
       
-? 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\color.sty"
+The package geometry has already been loaded with options:
+  [width=15.5cm,left=3cm,top=2.5cm,height=24.5cm]
+There has now been an attempt to load it with options
+  [top=1cm,bottom=2cm,left=1cm,right=1cm]
+Adding the global options:
+  width=15.5cm,left=3cm,top=2.5cm,height=24.5cm,top=1cm,bottom=2cm,left=1cm,rig
+ht=1cm
+to your \documentclass declaration may fix this.
+Try typing  <return>  to proceed.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\color.sty"
 Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package color Info: Driver file: pdftex.def on input line 130.
@@ -370,7 +379,7 @@ Package color Info: Driver file: pdftex.def on input line 130.
 \c@exercise=\count120
 \c@consigna=\count121
 )
-(C:\Users\soporte\Documents\GitHub\Algo1-TPE\TPE\resolucionTPEvacia.aux)
+(C:\Users\Nicolás\Documents\GitHub\Algo1-TPE\TPE\resolucionTPEvacia.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
 LaTeX Font Info:    ... okay on input line 32.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
@@ -419,7 +428,7 @@ LaTeX Font Info:    ... okay on input line 32.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 ABD: EveryShipout initializing macros
-("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count122
 \scratchdimen=\dimen150
@@ -438,19 +447,29 @@ ABD: EveryShipout initializing macros
                                \errmessage {Faltan datos de la caratula! Ing...
 l.57 \maketitle
                
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 ! Faltan datos de la caratula! Ingresar 'h' para mas informacion..
 \maketitlegraf ...resar 'h' para mas informacion.}
                                                   \fi \thispagestyle {empty}...
 l.57 \maketitle
                
-? 
+This error message was generated by an \errmessage
+command, so I can't give any explicit help.
+Pretend that you're Hercule Poirot: Examine all clues,
+and deduce the truth by order and method.
+
 ! Extra \fi.
 \maketitlegraf ...r 'h' para mas informacion.}\fi 
                                                   \thispagestyle {empty} \pa...
 l.57 \maketitle
                
-? 
+I'm ignoring this; it doesn't match any \if.
+
 <logo_dc.jpg, id=1, 215.6055pt x 83.5923pt>
 File: logo_dc.jpg Graphic file (type jpg)
  <use logo_dc.jpg>
@@ -462,17 +481,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 57--57
  []
 
 LaTeX Font Info:    Try loading font information for U+msa on input line 57.
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 57.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Try loading font information for U+lasy on input line 57.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\ulasy.fd"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ulasy.fd"
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 <logo_uba.jpg, id=2, 225.4824pt x 231.7458pt>
@@ -492,29 +511,29 @@ Overfull \hbox (22.05222pt too wide) in paragraph at lines 57--57
 
 [1
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Users/soporte/Document
-s/GitHub/Algo1-TPE/TPE/logo_dc.jpg> <C:/Users/soporte/Documents/GitHub/Algo1-TP
-E/TPE/logo_uba.jpg>]
-(C:\Users\soporte\Documents\GitHub\Algo1-TPE\TPE\tipos/tipos.tex
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Users/Nicolás/Documen
+ts/GitHub/Algo1-TPE/TPE/logo_dc.jpg> <C:/Users/Nicolás/Documents/GitHub/Algo1-
+TPE/TPE/logo_uba.jpg>]
+(C:\Users\Nicolás\Documents\GitHub\Algo1-TPE\TPE\tipos/tipos.tex
 LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <10> not available
 (Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 1.
 )
-(C:\Users\soporte\Documents\GitHub\Algo1-TPE\TPE\tipos/flor.tex
+(C:\Users\Nicolás\Documents\GitHub\Algo1-TPE\TPE\tipos/flor.tex
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 1.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 1.
 )
-(C:\Users\soporte\Documents\GitHub\Algo1-TPE\TPE\tipos/vampiro.tex) [2]
-(C:\Users\soporte\Documents\GitHub\Algo1-TPE\TPE\tipos/nivel.tex
+(C:\Users\Nicolás\Documents\GitHub\Algo1-TPE\TPE\tipos/vampiro.tex) [2]
+(C:\Users\Nicolás\Documents\GitHub\Algo1-TPE\TPE\tipos/nivel.tex
 Overfull \hbox (9.3839pt too wide) in paragraph at lines 10--10
  $\OML/cmm/m/it/10 ancho\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 n\OT1/cmr/m/n/10 )) \
 OMS/cmsy/m/n/10 ^ \OT1/cmr/m/n/10 (\OML/cmm/m/it/10 sgd\OT1/cmr/m/n/10 (\OML/cm
-m/m/it/10 sgd\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 )) \OMS/cmsy/m/
-n/10  \OT1/cmr/m/n/10 0) \OMS/cmsy/m/n/10 ^ \OT1/cmr/m/n/10 (\OML/cmm/m/it/10 
+m/m/it/10 sgd\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 )) \OML/cmm/m/i
+t/10 > \OT1/cmr/m/n/10 0) \OMS/cmsy/m/n/10 ^ \OT1/cmr/m/n/10 (\OML/cmm/m/it/10 
 sgd\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 sgd\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 f\OT1
 /cmr/m/n/10 )) \OMS/cmsy/m/n/10  \OML/cmm/m/it/10 alto\OT1/cmr/m/n/10 (\OML/cm
 m/m/it/10 n\OT1/cmr/m/n/10 )) \OMS/cmsy/m/n/10 ^ \OT1/cmr/m/n/10 (\OMS/cmsy/m/n
@@ -525,29 +544,27 @@ n/10 (\OML/cmm/m/it/10 n\OT1/cmr/m/n/10 ))(\OML/cmm/m/it/10 prm\OT1/cmr/m/n/10
  []
 
 
-Overfull \hbox (45.67114pt too wide) in paragraph at lines 11--11
+Overfull \hbox (48.14456pt too wide) in paragraph at lines 11--11
  []\OT1/cmtt/m/n/10 invariante spawningOrdenado \OT1/cmr/m/n/10 : $(\OMS/cmsy/m
 /n/10 8\OML/cmm/m/it/10 s \OMS/cmsy/m/n/10 2 \OML/cmm/m/it/10 spawning\OT1/cmr/
-m/n/10 (\OML/cmm/m/it/10 n\OT1/cmr/m/n/10 ))((\OMS/cmsy/m/n/10 8\OML/cmm/m/it/1
-0 i \OMS/cmsy/m/n/10 2 \OT1/cmr/m/n/10 [0\OML/cmm/m/it/10 ::\OMS/cmsy/m/n/10 j\
-OML/cmm/m/it/10 spawning\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 n\OT1/cmr/m/n/10 )\OM
-S/cmsy/m/n/10 j   \OT1/cmr/m/n/10 1))\OML/cmm/m/it/10 sgd\OT1/cmr/m/n/10 (\OML/
-cmm/m/it/10 spawning\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 n\OT1/cmr/m/n/10 )[]) \OM
-S/cmsy/m/n/10 $
+m/n/10 (\OML/cmm/m/it/10 n\OT1/cmr/m/n/10 ))(((\OMS/cmsy/m/n/10 8\OML/cmm/m/it/
+10 i \OMS/cmsy/m/n/10 2 \OT1/cmr/m/n/10 [0\OML/cmm/m/it/10 ::\OMS/cmsy/m/n/10 j
+\OML/cmm/m/it/10 spawning\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 n\OT1/cmr/m/n/10 )\O
+MS/cmsy/m/n/10 j   \OT1/cmr/m/n/10 1))\OML/cmm/m/it/10 trd\OT1/cmr/m/n/10 (\OML
+/cmm/m/it/10 spawning\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 n\OT1/cmr/m/n/10 )[]) \O
+MS/cmsy/m/n/10 $
  []
 
 
-Overfull \hbox (123.62851pt too wide) in paragraph at lines 11--11
- $\OML/cmm/m/it/10 sgd\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 spawning\OT1/cmr/m/n/10
- (\OML/cmm/m/it/10 n\OT1/cmr/m/n/10 )[]) \OMS/cmsy/m/n/10 ^ \OT1/cmr/m/n/10 (\O
-MS/cmsy/m/n/10 8\OML/cmm/m/it/10 j \OMS/cmsy/m/n/10 2 \OT1/cmr/m/n/10 [0\OML/cm
-m/m/it/10 ::\OMS/cmsy/m/n/10 j\OML/cmm/m/it/10 spawning\OT1/cmr/m/n/10 (\OML/cm
-m/m/it/10 n\OT1/cmr/m/n/10 )\OMS/cmsy/m/n/10 j   \OT1/cmr/m/n/10 1)\OML/cmm/m/i
-t/10 ; sgd\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 spawning\OT1/cmr/m/n/10 (\OML/cmm/m
-/it/10 n\OT1/cmr/m/n/10 )[]) == \OML/cmm/m/it/10 sgd\OT1/cmr/m/n/10 (\OML/cmm/m
-/it/10 spawning\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 n\OT1/cmr/m/n/10 )[])\OML/cmm/
-m/it/10 trd\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 spawning\OT1/cmr/m/n/10 (\OML/cmm/
-m/it/10 n\OT1/cmr/m/n/10 )[]) \OMS/cmsy/m/n/10 $
+Overfull \hbox (26.39095pt too wide) in paragraph at lines 11--11
+ $\OT1/cmr/m/n/10 ((\OMS/cmsy/m/n/10 8\OML/cmm/m/it/10 j \OMS/cmsy/m/n/10 2 \OT
+1/cmr/m/n/10 [0\OML/cmm/m/it/10 ::\OMS/cmsy/m/n/10 j\OML/cmm/m/it/10 spawning\O
+T1/cmr/m/n/10 (\OML/cmm/m/it/10 n\OT1/cmr/m/n/10 )\OMS/cmsy/m/n/10 j   \OT1/cmr
+/m/n/10 1)\OML/cmm/m/it/10 ; trd\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 spawning\OT1/
+cmr/m/n/10 (\OML/cmm/m/it/10 n\OT1/cmr/m/n/10 )[]) == \OML/cmm/m/it/10 trd\OT1/
+cmr/m/n/10 (\OML/cmm/m/it/10 spawning\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 n\OT1/cm
+r/m/n/10 )[])\OML/cmm/m/it/10 sgd\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 spawning\OT1
+/cmr/m/n/10 (\OML/cmm/m/it/10 n\OT1/cmr/m/n/10 )[]) \OMS/cmsy/m/n/10 $
  []
 
 
@@ -572,24 +589,107 @@ sOk\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 vampiros\OT1/cmr/m/n/10 (\OML/cmm/m/it/10
 n\OT1/cmr/m/n/10 ))$\OT1/cmr/bx/n/10 ; 
  []
 
-) [3]
-Overfull \hbox (7.19662pt too wide) in paragraph at lines 173--173
- []\OT1/cmtt/m/n/10 asegura estaOrdenada \OT1/cmr/m/n/10 : $(\OMS/cmsy/m/n/10 6
- 9\OML/cmm/m/it/10 i \OMS/cmsy/m/n/10 2 \OT1/cmr/m/n/10 [0\OML/cmm/m/it/10 ::\O
-MS/cmsy/m/n/10 j\OML/cmm/m/it/10 estaOrdenada\OMS/cmsy/m/n/10 j   \OT1/cmr/m/n/
-10 1))\OML/cmm/m/it/10 Ataca \OMS/cmsy/m/n/10 2 \OML/cmm/m/it/10 habilidades\OT
-1/cmr/m/n/10 (\OML/cmm/m/it/10 prm\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 ordenada[]\
-OT1/cmr/m/n/10 )) \OMS/cmsy/m/n/10 ^$
+)
+Overfull \hbox (83.03682pt too wide) in paragraph at lines 130--130
+ []\OT1/cmtt/m/n/10 asegura elGamerNoMuereSpawnea \OT1/cmr/m/n/10 : $(\OMS/cmsy
+/m/n/10 8\OML/cmm/m/it/10 s \OMS/cmsy/m/n/10 2 \OML/cmm/m/it/10 spawning\OT1/cm
+r/m/n/10 (\OML/cmm/m/it/10 res\OT1/cmr/m/n/10 ))(((\OMS/cmsy/m/n/10 8\OML/cmm/m
+/it/10 i \OMS/cmsy/m/n/10 2 \OT1/cmr/m/n/10 [0\OML/cmm/m/it/10 ::\OMS/cmsy/m/n/
+10 j\OML/cmm/m/it/10 spawning\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 res\OT1/cmr/m/n/
+10 )\OMS/cmsy/m/n/10 j   \OT1/cmr/m/n/10 1))\OML/cmm/m/it/10 trd\OT1/cmr/m/n/10
+ (\OML/cmm/m/it/10 spawning\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 res\OT1/cmr/m/n/10
+ )[]) \OMS/cmsy/m/n/10 $
+ []
+
+
+Overfull \hbox (50.7833pt too wide) in paragraph at lines 130--130
+ $\OT1/cmr/m/n/10 ((\OMS/cmsy/m/n/10 8\OML/cmm/m/it/10 j \OMS/cmsy/m/n/10 2 \OT
+1/cmr/m/n/10 [0\OML/cmm/m/it/10 ::\OMS/cmsy/m/n/10 j\OML/cmm/m/it/10 spawning\O
+T1/cmr/m/n/10 (\OML/cmm/m/it/10 n\OT1/cmr/m/n/10 )\OMS/cmsy/m/n/10 j   \OT1/cmr
+/m/n/10 1)\OML/cmm/m/it/10 ; trd\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 spawning\OT1/
+cmr/m/n/10 (\OML/cmm/m/it/10 res\OT1/cmr/m/n/10 )[]) == \OML/cmm/m/it/10 trd\OT
+1/cmr/m/n/10 (\OML/cmm/m/it/10 spawning\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 res\OT
+1/cmr/m/n/10 )[])\OML/cmm/m/it/10 sgd\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 spawning
+\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 res\OT1/cmr/m/n/10 )[]) \OMS/cmsy/m/n/10 $
+ []
+
+[3]
+Overfull \hbox (64.0897pt too wide) in paragraph at lines 174--174
+ $\OT1/cmr/m/n/10 ((\OMS/cmsy/m/n/10 6 9\OML/cmm/m/it/10 j \OMS/cmsy/m/n/10 2 \
+OT1/cmr/m/n/10 [0\OML/cmm/m/it/10 ::\OMS/cmsy/m/n/10 j\OML/cmm/m/it/10 floresOr
+denadas\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 flores\OT1/cmr/m/n/10 (\OML/cmm/m/it/1
+0 n\OT1/cmr/m/n/10 ))\OMS/cmsy/m/n/10 j   \OT1/cmr/m/n/10 1)\OML/cmm/m/it/10 At
+aca \OMS/cmsy/m/n/10 62 \OML/cmm/m/it/10 habilidades\OT1/cmr/m/n/10 (\OML/cmm/m
+/it/10 prm\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 floresOrdenadas\OT1/cmr/m/n/10 (\OM
+L/cmm/m/it/10 flores\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 n\OT1/cmr/m/n/10 ))[])) \
+OMS/cmsy/m/n/10 ^$
  []
 
 [4]
-! Missing } inserted.
-<inserted text> 
-                }
-l.215 \end{problema}
-                    
-? 
-(C:\Users\soporte\Documents\GitHub\Algo1-TPE\TPE\tipos/juego.tex
+Overfull \hbox (16.8248pt too wide) in paragraph at lines 199--199
+ []\OT1/cmtt/m/n/10 asegura $\OT1/cmr/m/n/10 (\OMS/cmsy/m/n/10 8\OML/cmm/m/it/1
+0 f \OMS/cmsy/m/n/10 2 \OML/cmm/m/it/10 flores\OT1/cmr/m/n/10 (\OML/cmm/m/it/10
+ pre\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 n\OT1/cmr/m/n/10 ))\OML/cmm/m/it/10 ; Exp
+lotar \OMS/cmsy/m/n/10 2 \OML/cmm/m/it/10 Habilidades\OT1/cmr/m/n/10 (\OML/cmm/
+m/it/10 prm\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 )) \OMS/cmsy/m/n/
+10 ^ \OML/cmm/m/it/10 hayVampiros\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 pre\OT1/cmr/
+m/n/10 (\OML/cmm/m/it/10 n\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ; sgd\OT1/cmr/m/n/1
+0 (\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 )))[] $
+ []
+
+
+Overfull \hbox (63.65588pt too wide) in paragraph at lines 200--200
+ []\OT1/cmtt/m/n/10 asegura $\OT1/cmr/m/n/10 (\OMS/cmsy/m/n/10 8\OML/cmm/m/it/1
+0 f \OMS/cmsy/m/n/10 2 \OML/cmm/m/it/10 flores\OT1/cmr/m/n/10 (\OML/cmm/m/it/10
+ pre\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 n\OT1/cmr/m/n/10 ))\OML/cmm/m/it/10 ; Exp
+lotar \OMS/cmsy/m/n/10 62 \OML/cmm/m/it/10 Habilidades\OT1/cmr/m/n/10 (\OML/cmm
+/m/it/10 prm\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 )) \OMS/cmsy/m/n
+/10 ^ \OML/cmm/m/it/10 trd\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 ) 
+\OMS/cmsy/m/n/10   \OML/cmm/m/it/10 danoVampiros\OT1/cmr/m/n/10 (\OML/cmm/m/it/
+10 pre\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 n\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ; sg
+d\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 )) \OMS/cmsy/m/n/10 $
+ []
+
+
+Overfull \hbox (67.54478pt too wide) in paragraph at lines 201--201
+ []\OT1/cmtt/m/n/10 asegura $\OT1/cmr/m/n/10 (\OMS/cmsy/m/n/10 8\OML/cmm/m/it/1
+0 f \OMS/cmsy/m/n/10 2 \OML/cmm/m/it/10 flores\OT1/cmr/m/n/10 (\OML/cmm/m/it/10
+ pre\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 n\OT1/cmr/m/n/10 ))\OML/cmm/m/it/10 ; Exp
+lotar \OMS/cmsy/m/n/10 62 \OML/cmm/m/it/10 Habilidades\OT1/cmr/m/n/10 (\OML/cmm
+/m/it/10 prm\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 )) \OMS/cmsy/m/n
+/10 ^ \OML/cmm/m/it/10 trd\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 ))
+ \OMS/cmsy/m/n/10   \OML/cmm/m/it/10 danoVampiros\OT1/cmr/m/n/10 (\OML/cmm/m/it
+/10 pre\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 n\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ; s
+gd\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 )) \OMS/cmsy/m/n/10 $
+ []
+
+
+Overfull \hbox (23.49149pt too wide) in paragraph at lines 202--202
+ []\OT1/cmtt/m/n/10 asegura $\OT1/cmr/m/n/10 (\OMS/cmsy/m/n/10 8\OML/cmm/m/it/1
+0 f \OMS/cmsy/m/n/10 2 \OML/cmm/m/it/10 flores\OT1/cmr/m/n/10 (\OML/cmm/m/it/10
+ pre\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 n\OT1/cmr/m/n/10 ))\OML/cmm/m/it/10 ; Exp
+lotar \OMS/cmsy/m/n/10 2 \OML/cmm/m/it/10 Habilidades\OT1/cmr/m/n/10 (\OML/cmm/
+m/it/10 prm\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 )) \OMS/cmsy/m/n/
+10 ^ :\OML/cmm/m/it/10 hayVampiros\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 pre\OT1/cmr
+/m/n/10 (\OML/cmm/m/it/10 n\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ; sgd\OT1/cmr/m/n/
+10 (\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 )))[] $
+ []
+
+
+Overfull \hbox (17.85704pt too wide) in paragraph at lines 211--211
+ []\OT1/cmtt/m/n/10 asegura $\OT1/cmr/m/n/10 (\OMS/cmsy/m/n/10 8\OML/cmm/m/it/1
+0 v \OMS/cmsy/m/n/10 2 \OML/cmm/m/it/10 spawning\OT1/cmr/m/n/10 (\OML/cmm/m/it/
+10 pre\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 n\OT1/cmr/m/n/10 ))\OML/cmm/m/it/10 ; v
+ \OMS/cmsy/m/n/10 62 \OML/cmm/m/it/10 spawning\OT1/cmr/m/n/10 (\OML/cmm/m/it/10
+ n\OT1/cmr/m/n/10 ))(\OML/cmm/m/it/10 prm\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 v\OT
+1/cmr/m/n/10 )\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 (\OML/cmm/m/it/10 ancho\OT1/cm
+r/m/n/10 (\OML/cmm/m/it/10 n\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ; sgd\OT1/cmr/m/n
+/10 (\OML/cmm/m/it/10 v\OT1/cmr/m/n/10 ))\OML/cmm/m/it/10 ; vida\OT1/cmr/m/n/10
+ (\OML/cmm/m/it/10 prm\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 v\OT1/cmr/m/n/10 ))) \O
+MS/cmsy/m/n/10 2$
+ []
+
+(C:\Users\Nicolás\Documents\GitHub\Algo1-TPE\TPE\tipos/juego.tex
 Overfull \hbox (44.19417pt too wide) in paragraph at lines 5--5
  []\OT1/cmtt/m/n/10 invariante floresDistintas \OT1/cmr/m/n/10 : $(\OMS/cmsy/m/
 n/10 8\OML/cmm/m/it/10 i; k \OMS/cmsy/m/n/10   \OT1/cmr/m/n/10 [0\OML/cmm/m/it/
@@ -600,8 +700,8 @@ Iguales\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 flores\OT1/cmr/m/n/10 (\OML/cmm/m/it/1
 0 j\OT1/cmr/m/n/10 )[])$\OT1/cmr/bx/n/10 ; 
  []
 
-)
-Overfull \hbox (20.82492pt too wide) in paragraph at lines 241--241
+) [5]
+Overfull \hbox (20.82492pt too wide) in paragraph at lines 250--250
  []\OT1/cmtt/m/n/10 asegura losAnterioresSonIguales \OT1/cmr/m/n/10 : $(\OMS/cm
 sy/m/n/10 8\OML/cmm/m/it/10 k \OMS/cmsy/m/n/10   \OT1/cmr/m/n/10 (0\OML/cmm/m/i
 t/10 ::i\OT1/cmr/m/n/10 ))\OML/cmm/m/it/10 nivelesIguales\OT1/cmr/m/n/10 (\OML/
@@ -611,7 +711,7 @@ cmm/m/it/10 j\OT1/cmr/m/n/10 ))[])$\OT1/cmr/bx/n/10 ;
  []
 
 
-Overfull \hbox (26.07487pt too wide) in paragraph at lines 259--259
+Overfull \hbox (26.07487pt too wide) in paragraph at lines 266--266
  []\OT1/cmtt/m/n/10 asegura losAnterioresSonIguales2 \OT1/cmr/m/n/10 : $(\OMS/c
 msy/m/n/10 8\OML/cmm/m/it/10 k \OMS/cmsy/m/n/10   \OT1/cmr/m/n/10 (0\OML/cmm/m/
 it/10 ::i\OT1/cmr/m/n/10 ))\OML/cmm/m/it/10 nivelesIguales\OT1/cmr/m/n/10 (\OML
@@ -620,19 +720,8 @@ cmm/m/it/10 ; niveles\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 pre\OT1/cmr/m/n/10 (\OML
 /cmm/m/it/10 j\OT1/cmr/m/n/10 ))[])$\OT1/cmr/bx/n/10 ; 
  []
 
-[5]
-Overfull \hbox (1.11755pt too wide) in paragraph at lines 260--260
- $\OMS/cmsy/m/n/10 ^ \OML/cmm/m/it/10 mismos\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 f
-lores\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 n\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ; flo
-res\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 niveles\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 j
-\OT1/cmr/m/n/10 )[])) \OMS/cmsy/m/n/10 ^ \OML/cmm/m/it/10 mismos\OT1/cmr/m/n/10
- (\OML/cmm/m/it/10 vampiros\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 n\OT1/cmr/m/n/10 )
-\OML/cmm/m/it/10 ; vampiros\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 niveles\OT1/cmr/m/
-n/10 (\OML/cmm/m/it/10 j\OT1/cmr/m/n/10 )[]))$\OT1/cmr/bx/n/10 ; 
- []
 
-
-Overfull \hbox (3.6612pt too wide) in paragraph at lines 269--269
+Overfull \hbox (3.6612pt too wide) in paragraph at lines 278--278
  []\OT1/cmtt/m/n/10 asegura $\OT1/cmr/m/n/10 (\OMS/cmsy/m/n/10 8\OML/cmm/m/it/1
 0 v \OMS/cmsy/m/n/10 2 \OML/cmm/m/it/10 vampiros\OT1/cmr/m/n/10 (\OML/cmm/m/it/
 10 niveles\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 pre\OT1/cmr/m/n/10 (\OML/cmm/m/it/1
@@ -644,7 +733,7 @@ Overfull \hbox (3.6612pt too wide) in paragraph at lines 269--269
  []
 
 
-Overfull \hbox (3.6612pt too wide) in paragraph at lines 271--271
+Overfull \hbox (3.6612pt too wide) in paragraph at lines 280--280
  []\OT1/cmtt/m/n/10 asegura $\OT1/cmr/m/n/10 (\OMS/cmsy/m/n/10 8\OML/cmm/m/it/1
 0 v \OMS/cmsy/m/n/10 2 \OML/cmm/m/it/10 vampiros\OT1/cmr/m/n/10 (\OML/cmm/m/it/
 10 niveles\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 j\OT1/cmr/m/n/10 )[]))(\OMS/cmsy/m/
@@ -656,55 +745,130 @@ n/10 (\OML/cmm/m/it/10 j\OT1/cmr/m/n/10 ))[]))\OML/cmm/m/it/10 prm\OT1/cmr/m/n/
  []
 
 
-Overfull \hbox (27.63828pt too wide) in paragraph at lines 276--276
- []\OT1/cmtt/m/n/10 asegura base2 \OT1/cmr/m/n/10 : $\OML/cmm/m/it/10 ifThenEls
-e\OT1/cmr/m/n/10 (\OMS/cmsy/m/n/10 j\OML/cmm/m/it/10 nivGsL\OT1/cmr/m/n/10 (\OM
-L/cmm/m/it/10 j\OT1/cmr/m/n/10 )\OMS/cmsy/m/n/10 j  \OT1/cmr/m/n/10 2 \OMS/cms
-y/m/n/10 ^ \OML/cmm/m/it/10 nivGsL\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 j\OT1/cmr/m
-/n/10 )[] == 1 \OMS/cmsy/m/n/10 ^ \OML/cmm/m/it/10 nivGsL\OT1/cmr/m/n/10 (\OML/
-cmm/m/it/10 j\OT1/cmr/m/n/10 )[] == 2\OML/cmm/m/it/10 ; True; False\OT1/cmr/m/n
-/10 )$\OT1/cmr/bx/n/10 ; 
+Overfull \hbox (26.07487pt too wide) in paragraph at lines 283--283
+ []\OT1/cmtt/m/n/10 asegura losAnterioresSonIguales3 \OT1/cmr/m/n/10 : $(\OMS/c
+msy/m/n/10 8\OML/cmm/m/it/10 k \OMS/cmsy/m/n/10   \OT1/cmr/m/n/10 (0\OML/cmm/m/
+it/10 ::i\OT1/cmr/m/n/10 ))\OML/cmm/m/it/10 nivelesIguales\OT1/cmr/m/n/10 (\OML
+/cmm/m/it/10 niveles\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 j\OT1/cmr/m/n/10 )[]\OML/
+cmm/m/it/10 ; niveles\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 pre\OT1/cmr/m/n/10 (\OML
+/cmm/m/it/10 j\OT1/cmr/m/n/10 ))[])$\OT1/cmr/bx/n/10 ; 
  []
 
 
-Overfull \hbox (103.07608pt too wide) in paragraph at lines 294--294
-[]\OT1/cmtt/m/n/10 aux nivelesConSoles \OT1/cmr/m/n/10 (m : [Ni-vel]) : [Ni-vel
-] = $[\OML/cmm/m/it/10 niveles\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 j\OT1/cmr/m/n/1
-0 )[]\OMS/cmsy/m/n/10 j\OML/cmm/m/it/10 i \OMS/cmsy/m/n/10 2 \OT1/cmr/m/n/10 [0
-\OML/cmm/m/it/10 ::\OMS/cmsy/m/n/10 j\OML/cmm/m/it/10 niveles\OT1/cmr/m/n/10 (\
-OML/cmm/m/it/10 j\OT1/cmr/m/n/10 )\OMS/cmsy/m/n/10 j\OT1/cmr/m/n/10 )\OML/cmm/m
-/it/10 ; \OT1/cmr/m/n/10 (\OMS/cmsy/m/n/10 8\OML/cmm/m/it/10 k \OMS/cmsy/m/n/10
- 2 \OT1/cmr/m/n/10 [0\OML/cmm/m/it/10 ::\OMS/cmsy/m/n/10 j\OML/cmm/m/it/10 nive
-les\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 j\OT1/cmr/m/n/10 )\OMS/cmsy/m/n/10 j\OT1/c
-mr/m/n/10 ))\OML/cmm/m/it/10 soles\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 niveles\OT1
-/cmr/m/n/10 (\OML/cmm/m/it/10 j\OT1/cmr/m/n/10 )[]) \OMS/cmsy/m/n/10 $
+Overfull \hbox (66.14838pt too wide) in paragraph at lines 284--284
+ []\OT1/cmtt/m/n/10 asegura esElNivelQueQuiero3 \OT1/cmr/m/n/10 : $\OML/cmm/m/i
+t/10 ancho\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 niveles\OT1/cmr/m/n/10 (\OML/cmm/m/
+it/10 pre\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 j\OT1/cmr/m/n/10 ))[]) == \OML/cmm/m
+/it/10 ancho\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 niveles\OT1/cmr/m/n/10 (\OML/cmm/
+m/it/10 j\OT1/cmr/m/n/10 )[]) \OMS/cmsy/m/n/10 ^ \OML/cmm/m/it/10 alto\OT1/cmr/
+m/n/10 (\OML/cmm/m/it/10 niveles\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 pre\OT1/cmr/m
+/n/10 (\OML/cmm/m/it/10 j\OT1/cmr/m/n/10 ))[]) ==$
  []
 
-[6] (C:\Users\soporte\Documents\GitHub\Algo1-TPE\TPE\resolucionTPEvacia.aux) ) 
+
+Overfull \hbox (24.75244pt too wide) in paragraph at lines 284--284
+ $\OML/cmm/m/it/10 turno\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 niveles\OT1/cmr/m/n/1
+0 (\OML/cmm/m/it/10 pre\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 j\OT1/cmr/m/n/10 ))[])
+ == \OML/cmm/m/it/10 turno\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 niveles\OT1/cmr/m/n
+/10 (\OML/cmm/m/it/10 j\OT1/cmr/m/n/10 )[]) \OMS/cmsy/m/n/10 ^ \OML/cmm/m/it/10
+ soles\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 niveles\OT1/cmr/m/n/10 (\OML/cmm/m/it/1
+0 pre\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 j\OT1/cmr/m/n/10 ))[]) == \OML/cmm/m/it/
+10 soles\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 niveles\OT1/cmr/m/n/10 (\OML/cmm/m/it
+/10 j\OT1/cmr/m/n/10 )[]) \OMS/cmsy/m/n/10 ^$
+ []
+
+[6]
+Overfull \hbox (94.88162pt too wide) in paragraph at lines 306--306
+[]\OT1/cmtt/m/n/10 aux nivelesConSoles \OT1/cmr/m/n/10 (j : Jue-go) : [Ni-vel] 
+= $[\OML/cmm/m/it/10 niveles\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 j\OT1/cmr/m/n/10 
+)[]\OMS/cmsy/m/n/10 j\OML/cmm/m/it/10 i \OMS/cmsy/m/n/10 2 \OT1/cmr/m/n/10 [0\O
+ML/cmm/m/it/10 ::\OMS/cmsy/m/n/10 j\OML/cmm/m/it/10 niveles\OT1/cmr/m/n/10 (\OM
+L/cmm/m/it/10 j\OT1/cmr/m/n/10 )\OMS/cmsy/m/n/10 j\OT1/cmr/m/n/10 )\OML/cmm/m/i
+t/10 ; \OT1/cmr/m/n/10 (\OMS/cmsy/m/n/10 8\OML/cmm/m/it/10 k \OMS/cmsy/m/n/10 2
+ \OT1/cmr/m/n/10 [0\OML/cmm/m/it/10 ::\OMS/cmsy/m/n/10 j\OML/cmm/m/it/10 nivele
+s\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 j\OT1/cmr/m/n/10 )\OMS/cmsy/m/n/10 j\OT1/cmr
+/m/n/10 ))\OML/cmm/m/it/10 soles\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 niveles\OT1/c
+mr/m/n/10 (\OML/cmm/m/it/10 j\OT1/cmr/m/n/10 )[]) \OMS/cmsy/m/n/10 $
+ []
+
+
+Overfull \hbox (32.06937pt too wide) in paragraph at lines 324--324
+[]\OT1/cmtt/m/n/10 aux danoVampiros \OT1/cmr/m/n/10 (n : Ni-vel, p : Po-si-cion
+) : $\U/msb/m/n/10 Z$ \OT1/cmr/m/n/10 = $[][\OML/cmm/m/it/10 cuantoPega\OT1/cmr
+/m/n/10 (\OML/cmm/m/it/10 prm\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 v\OT1/cmr/m/n/10
+ 1))\OMS/cmsy/m/n/10 j\OML/cmm/m/it/10 v\OT1/cmr/m/n/10 1 \OMS/cmsy/m/n/10 2 \O
+ML/cmm/m/it/10 vampiros\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 n\OT1/cmr/m/n/10 )\OML
+/cmm/m/it/10 ; sgd\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 v\OT1/cmr/m/n/10 1) ==$
+ []
+
+
+Overfull \hbox (28.83862pt too wide) in paragraph at lines 327--327
+[]\OT1/cmtt/m/n/10 aux danoFlores \OT1/cmr/m/n/10 (n : Ni-vel, p : Po-si-cion) 
+: $\U/msb/m/n/10 Z$ \OT1/cmr/m/n/10 = $[][\OML/cmm/m/it/10 cuantoPega\OT1/cmr/m
+/n/10 (\OML/cmm/m/it/10 prm\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 1
+)\OMS/cmsy/m/n/10 j\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 1 \OMS/cmsy/m/n/10 2 \OML/
+cmm/m/it/10 flores\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 n\OT1/cmr/m/n/10 )\OML/cmm/
+m/it/10 ; sgd\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 sgd\OT1/cmr/m/n/10 (\OML/cmm/m/i
+t/10 f\OT1/cmr/m/n/10 1)) ==$
+ []
+
+
+Overfull \hbox (65.67415pt too wide) in paragraph at lines 333--333
+[]\OT1/cmtt/m/n/10 aux delanteExplota \OT1/cmr/m/n/10 (n : Ni-vel, p : Po-si-ci
+on) : $[]$ = $(\OMS/cmsy/m/n/10 9\OML/cmm/m/it/10 f \OMS/cmsy/m/n/10 2 \OML/cmm
+/m/it/10 flores\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 n\OT1/cmr/m/n/10 )\OML/cmm/m/i
+t/10 ; Explotar \OMS/cmsy/m/n/10 2 \OML/cmm/m/it/10 habilidades\OT1/cmr/m/n/10 
+(\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 ))\OML/cmm/m/it/10 prm\OT1/cmr/m/n/10 (\OML/
+cmm/m/it/10 sgd\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 )) \OMS/cmsy/
+m/n/10  $
+ []
+
+
+Overfull \hbox (60.00436pt too wide) in paragraph at lines 336--336
+[]\OT1/cmtt/m/n/10 aux seMueve \OT1/cmr/m/n/10 (v1, v : Vam-pi-ro, nue-voN, vie
+-joN : Ni-vel) : $[]$ = $\OML/cmm/m/it/10 ifThenElse\OT1/cmr/m/n/10 (\OML/cmm/m
+/it/10 hayFlorDelante\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 nuevoN; sgd\OT1/cmr/m/n/
+10 (\OML/cmm/m/it/10 v\OT1/cmr/m/n/10 )) \OMS/cmsy/m/n/10 ^$
+ []
+
+
+Overfull \hbox (14.57625pt too wide) in paragraph at lines 336--336
+$\OML/cmm/m/it/10 ifThenElse\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 hayFlorDelante\OT
+1/cmr/m/n/10 (\OML/cmm/m/it/10 nuevoN; sgd\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 v\O
+T1/cmr/m/n/10 )) \OMS/cmsy/m/n/10 ^ :\OML/cmm/m/it/10 delanteExplota\OT1/cmr/m/
+n/10 (\OML/cmm/m/it/10 nuevoN; sgd\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 v\OT1/cmr/m
+/n/10 ))\OML/cmm/m/it/10 ;  sgd\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 v\OT1/cmr/m/n/
+10 1) == \OML/cmm/m/it/10 sgd\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 v\OT1/cmr/m/n/10
+ )\OML/cmm/m/it/10 ; [] $
+ []
+
+[7] (C:\Users\Nicolás\Documents\GitHub\Algo1-TPE\TPE\resolucionTPEvacia.aux) )
+ 
 Here is how much of TeX's memory you used:
  4235 strings out of 493921
- 54599 string characters out of 3147275
- 132365 words of memory out of 3000000
+ 55286 string characters out of 3144867
+ 133365 words of memory out of 3000000
  7422 multiletter control sequences out of 15000+200000
  8855 words of font info for 36 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 29i,12n,43p,412b,299s stack positions out of 5000i,500n,10000p,200000b,50000s
-<
-C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Progr
-am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files
-/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 
-2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts
-/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
-blic/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsf
-onts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
-ss10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssbx10.p
-fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/P
-rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Fi
-les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Program Files/MiKT
-eX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on resolucionTPEvacia.pdf (6 pages, 535041 bytes).
+ 29i,12n,43p,619b,263s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C
+:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/
+Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Pr
+ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Prog
+ram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program
+ Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Fi
+les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files
+ (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files (x8
+6)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Program Files (x86)
+/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Program Files (x86)
+/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/M
+iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files (x86)/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Program Files (x86)/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on resolucionTPEvacia.pdf (7 pages, 548993 bytes).
 PDF statistics:
- 75 PDF objects out of 1000 (max. 8388607)
+ 84 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
