@@ -146,7 +146,7 @@
 \end{problema}
 
 \begin{problema}{floresN}{n : Nivel}{[(Flor, Posicion, Vida)]}
-	\asegura{mismosFlores(res,flores(n))}
+	\asegura{mismosFloresNivel(res,flores(n))}
 \end{problema}
 
 \begin{problema}{vampirosN}{n : Nivel}{[(Vampiro, Posicion, Vida)]}
@@ -164,13 +164,13 @@
 	\asegura{ancho(n)==ancho(pre(n))}
 	\asegura{alto(n)==alto(pre(n))}
 	\asegura{turno(n)==turno(pre(n))}
-	\asegura{mismosFlores(flores(n),flores(pre(n)))}
+	\asegura{mismosFloresNivel(flores(n),flores(pre(n)))}
 	\asegura{mismos(vampiros(n),vampiros(pre(n)))}
 	\asegura{mismos(spawning(n),spawning(pre(n)))}
 \end{problema}
 
 \begin{problema}{obsesivoCompusilvo}{n: Nivel}{\bool}
-	\asegura [estaOrdenada]{((\not\exists i \in [0..|floresOrdenadas(flores(n))|-1))\newline Ataca\in habilidades(prm(floresOrdenadas(flores(n))_i))\land \newline Ataca \in habilidades(prm(floresOrdenadas(flores(n))_{i+1}))) \land \newline ((\not\exists j \in [0..|floresOrdenadas(flores(n))|-1)Ataca \not\in habilidades(prm(floresOrdenadas(flores(n))_j))\land Ataca \not\in habilidades(prm(floresOrdenadas(flores(n))_{j+1})))}
+	\asegura [hayPatron]{((\not\exists i \in [0..|floresOrdenadas(flores(n))|-1))\newline Ataca\in habilidades(prm(floresOrdenadas(flores(n))_i))\land \newline Ataca \in habilidades(prm(floresOrdenadas(flores(n))_{i+1}))) \land \newline ((\not\exists j \in [0..|floresOrdenadas(flores(n))|-1)Ataca \not\in habilidades(prm(floresOrdenadas(flores(n))_j))\land Ataca \not\in habilidades(prm(floresOrdenadas(flores(n))_{j+1})))}
 \end{problema}
 
 \begin{problema}{agregarFlor}{n: Nivel, f : Flor, p : Posicion}{}
@@ -179,13 +179,13 @@
 	\requiere{sgd(p)\leq alto(n) \land sgd(p) > 0}
 	\requiere{soles(n)\geq 2^{|habilidades(f)|}}
 	\modifica{n}
-	\asegura{mismosFlores(flores(n),cons((f,p,vida(f)),(flores(pre(n)))))}
+	\asegura{mismosFloresNivel(flores(n),cons((f,p,vida(f)),(flores(pre(n)))))}
 	\asegura{soles(n)==soles(pre(n))-2^{|habilidades(f)|}}
 	\asegura{ancho(n)==ancho(pre(n))}
 	\asegura{alto(n)==alto(pre(n))}
 	\asegura{turno(n)==turno(pre(n))}
 	\asegura{mismos(vampiros(n),vampiros(pre(n)))}
-	\asegura{spawning(n)==spawning(pre(n))}
+	\asegura{mismos(spawning(n),spawning(pre(n)))}
 \end{problema}
 
 \noindent\aux{terminado}{n: Nivel}{\bool}{
@@ -229,7 +229,7 @@
 \input{tipos/juego.tex}
 
 \begin{problema}{floresJ}{j: Juego}{[Flor]}
-	\asegura{mismos(flores(j),res)}
+	\asegura{mismosFlores(flores(j),res)}
 \end{problema}
 
 \begin{problema}{vampirosJ}{j: Juego}{[Vampiro]}
@@ -237,7 +237,7 @@
 \end{problema}
 
 \begin{problema}{nivelesJ}{j: Juego}{[Nivel]}
-	\asegura{res==niveles(j)}
+	\asegura{mismosNiveles(res,niveles(j))}
 \end{problema}
 
 \begin{problema}{agregarNivelJ}{j: Juego, n: Nivel, i: \ent}{}
@@ -249,12 +249,12 @@
 	\asegura[losAnterioresSonIguales] {(\forall k \leftarrow (0..i)) nivelesIguales(niveles(j)_{k},niveles(pre(j))_{k})}
 	\asegura[esElNivelQueQuiero] {nivelesIguales(niveles(j)_{i},n)}
 	\asegura[losSiguientesSonIguales] {(\forall k \leftarrow (i..|niveles(j)|)) \newline nivelesIguales(niveles(j)_{k},niveles(pre(j))_{k-1})}
-	\asegura {mismos(flores(j),flores(pre(j)))}
+	\asegura {mismosFlores(flores(j),flores(pre(j)))}
 	\asegura {mismos(vampiros(j),vampiros(pre(j)))}	
 \end{problema}
 
 \begin{problema}{estosSalenFacil}{j: Juego}{[Nivel]}
-	\asegura{mismos(res,maxFlor(nivelesConSoles(niveles(j))))}
+	\asegura{mismosNiveles(res,maxFlor(nivelesConSoles(niveles(j))))}
 \end{problema}
 
 \begin{problema}{jugarNivel}{j: Juego, n: Nivel, i: \ent}{}
@@ -277,15 +277,15 @@
 	\asegura {(\forall v \in vampiros(niveles(pre(j)_i)))(\exists x \in vampiros(niveles(j)_i))prm(x) == prm(v) \land sgd(x) == sgd(v) \land trd(x) == {\frac{trd(v)}{2}}}
 	\asegura {|vampiros(niveles(pre(j)))| == |vampiros(niveles(j))|}
 	\asegura {(\forall v \in vampiros(niveles(j)_i))(\exists x \in vampiros(niveles(pre(j))_i))prm(v) == prm(x) \land sgd(v) == sgd(x) \land trd(v) == \frac{trd(x)}{2}}
-	\asegura{mismos(flores(j),flores(pre(j))}
+	\asegura{mismosFlores(flores(j),flores(pre(j))}
 	\asegura{mismos(vampiros(j),vampiros(pre(j))}
-	\asegura[losAnterioresSonIguales3] {(\forall k \leftarrow (0..i)) nivelesIguales(niveles(j)_{k},niveles(pre(j))_{k})}
-	\asegura[esElNivelQueQuiero3] {ancho(niveles(pre(j))_i)==ancho(niveles(j)_i) \ \land \newline alto(niveles(pre(j))_i)==alto(niveles(j)_i) \land \newline turno(niveles(pre(j))_i)==turno(niveles(j)_i) \land soles(niveles(pre(j))_i)==soles(niveles(j)_i) \land mismos(flores(niveles(pre(j))_i),flores(niveles(j)_i)) \land \newline spawning(niveles(pre(j))_i)==spawning(niveles(j)_i)  }
-	\asegura[losSiguientesSonIguales3] {(\forall k \leftarrow (i..|niveles(j)|)) \newline nivelesIguales(niveles(j)_{k},niveles(pre(j))_{k})}
+	\asegura[losAnterioresSonIguales] {(\forall k \leftarrow (0..i)) nivelesIguales(niveles(j)_{k},niveles(pre(j))_{k})}
+	\asegura[esElNivelQueQuiero] {ancho(niveles(pre(j))_i)==ancho(niveles(j)_i) \ \land \newline alto(niveles(pre(j))_i)==alto(niveles(j)_i) \land \newline turno(niveles(pre(j))_i)==turno(niveles(j)_i) \land soles(niveles(pre(j))_i)==soles(niveles(j)_i) \land mismosFloresNivel(flores(niveles(pre(j))_i),flores(niveles(j)_i)) \land \newline mismos(spawning(niveles(pre(j))_i),spawning(niveles(j)_i)=  }
+	\asegura[losSiguientesSonIguales] {(\forall k \leftarrow (i..|niveles(j)|)) \newline nivelesIguales(niveles(j)_{k},niveles(pre(j))_{k})}
 \end{problema}
 
 \begin{problema}{muyDeExactas}{j: Juego}{\bool}
-	\asegura[sumaDeDos]{ifThenElse((|nivGsL(j)| \geq 3 \ \land \ nivGsL(j)_0 == 1 \ \land \ nivGsL(j)_1 == 2 \newline \land (\forall k \in [2..|nivGsL(j)|-1]) \ nivGsL(j)_k == nivGsL(j)_{k-1} + nivGsL(j)_{k-2}) \newline \lor (|nivGsL(j)| \geq 2 \land nivGsL(j)_0 == 1 \land nivGsL(j)_1 == 2) \lor \newline (|nivGsL(j)| \geq 1 \land nivGsL(j)_0 == 1), True, False)}
+	\asegura[sumaDeDos]{(|nivGsL(j)| \geq 3 \ \land \ nivGsL(j)_0 == 1 \ \land \ nivGsL(j)_1 == 2 \newline \land (\forall k \in [2..|nivGsL(j)|-1]) \ nivGsL(j)_k == nivGsL(j)_{k-1} + nivGsL(j)_{k-2}) \newline \lor (|nivGsL(j)| == 2 \land nivGsL(j)_0 == 1 \land nivGsL(j)_1 == 2) \lor \newline (|nivGsL(j)| == 1 \land nivGsL(j)_0 == 1)}
 	
 \end{problema}
 
@@ -297,17 +297,21 @@
 \aux{mismos}{a, b : [T]}{\bool}{(|a| == |b| \land (\forall c \in a) cuenta(c,a) == cuenta(c,b))}
 \aux{sinRepetidos}{xs : [T]}{\bool}{(\forall i, j \leftarrow [0..|xs|), \ i \neq j) xs_i \neq xs_j}
 \aux{noHayVampirosEnElMedio}{v : (Vampiro, Posicion, Vida), f : (Flor, Posicion, Vida), n : Nivel}{\bool}{\newline (\not\exists k \in vampiros(n))k_{2,2} \geq f_{2,2} \land k_{2,2} < v_{2,2}}
-\aux{nivelGanado}{n:Nivel}{\bool}{vampiros(n)==\lvacia}
+\aux{nivelGanado}{n:Nivel}{\bool}{vampiros(n)==\lvacia \land spawning(n)==\lvacia}
 \aux{nivGsL}{j: Juego}{[\ent]}{[i \ | \ i \in [1..|niveles(j)|), nivelGanado(niveles(j)_i)]}
-\aux{nivelesIguales} {n1,n2: Nivel}{\bool}{ancho(n1)==ancho(n2)\land alto(n1)==alto(n2) \land \newline turno(n1)==turno(n2) \land soles(n1)==soles(n2) \land mismos(flores(n1),flores(n2)) \land \newline mismos(vampiros(n1),vampiros(n2))\land spawning(n1)==spawning(n2)}
+\aux{nivelesIguales} {n1,n2: Nivel}{\bool}{ancho(n1)==ancho(n2)\land alto(n1)==alto(n2) \land \newline turno(n1)==turno(n2) \land soles(n1)==soles(n2) \land mismosFloresNivel(flores(n1),flores(n2)) \land \newline mismos(vampiros(n1),vampiros(n2))\land mismos(spawning(n1),spawning(n2))}
 \aux{nivelesConSoles}{j : Juego}{[Nivel]}{
 	[niveles(j)_i | i \in [0..|niveles(j)|),\newline (\forall k \in [0..|niveles(j)|)) soles(niveles(j)_i) \geq soles(niveles(j)_k)]
 }
 \aux{maxFlor}{n : [Nivel]}{[Nivel]}{
 	[n_i | i \in [0..|n|),(\forall k \in [0..|n|) \newline |flores(n_i)| \geq |flores(n_k)|]
 	}
-\aux{floresOrdenadas}{lF : [Flor]}{[Flor]}{
-	((\forall t \in [0..|lF|-1)) \ prm(lF_t) \leq prm(lF_{t+1})) \land ((\forall j \in [0..|lF|-1), prm(lF_j) == prm(lF_{j+1})) sgd(lF_j) \leq sgd(lF_{j+1}))
+
+\aux{estaEnLaPosicion}{i,j: \ent, p: Posicion}{\bool}{
+(i == sgd(p) \land j == prm(p))
+}
+\aux{floresOrdenadas}{lF : [(Flor,Posicion,Vida)], n: Nivel}{[(Flor,Posicion,Vida)]}{
+[x | i \in [0..alto(n)], j \in [0..ancho(n)], x \in lF, estaEnLaPosicion(i,j,sgd(x))]
 	}
 \aux{florcitas}{n : Nivel}{[Flor]}{
 	[prm(flores(n)_k) | k \in [0..|flores(n)|)]
@@ -342,13 +346,32 @@
 (prm(sgd(v))\geq 0)\land(prm(sgd(v))\leq ancho(n))\land(sgd(sgd(v)) > 0)\land(sgd(sgd(v))\leq alto(n)) \ 
 }
 
-\aux{cuentaFlor}{f: (Flor,Posicion,Vida), lista: [(Flor,Posicion,Vida)]}{\ent}{
+\aux{cuentaFlorN}{f: (Flor,Posicion,Vida), lista: [(Flor,Posicion,Vida)]}{\ent}{
 |[x|x \in lista,floresIguales(x,f) \land sgd(f)==sgd(x) \land trd(x)==trd(f)]|
 }
 
-\aux{mismosFlores}{f1,f2: [(Flor,Posicion,Vida)]}{\bool}{
+\aux{mismosFloresNivel}{f1,f2: [(Flor,Posicion,Vida)]}{\bool}{
+|f1| == |f2| \land (\forall f \in f1) cuentaFlorN(f,f1) == cuentaFlorN(f,f2)
+}
+
+\aux{cuentaFlor}{f: Flor, lista: [Flor]}{\ent}{
+|[x|x \in lista,floresIguales(x,f)]|
+}
+
+\aux{mismosFlores}{f1,f2: [Flor]}{\bool}{
 |f1| == |f2| \land (\forall f \in f1) cuentaFlor(f,f1) == cuentaFlor(f,f2)
 }
 
+\aux{cuentaNivel}{n: Nivel, lista: [Nivel]}{\ent}{
+|[x|x \in lista,nivelesIguales(n,x)]|
+}
+
+\aux{mismosNiveles}{n1,n2: [Nivel]}{\bool}{
+|n1| == |n2| \land (\forall n \in n1) cuentaNivel(n,n1) == cuentaNivel(n,n2)
+}
+
+\aux{estaIncluido}{f: Flor, lista: [Flor]}{\bool}{
+(\exists f1 \in lista) floresIguales(f1,f)
+}
 \end{document}
 
