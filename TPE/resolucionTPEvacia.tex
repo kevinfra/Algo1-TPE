@@ -154,7 +154,7 @@
 \end{problema}
 
 \begin{problema}{spawningN}{n : Nivel}{[(Vampiro, \ent, \ent)]}
-	\asegura{res==spawning(n)}
+	\asegura{mismos(res,spawning(n))}
 \end{problema}
 
 \begin{problema}{comprarSoles}{n: Nivel, s : \ent}{}
@@ -195,14 +195,8 @@
 \begin{problema}{pasarTurno}{n: Nivel}{}
 	\requiere[noEsElFin]{terminado(n) == False}
 	\modifica{n}
-	\asegura{(\forall f \in flores(pre(n)), Explotar \in Habilidades(prm(f)) \land hayVampiros(pre(n), sgd(f))) \newline f \not\in flores(n)}
-	\asegura{(\forall f \in flores(pre(n)), Explotar \not\in Habilidades(prm(f)) \land trd(f) - da\~{n}oVampiros(pre(n), sgd(f)) \leq 0) f \not\in flores(n)}
-	\asegura{(\forall f \in flores(pre(n)), Explotar \not\in Habilidades(prm(f)) \land trd(f)) - da\~{n}oVampiros(pre(n), sgd(f)) \geq 0) \newline (\exists f1 \in flores(n)) \ prm(f1)==prm(f) \land sgd(f1)==sgd(f) \land trd(f1)==trd(f)-da\~{n}oVampiros(pre(n), sgd(f))}
-	\asegura{(\forall f \in flores(pre(n)), Explotar \in Habilidades(prm(f)) \land \neg hayVampiros(pre(n), sgd(f))) \newline f \in flores(n)}
-	\asegura{sinRepetidos(flores(n))}
-	\asegura{(\forall v \in vampiros(pre(n)), trd(v) - da\~{n}oFlores(pre(n), sgd(v)) \leq 0) v \not\in vampiros(n)}
-	\asegura{(\forall v \in vampiros(pre(n)), trd(f)) - da\~{n}oFlores(pre(n), sgd(v)) > 0) \newline (\exists v1 \in vampiros(n)) \ prm(v1)==prm(v) \land seMueve(v1,v,n,pre(n)) \land trd(v1)==trd(v)-da\~{n}oVampiros(pre(n), sgd(f))}
-	\asegura{sinRepetidos(vampiros(n))}
+	\asegura{mismosFloresNivel(flores(n),floresSobrevivientesNoExplotan(flores(pre(n)),pre(n)) \newline ++ floresSobrevivientesExplotan(flores(pre(n)),pre(n)))}
+	\asegura{mismos(vampiros(n),vampirosSobrevivientes(vampiros(pre(n)),n,pre(n)))}
 	\asegura[noMeCambiesElNivel]{ancho(n)==ancho(pre(n)) \land alto(n)==alto(pre(n))}
 	\asegura[graciasPachamama]{soles(n)==soles(pre(n))+1+ \newline |[1 | j \in flores(n), Generar \in habilidadesF(j_1)]| * (turno(pre(n))+1)}
 	\asegura[soloPasaUnTurno]{turno(n) == turno(pre(n))+1}
@@ -289,6 +283,8 @@
 	
 \end{problema}
 
+\newpage
+
 \section{Auxiliares}
 \aux{vidaFloresOk}{fs: [(Flor, Posicion, Vida)]}{\bool}{(\forall f \selec fs) trd(f) > 0 \land trd(f) \leq vida(prm(f))}
 \aux{vidaVampirosOk}{fs: [(Vampiro, Posicion, Vida)]}{\bool}{(\forall f \selec fs) trd(f) > 0 \land trd(f) \leq vida(prm(f))}
@@ -335,8 +331,8 @@
 \aux{delanteExplota}{n : Nivel, p : Posicion}{\bool}{
 	(\exists f \in flores(n), Explotar \in habilidades(f)) \newline  prm(sgd(f))-1 == prm(p) \land sgd(sgd(f))==sgd(p)}
 
-\aux{seMueve}{v1, v : Vampiro, nuevoN, viejoN : Nivel}{\bool}{
-	ifThenElse(hayFlorDelante(nuevoN,sgd(v)) \land delanteExplota(nuevoN,sgd(v)), \ prm(sgd(v))+1 == prm(sgd(v1)) \land sgd(sgd(v1))==sgd(sgd(v)), \newline ifThenElse(hayFlorDelante(nuevoN,sgd(v)) \land \neg delanteExplota(nuevoN,sgd(v)), \ sgd(v1)==sgd(v), \newline ifThenElse(clase(prm(v1))==Caminante, \ prm(sgd(v1))==prm(sgd(v1))-1 \land sgd(sgd(v1))==sgd(sgd(v)), \newline ifThenElse(sgd(sgd(v)) > 1 \land sgd(sgd(v)) \leq alto(nuevoN), \ prm(sgd(v1))==prm(sgd(v))-1 \land sgd(sgd(v1))==sgd(sgd(v))+1, \newline prm(sgd(v1))==prm(sgd(v))-1 \land sgd(sgd(v1))==sgd(sgd(v))))))}
+\aux{seMueve}{v : (Vampiro,Posicion,Vida), nuevoN : Nivel}{(\ent,\ent)}{
+	\newline ifThenElse(hayFlorDelante(nuevoN,sgd(v)) \land delanteExplota(nuevoN,sgd(v)), \ (prm(sgd(v))+1,sgd(sgd(v))), \newline ifThenElse(hayFlorDelante(nuevoN,sgd(v)) \land \neg delanteExplota(nuevoN,sgd(v)), \ sgd(v), \newline ifThenElse(clase(prm(v1))==Caminante, \ (prm(sgd(v))-1,sgd(sgd(v))), \newline ifThenElse(sgd(sgd(v)) > 1 \land sgd(sgd(v)) \leq alto(nuevoN), \ (prm(sgd(v))-1,sgd(sgd(v))+1), \newline (prm(sgd(v))-1,sgd(sgd(v)))))))}
 	
 \aux{posicionFlorValida}{f: Flor, n: Nivel}{\bool}{
 (prm(sgd(f)) > 0)\land(prm(sgd(f))\leq ancho(n))\land(sgd(sgd(f)) > 0)\land(sgd(sgd(f))\leq alto(n)) \ 
@@ -372,6 +368,18 @@
 
 \aux{estaIncluido}{f: Flor, lista: [Flor]}{\bool}{
 (\exists f1 \in lista) floresIguales(f1,f)
+}
+
+\aux{floresSobrevivientesNoExplotan}{fl: [(Flor,Posicion,Vida)] , n: Nivel}{[(Flor,Posicion,Vida)]}{
+[(prm(f),sgd(f),trd(f)-da\~{n}oVampiros(n,sgd(f)))|f \in fl, Explotar \not\in Habilidades(prm(f)) \land trd(f)) - da\~{n}oVampiros(n, sgd(f)) > 0]
+}
+
+\aux{floresSobrevivientesExplotan}{fl: [(Flor,Posicion,Vida)] , n: Nivel}{[(Flor,Posicion,Vida)]}{
+[(prm(f),sgd(f),trd(f))|f \in fl, Explotar \in Habilidades(prm(f)) \land \neg hayVampiros(n,sgd(f))]
+}
+
+\aux{vampirosSobrevivientes}{vampiros:[(Vampiro,Posicion,Vida)],nuevoN,viejoN: Nivel}{[(Vampiro,Posicion,Vida)]}{
+[(prm(v),seMueve(v,nuevoN),trd(v)-da\~{n}oFlores(viejoN,sgd(v)))|v \in vampiros,trd(v)-da\~{n}oFlores(viejoN,sgd(v)) > 0]
 }
 \end{document}
 
