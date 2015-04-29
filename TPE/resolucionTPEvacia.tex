@@ -72,8 +72,6 @@
 	\requiere[viveDelInvariante]{v == \frac{100}{|hs|+1} }
 	\requiere[pegameSinVariar]{if \ Atacar \in habilidades(f) \ Then \ cP == \frac{12}{|hs|} \ Else \ cP == 0}
 	\asegura[tendriaHabilidades]{mismos(habilidades(res),hs)}
-	\asegura[tieneVida]{vida(res) == v}
-	\asegura[siAtacaTePega]{cuantoPega(res) == cP}
 \end{problema}
 
 \begin{problema}{vidaF}{f: Flor}{\ent}
@@ -127,7 +125,6 @@
 	\asegura[esDiaSoleado]{soles(res) == s}
 	\asegura[elTableroEstaVacio]{vampiros(res) == [] \land \ flores(res) == []}
 	\asegura[habraEnemigosOrdenados]{mismos(spawning(res),spaw)}
-	\asegura[elGamerNoMuereSpawnea]{(\forall s \in spawning(res)) \newline (((\forall i \in [0..|spawning(res)|-1))trd(spawning(res)_i)\leq trd(spawning(res)_{i+1}))\land \newline ((\forall j \in [0..|spawning(n)|-1), trd(spawning(res)_j)==trd(spawning(res)_{j+1}) sgd(spawning(res)_j)\leq sgd(spawning(res)_{j+1}))}
 \end{problema}
 
 \newpage
@@ -149,7 +146,7 @@
 \end{problema}
 
 \begin{problema}{floresN}{n : Nivel}{[(Flor, Posicion, Vida)]}
-	\asegura{mismos(res,flores(n))}
+	\asegura{mismosFlores(res,flores(n))}
 \end{problema}
 
 \begin{problema}{vampirosN}{n : Nivel}{[(Vampiro, Posicion, Vida)]}
@@ -167,13 +164,13 @@
 	\asegura{ancho(n)==ancho(pre(n))}
 	\asegura{alto(n)==alto(pre(n))}
 	\asegura{turno(n)==turno(pre(n))}
-	\asegura{mismos(flores(n),flores(pre(n)))}
+	\asegura{mismosFlores(flores(n),flores(pre(n)))}
 	\asegura{mismos(vampiros(n),vampiros(pre(n)))}
-	\asegura{spawning(n)==spawning(pre(n))}
+	\asegura{mismos(spawning(n),spawning(pre(n)))}
 \end{problema}
 
 \begin{problema}{obsesivoCompusilvo}{n: Nivel}{\bool}
-	\asegura [estaOrdenada]{((\not\exists i \in [0..|floresOrdenadas(flores(n))|-1))\newline Ataca\in habilidades(prm(floresOrdenadas(flores(n))_i))\land \newline Ataca \in habilidades(prm(floresOrdenadas(flores(n))_{i+1}))) \land \newline ((\not\exists j \in [0..|floresOrdenadas(flores(n))|-1)Ataca \not\in habilidades(prm(floresOrdenadas(flores(n))_i))\land Ataca \not\in habilidades(prm(floresOrdenadas(flores(n))_{i+1})))}
+	\asegura [estaOrdenada]{((\not\exists i \in [0..|floresOrdenadas(flores(n))|-1))\newline Ataca\in habilidades(prm(floresOrdenadas(flores(n))_i))\land \newline Ataca \in habilidades(prm(floresOrdenadas(flores(n))_{i+1}))) \land \newline ((\not\exists j \in [0..|floresOrdenadas(flores(n))|-1)Ataca \not\in habilidades(prm(floresOrdenadas(flores(n))_j))\land Ataca \not\in habilidades(prm(floresOrdenadas(flores(n))_{j+1})))}
 \end{problema}
 
 \begin{problema}{agregarFlor}{n: Nivel, f : Flor, p : Posicion}{}
@@ -182,7 +179,7 @@
 	\requiere{sgd(p)\leq alto(n) \land sgd(p) > 0}
 	\requiere{soles(n)\geq 2^{|habilidades(f)|}}
 	\modifica{n}
-	\asegura{mismos(flores(n),cons((f,p,vida(f)),(flores(pre(n)))))}
+	\asegura{mismosFlores(flores(n),cons((f,p,vida(f)),(flores(pre(n)))))}
 	\asegura{soles(n)==soles(pre(n))-2^{|habilidades(f)|}}
 	\asegura{ancho(n)==ancho(pre(n))}
 	\asegura{alto(n)==alto(pre(n))}
@@ -336,5 +333,22 @@
 
 \aux{seMueve}{v1, v : Vampiro, nuevoN, viejoN : Nivel}{\bool}{
 	ifThenElse(hayFlorDelante(nuevoN,sgd(v)) \land delanteExplota(nuevoN,sgd(v)), \ prm(sgd(v))+1 == prm(sgd(v1)) \land sgd(sgd(v1))==sgd(sgd(v)), \newline ifThenElse(hayFlorDelante(nuevoN,sgd(v)) \land \neg delanteExplota(nuevoN,sgd(v)), \ sgd(v1)==sgd(v), \newline ifThenElse(clase(prm(v1))==Caminante, \ prm(sgd(v1))==prm(sgd(v1))-1 \land sgd(sgd(v1))==sgd(sgd(v)), \newline ifThenElse(sgd(sgd(v)) > 1 \land sgd(sgd(v)) \leq alto(nuevoN), \ prm(sgd(v1))==prm(sgd(v))-1 \land sgd(sgd(v1))==sgd(sgd(v))+1, \newline prm(sgd(v1))==prm(sgd(v))-1 \land sgd(sgd(v1))==sgd(sgd(v))))))}
+	
+\aux{posicionFlorValida}{f: Flor, n: Nivel}{\bool}{
+(prm(sgd(f)) > 0)\land(prm(sgd(f))\leq ancho(n))\land(sgd(sgd(f)) > 0)\land(sgd(sgd(f))\leq alto(n)) \ 
+}
+
+\aux{posicionVampiroValida}{v: Vampiro, n: Nivel}{\bool}{
+(prm(sgd(v))\geq 0)\land(prm(sgd(v))\leq ancho(n))\land(sgd(sgd(v)) > 0)\land(sgd(sgd(v))\leq alto(n)) \ 
+}
+
+\aux{cuentaFlor}{f: (Flor,Posicion,Vida), lista: [(Flor,Posicion,Vida)]}{\ent}{
+|[x|x \in lista,floresIguales(x,f) \land sgd(f)==sgd(x) \land trd(x)==trd(f)]|
+}
+
+\aux{mismosFlores}{f1,f2: [(Flor,Posicion,Vida)]}{\bool}{
+|f1| == |f2| \land (\forall f \in f1) cuentaFlor(f,f1) == cuentaFlor(f,f2)
+}
+
 \end{document}
 

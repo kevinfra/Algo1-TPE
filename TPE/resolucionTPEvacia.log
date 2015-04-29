@@ -1,14 +1,21 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=latex 2014.10.19)  17 APR 2015 14:33
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.4.16)  28 APR 2015 21:22
 entering extended mode
- restricted \write18 enabled.
- %&-line parsing enabled.
 **resolucionTPEvacia.tex
-(./resolucionTPEvacia.tex
+(C:\Users\Nicol√°s\Documents\GitHub\Algo1-TPE\TPE\resolucionTPEvacia.tex
 LaTeX2e <2011/06/27>
-Babel <3.9h> and hyphenation patterns for 78 languages loaded.
-(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
+abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
+croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
+lician, german, german-x-2013-05-26, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
+ lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
+german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
+ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
+an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
+ishmax, welsh, loaded.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\article.cls"
 Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
-(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\size10.clo"
 File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -23,166 +30,185 @@ File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.sty"
+Package: babel 2008/07/08 v3.8m The Babel package
 
-! LaTeX Error: File `babel.sty' not found.
-
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: sty)
-
-Enter file name: 
-(/usr/share/texlive/texmf-dist/tex/latex/soul/soul.sty
-Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
-\SOUL@word=\toks14
-\SOUL@lasttoken=\toks15
-\SOUL@cmds=\toks16
-\SOUL@buffer=\toks17
-\SOUL@token=\toks18
-\SOUL@spaceskip=\skip43
-\SOUL@ttwidth=\dimen103
-\SOUL@uldp=\dimen104
-\SOUL@ulht=\dimen105
+*************************************
+* Local config file bblopts.cfg used
+*
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\bblopts.cfg"
+File: bblopts.cfg 2006/07/31 v1.0 MiKTeX 'babel' configuration
 )
-(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
-Package: inputenc 2008/03/30 v1.1d Input encoding file
-\inpenc@prehook=\toks19
-\inpenc@posthook=\toks20
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\spanish.ldf"
+Language: spanish.ldf 2009/01/02 v5.0h Spanish support from the babel system
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/latin1.def
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.def"
+File: babel.def 2008/07/08 v3.8m Babel common definitions
+\babel@savecnt=\count87
+\U@D=\dimen103
+)
+\es@datefmt=\count88
+\es@quottoks=\toks14
+\es@quotdepth=\count89
+Package babel Info: Making " an active character on input line 492.
+Package babel Info: Making . an active character on input line 585.
+Package babel Info: Making < an active character on input line 630.
+Package babel Info: Making > an active character on input line 630.
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\soul\soul.sty"
+Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
+\SOUL@word=\toks15
+\SOUL@lasttoken=\toks16
+\SOUL@cmds=\toks17
+\SOUL@buffer=\toks18
+\SOUL@token=\toks19
+\SOUL@spaceskip=\skip43
+\SOUL@ttwidth=\dimen104
+\SOUL@uldp=\dimen105
+\SOUL@ulht=\dimen106
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\inputenc.sty"
+Package: inputenc 2008/03/30 v1.1d Input encoding file
+\inpenc@prehook=\toks20
+\inpenc@posthook=\toks21
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\latin1.def"
 File: latin1.def 2008/03/30 v1.1d Input encoding file
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/framed/framed.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\framed\framed.sty"
 Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
 \OuterFrameSep=\skip44
-\fb@frw=\dimen106
-\fb@frh=\dimen107
-\FrameRule=\dimen108
-\FrameSep=\dimen109
+\fb@frw=\dimen107
+\fb@frh=\dimen108
+\FrameRule=\dimen109
+\FrameSep=\dimen110
 )
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
 Package: amsmath 2013/01/14 v2.14 AMS math features
 \@mathmargin=\skip45
 
 For additional information on amsmath, use the `?' option.
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
 Package: amstext 2000/06/29 v2.01
 
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0
-\@emptytoks=\toks21
-\ex@=\dimen110
+\@emptytoks=\toks22
+\ex@=\dimen111
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
 Package: amsbsy 1999/11/29 v1.2d
-\pmbraise@=\dimen111
+\pmbraise@=\dimen112
 )
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
 Package: amsopn 1999/12/14 v2.01 operator names
 )
-\inf@bad=\count87
+\inf@bad=\count90
 LaTeX Info: Redefining \frac on input line 210.
-\uproot@=\count88
-\leftroot@=\count89
+\uproot@=\count91
+\leftroot@=\count92
 LaTeX Info: Redefining \overline on input line 306.
-\classnum@=\count90
-\DOTSCASE@=\count91
+\classnum@=\count93
+\DOTSCASE@=\count94
 LaTeX Info: Redefining \ldots on input line 378.
 LaTeX Info: Redefining \dots on input line 381.
 LaTeX Info: Redefining \cdots on input line 466.
 \Mathstrutbox@=\box26
 \strutbox@=\box27
-\big@size=\dimen112
+\big@size=\dimen113
 LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
-\macc@depth=\count92
-\c@MaxMatrixCols=\count93
+\macc@depth=\count95
+\c@MaxMatrixCols=\count96
 \dotsspace@=\muskip10
-\c@parentequation=\count94
-\dspbrk@lvl=\count95
-\tag@help=\toks22
-\row@=\count96
-\column@=\count97
-\maxfields@=\count98
-\andhelp@=\toks23
-\eqnshift@=\dimen113
-\alignsep@=\dimen114
-\tagshift@=\dimen115
-\tagwidth@=\dimen116
-\totwidth@=\dimen117
-\lineht@=\dimen118
-\@envbody=\toks24
+\c@parentequation=\count97
+\dspbrk@lvl=\count98
+\tag@help=\toks23
+\row@=\count99
+\column@=\count100
+\maxfields@=\count101
+\andhelp@=\toks24
+\eqnshift@=\dimen114
+\alignsep@=\dimen115
+\tagshift@=\dimen116
+\tagwidth@=\dimen117
+\totwidth@=\dimen118
+\lineht@=\dimen119
+\@envbody=\toks25
 \multlinegap=\skip46
 \multlinetaggap=\skip47
-\mathdisplay@stack=\toks25
+\mathdisplay@stack=\toks26
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amscd.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amscd.sty"
 Package: amscd 1999/11/29 v2.0
-\athelp@=\toks26
-\minaw@=\dimen119
-\bigaw@=\dimen120
-\minCDarrowwidth=\dimen121
+\athelp@=\toks27
+\minaw@=\dimen120
+\bigaw@=\dimen121
+\minCDarrowwidth=\dimen122
 )
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amscls\amsthm.sty"
 Package: amsthm 2004/08/06 v2.20
-\thm@style=\toks27
-\thm@bodyfont=\toks28
-\thm@headfont=\toks29
-\thm@notefont=\toks30
-\thm@headpunct=\toks31
+\thm@style=\toks28
+\thm@bodyfont=\toks29
+\thm@headfont=\toks30
+\thm@notefont=\toks31
+\thm@headpunct=\toks32
 \thm@preskip=\skip48
 \thm@postskip=\skip49
 \thm@headsep=\skip50
-\dth@everypar=\toks32
+\dth@everypar=\toks33
 )
-(/usr/share/texlive/texmf-dist/tex/latex/base/latexsym.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\latexsym.sty"
 Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
 \symlasy=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
 (Font)                  U/lasy/m/n --> U/lasy/b/n on input line 47.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
 Package: geometry 2010/09/12 v5.6 Page Geometry
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
-\KV@toks@=\toks33
+\KV@toks@=\toks34
 )
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
-Package ifpdf Info: pdfTeX in PDF mode is not detected.
+Package ifpdf Info: pdfTeX in PDF mode is detected.
 )
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty"
 Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 )
-(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-\Gm@cnth=\count99
-\Gm@cntv=\count100
-\c@Gm@tempcnt=\count101
-\Gm@bindingoffset=\dimen122
-\Gm@wd@mp=\dimen123
-\Gm@odd@mp=\dimen124
-\Gm@even@mp=\dimen125
-\Gm@layoutwidth=\dimen126
-\Gm@layoutheight=\dimen127
-\Gm@layouthoffset=\dimen128
-\Gm@layoutvoffset=\dimen129
-\Gm@dimlist=\toks34
-)
-(/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+\Gm@cnth=\count102
+\Gm@cntv=\count103
+\c@Gm@tempcnt=\count104
+\Gm@bindingoffset=\dimen123
+\Gm@wd@mp=\dimen124
+\Gm@odd@mp=\dimen125
+\Gm@even@mp=\dimen126
+\Gm@layoutwidth=\dimen127
+\Gm@layoutheight=\dimen128
+\Gm@layouthoffset=\dimen129
+\Gm@layoutvoffset=\dimen130
+\Gm@dimlist=\toks35
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr.sty"
 \fancy@headwidth=\skip51
 \f@ncyO@elh=\skip52
 \f@ncyO@erh=\skip53
@@ -193,52 +219,52 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \f@ncyO@olf=\skip58
 \f@ncyO@orf=\skip59
 )
-(/usr/share/texlive/texmf-dist/tex/latex/tools/enumerate.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\enumerate.sty"
 Package: enumerate 1999/03/05 v3.00 enumerate extensions (DPC)
-\@enLab=\toks35
+\@enLab=\toks36
 )
-(/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\longtable.sty"
 Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
 \LTleft=\skip60
 \LTright=\skip61
 \LTpre=\skip62
 \LTpost=\skip63
-\LTchunksize=\count102
-\LTcapwidth=\dimen130
+\LTchunksize=\count105
+\LTcapwidth=\dimen131
 \LT@head=\box28
 \LT@firsthead=\box29
 \LT@foot=\box30
 \LT@lastfoot=\box31
-\LT@cols=\count103
-\LT@rows=\count104
-\c@LT@tables=\count105
-\c@LT@chunks=\count106
-\LT@p@ftn=\toks36
+\LT@cols=\count106
+\LT@rows=\count107
+\c@LT@tables=\count108
+\c@LT@chunks=\count109
+\LT@p@ftn=\toks37
 )
-(/usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\verbatim.sty"
 Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks37
-\verbatim@line=\toks38
+\every@verbatim=\toks38
+\verbatim@line=\toks39
 \verbatim@in@stream=\read1
 )
-(../macros/Algo1Macros.tex
-(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+(C:\Users\Nicol√°s\Documents\GitHub\Algo1-TPE\macros\Algo1Macros.tex
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ifthen.sty"
 Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\multicol.sty"
 Package: multicol 2011/06/27 v1.7a multicolumn formatting (FMi)
-\c@tracingmulticols=\count107
+\c@tracingmulticols=\count110
 \mult@box=\box32
-\multicol@leftmargin=\dimen131
-\c@unbalance=\count108
-\c@collectmore=\count109
-\doublecol@number=\count110
-\multicoltolerance=\count111
-\multicolpretolerance=\count112
-\full@width=\dimen132
-\page@free=\dimen133
-\premulticols=\dimen134
-\postmulticols=\dimen135
+\multicol@leftmargin=\dimen132
+\c@unbalance=\count111
+\c@collectmore=\count112
+\doublecol@number=\count113
+\multicoltolerance=\count114
+\multicolpretolerance=\count115
+\full@width=\dimen133
+\page@free=\dimen134
+\premulticols=\dimen135
+\postmulticols=\dimen136
 \multicolsep=\skip64
 \multicolbaselineskip=\skip65
 \partial@page=\box33
@@ -264,76 +290,63 @@ Package: multicol 2011/06/27 v1.7a multicolumn formatting (FMi)
 \@tempa=\box53
 \@tempa=\box54
 \@tempa=\box55
-\c@columnbadness=\count113
-\c@finalcolumnbadness=\count114
-\last@try=\dimen136
-\multicolovershoot=\dimen137
-\multicolundershoot=\dimen138
+\c@columnbadness=\count116
+\c@finalcolumnbadness=\count117
+\last@try=\dimen137
+\multicolovershoot=\dimen138
+\multicolundershoot=\dimen139
 \mult@nat@firstbox=\box56
 \colbreak@box=\box57
-\multicol@sort@counter=\count115
+\multicol@sort@counter=\count118
 )
-(/usr/share/texlive/texmf-dist/tex/latex/textpos/textpos.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\textpos\textpos.sty"
 Package: textpos 2014/01/03 v1.7j
 
 Package: textpos 2014/01/03 1.7j, absolute positioning of text on the page
-(/usr/share/texlive/texmf-dist/tex/latex/ms/everyshi.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ms\everyshi.sty"
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 )
 \TP@textbox=\box58
 \TP@holdbox=\box59
-\TPHorizModule=\dimen139
-\TPVertModule=\dimen140
-\TP@margin=\dimen141
-\TP@absmargin=\dimen142
+\TPHorizModule=\dimen140
+\TPVertModule=\dimen141
+\TP@margin=\dimen142
+\TP@absmargin=\dimen143
 
 Grid set 16 x 16 = 37.34424pt x 52.81541pt
-\TPboxrulesize=\dimen143
-\TP@ox=\dimen144
-\TP@oy=\dimen145
-\TP@tbargs=\toks39
-\TP@prevdepth=\dimen146
+\TPboxrulesize=\dimen144
+\TP@ox=\dimen145
+\TP@oy=\dimen146
+\TP@tbargs=\toks40
+\TP@prevdepth=\dimen147
 TextBlockOrigin set to 0pt x 0pt
-) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
-File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
 
-(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
-
-! Package pdftex.def Error: PDF mode expected, but DVI mode detected!
-(pdftex.def)                If you are using `latex', then call `pdflatex'.
-(pdftex.def)                Otherwise check and correct the driver options.
-(pdftex.def)                Error recovery by switching to PDF mode.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.433   }\@ehc
-              
-? 
-\Gread@gobject=\count116
+\Gread@gobject=\count119
 ))
-\Gin@req@height=\dimen147
-\Gin@req@width=\dimen148
+\Gin@req@height=\dimen148
+\Gin@req@width=\dimen149
 )
 
 ! LaTeX Error: Option clash for package geometry.
@@ -344,26 +357,29 @@ Type  H <return>  for immediate help.
                                                   
 l.22 }
       
-? 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
+The package geometry has already been loaded with options:
+  [width=15.5cm,left=3cm,top=2.5cm,height=24.5cm]
+There has now been an attempt to load it with options
+  [top=1cm,bottom=2cm,left=1cm,right=1cm]
+Adding the global options:
+  width=15.5cm,left=3cm,top=2.5cm,height=24.5cm,top=1cm,bottom=2cm,left=1cm,rig
+ht=1cm
+to your \documentclass declaration may fix this.
+Try typing  <return>  to proceed.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\color.sty"
 Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
 
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package color Info: Driver file: pdftex.def on input line 130.
 )
-\intlist=\toks40
-\c@exercise=\count117
-\c@consigna=\count118
+\intlist=\toks41
+\c@exercise=\count120
+\c@consigna=\count121
 )
-
-LaTeX Warning: Unused global option(s):
-    [spanish].
-
-(./resolucionTPEvacia.aux)
-\openout1 = `resolucionTPEvacia.aux'.
-
+(C:\Users\Nicol√°s\Documents\GitHub\Algo1-TPE\TPE\resolucionTPEvacia.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
 LaTeX Font Info:    ... okay on input line 32.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
@@ -378,9 +394,9 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
 LaTeX Font Info:    ... okay on input line 32.
 
 *geometry* driver: auto-detecting
-*geometry* detected driver: dvips
+*geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
-* driver: dvips
+* driver: pdftex
 * paper: a4paper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
@@ -412,38 +428,48 @@ LaTeX Font Info:    ... okay on input line 32.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 ABD: EveryShipout initializing macros
-(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count119
-\scratchdimen=\dimen149
+\scratchcounter=\count122
+\scratchdimen=\dimen150
 \scratchbox=\box60
-\nofMPsegments=\count120
-\nofMParguments=\count121
-\everyMPshowfont=\toks41
-\MPscratchCnt=\count122
-\MPscratchDim=\dimen150
-\MPnumerator=\count123
-\makeMPintoPDFobject=\count124
-\everyMPtoPDFconversion=\toks42
+\nofMPsegments=\count123
+\nofMParguments=\count124
+\everyMPshowfont=\toks42
+\MPscratchCnt=\count125
+\MPscratchDim=\dimen151
+\MPnumerator=\count126
+\makeMPintoPDFobject=\count127
+\everyMPtoPDFconversion=\toks43
 )
 ! Undefined control sequence.
 \maketitlegraf ->\ifsetuperror 
                                \errmessage {Faltan datos de la caratula! Ing...
 l.57 \maketitle
                
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 ! Faltan datos de la caratula! Ingresar 'h' para mas informacion..
 \maketitlegraf ...resar 'h' para mas informacion.}
                                                   \fi \thispagestyle {empty}...
 l.57 \maketitle
                
-? 
+This error message was generated by an \errmessage
+command, so I can't give any explicit help.
+Pretend that you're Hercule Poirot: Examine all clues,
+and deduce the truth by order and method.
+
 ! Extra \fi.
 \maketitlegraf ...r 'h' para mas informacion.}\fi 
                                                   \thispagestyle {empty} \pa...
 l.57 \maketitle
                
-? 
+I'm ignoring this; it doesn't match any \if.
+
 <logo_dc.jpg, id=1, 215.6055pt x 83.5923pt>
 File: logo_dc.jpg Graphic file (type jpg)
  <use logo_dc.jpg>
@@ -455,17 +481,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 57--57
  []
 
 LaTeX Font Info:    Try loading font information for U+msa on input line 57.
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 57.
 
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Try loading font information for U+lasy on input line 57.
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/ulasy.fd
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ulasy.fd"
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 <logo_uba.jpg, id=2, 225.4824pt x 231.7458pt>
@@ -484,57 +510,46 @@ Overfull \hbox (22.05222pt too wide) in paragraph at lines 57--57
  []
 
 [1
-Non-PDF special ignored!
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./logo_dc.jpg> <./logo_uba
-.jpg>] (./tipos/tipos.tex
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Users/Nicol√°s/Documen
+ts/GitHub/Algo1-TPE/TPE/logo_dc.jpg> <C:/Users/Nicol√°s/Documents/GitHub/Algo1-
+TPE/TPE/logo_uba.jpg>]
+(C:\Users\Nicol√°s\Documents\GitHub\Algo1-TPE\TPE\tipos/tipos.tex
 LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <10> not available
 (Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 1.
-) (./tipos/flor.tex
+)
+(C:\Users\Nicol√°s\Documents\GitHub\Algo1-TPE\TPE\tipos/flor.tex
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 1.
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 1.
-) (./tipos/vampiro.tex) [2] (./tipos/nivel.tex
-Overfull \hbox (21.60612pt too wide) in paragraph at lines 10--10
- \OML/cmm/m/it/10 ancho\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 n\OT1/cmr/m/n/10 )) \O
-MS/cmsy/m/n/10 ^ \OT1/cmr/m/n/10 (\OML/cmm/m/it/10 sgd\OT1/cmr/m/n/10 (\OML/cmm
-/m/it/10 sgd\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 )) \OML/cmm/m/it
-/10 > \OT1/cmr/m/n/10 0) \OMS/cmsy/m/n/10 ^ \OT1/cmr/m/n/10 (\OML/cmm/m/it/10 s
-gd\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 sgd\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 f\OT1/
-cmr/m/n/10 )) \OMS/cmsy/m/n/10 ^^T \OML/cmm/m/it/10 alto\OT1/cmr/m/n/10 (\OML/c
-mm/m/it/10 n\OT1/cmr/m/n/10 )) ) \OMS/cmsy/m/n/10 ^ \OT1/cmr/m/n/10 ( (\OMS/cms
-y/m/n/10 8\OML/cmm/m/it/10 v \OMS/cmsy/m/n/10 2 \OML/cmm/m/it/10 vampiros\OT1/c
-mr/m/n/10 (\OML/cmm/m/it/10 n\OT1/cmr/m/n/10 ))(\OML/cmm/m/it/10 prm\OT1/cmr/m/
-n/10 (\OML/cmm/m/it/10 sgd\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 v\OT1/cmr/m/n/10 ))
- \OMS/cmsy/m/n/10 ^^U
- []
-
-
-Overfull \hbox (48.14456pt too wide) in paragraph at lines 11--11
- []\OT1/cmtt/m/n/10 invariante spawningOrdenado \OT1/cmr/m/n/10 : $(\OMS/cmsy/m
-/n/10 8\OML/cmm/m/it/10 s \OMS/cmsy/m/n/10 2 \OML/cmm/m/it/10 spawning\OT1/cmr/
-m/n/10 (\OML/cmm/m/it/10 n\OT1/cmr/m/n/10 ))(((\OMS/cmsy/m/n/10 8\OML/cmm/m/it/
-10 i \OMS/cmsy/m/n/10 2 \OT1/cmr/m/n/10 [0\OML/cmm/m/it/10 ::\OMS/cmsy/m/n/10 j
-\OML/cmm/m/it/10 spawning\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 n\OT1/cmr/m/n/10 )\O
-MS/cmsy/m/n/10 j ^^@ \OT1/cmr/m/n/10 1))\OML/cmm/m/it/10 trd\OT1/cmr/m/n/10 (\O
-ML/cmm/m/it/10 spawning\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 n\OT1/cmr/m/n/10 )[]) 
-\OMS/cmsy/m/n/10 ^^T
+)
+(C:\Users\Nicol√°s\Documents\GitHub\Algo1-TPE\TPE\tipos/vampiro.tex) [2]
+(C:\Users\Nicol√°s\Documents\GitHub\Algo1-TPE\TPE\tipos/nivel.tex
+Overfull \hbox (66.07236pt too wide) in paragraph at lines 11--11
+ []\OT1/cmtt/m/n/10 invariante spawningOrdenado \OT1/cmr/m/n/10 : $(((\OMS/cmsy
+/m/n/10 8\OML/cmm/m/it/10 i \OMS/cmsy/m/n/10 2 \OT1/cmr/m/n/10 [0\OML/cmm/m/it/
+10 ::\OMS/cmsy/m/n/10 j\OML/cmm/m/it/10 spawning\OT1/cmr/m/n/10 (\OML/cmm/m/it/
+10 n\OT1/cmr/m/n/10 )\OMS/cmsy/m/n/10 j   \OT1/cmr/m/n/10 1))\OML/cmm/m/it/10 t
+rd\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 spawning\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 n
+\OT1/cmr/m/n/10 )[]) \OMS/cmsy/m/n/10  \OML/cmm/m/it/10 trd\OT1/cmr/m/n/10 (\O
+ML/cmm/m/it/10 spawning\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 n\OT1/cmr/m/n/10 )[]))
+ \OMS/cmsy/m/n/10 ^$
  []
 
 
 Overfull \hbox (26.39095pt too wide) in paragraph at lines 11--11
- \OT1/cmr/m/n/10 ((\OMS/cmsy/m/n/10 8\OML/cmm/m/it/10 j \OMS/cmsy/m/n/10 2 \OT1
-/cmr/m/n/10 [0\OML/cmm/m/it/10 ::\OMS/cmsy/m/n/10 j\OML/cmm/m/it/10 spawning\OT
-1/cmr/m/n/10 (\OML/cmm/m/it/10 n\OT1/cmr/m/n/10 )\OMS/cmsy/m/n/10 j ^^@ \OT1/cm
-r/m/n/10 1)\OML/cmm/m/it/10 ; trd\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 spawning\OT1
-/cmr/m/n/10 (\OML/cmm/m/it/10 n\OT1/cmr/m/n/10 )[]) == \OML/cmm/m/it/10 trd\OT1
-/cmr/m/n/10 (\OML/cmm/m/it/10 spawning\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 n\OT1/c
-mr/m/n/10 )[])\OML/cmm/m/it/10 sgd\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 spawning\OT
-1/cmr/m/n/10 (\OML/cmm/m/it/10 n\OT1/cmr/m/n/10 )[]) \OMS/cmsy/m/n/10 ^^T
+ $\OT1/cmr/m/n/10 ((\OMS/cmsy/m/n/10 8\OML/cmm/m/it/10 j \OMS/cmsy/m/n/10 2 \OT
+1/cmr/m/n/10 [0\OML/cmm/m/it/10 ::\OMS/cmsy/m/n/10 j\OML/cmm/m/it/10 spawning\O
+T1/cmr/m/n/10 (\OML/cmm/m/it/10 n\OT1/cmr/m/n/10 )\OMS/cmsy/m/n/10 j   \OT1/cmr
+/m/n/10 1)\OML/cmm/m/it/10 ; trd\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 spawning\OT1/
+cmr/m/n/10 (\OML/cmm/m/it/10 n\OT1/cmr/m/n/10 )[]) == \OML/cmm/m/it/10 trd\OT1/
+cmr/m/n/10 (\OML/cmm/m/it/10 spawning\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 n\OT1/cm
+r/m/n/10 )[])\OML/cmm/m/it/10 sgd\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 spawning\OT1
+/cmr/m/n/10 (\OML/cmm/m/it/10 n\OT1/cmr/m/n/10 )[]) \OMS/cmsy/m/n/10 $
  []
 
 
@@ -559,33 +574,20 @@ sOk\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 vampiros\OT1/cmr/m/n/10 (\OML/cmm/m/it/10
 n\OT1/cmr/m/n/10 ))$\OT1/cmr/bx/n/10 ; 
  []
 
-)
-Overfull \hbox (50.7833pt too wide) in paragraph at lines 130--130
- \OT1/cmr/m/n/10 ((\OMS/cmsy/m/n/10 8\OML/cmm/m/it/10 j \OMS/cmsy/m/n/10 2 \OT1
-/cmr/m/n/10 [0\OML/cmm/m/it/10 ::\OMS/cmsy/m/n/10 j\OML/cmm/m/it/10 spawning\OT
-1/cmr/m/n/10 (\OML/cmm/m/it/10 n\OT1/cmr/m/n/10 )\OMS/cmsy/m/n/10 j ^^@ \OT1/cm
-r/m/n/10 1)\OML/cmm/m/it/10 ; trd\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 spawning\OT1
-/cmr/m/n/10 (\OML/cmm/m/it/10 res\OT1/cmr/m/n/10 )[]) == \OML/cmm/m/it/10 trd\O
-T1/cmr/m/n/10 (\OML/cmm/m/it/10 spawning\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 res\O
-T1/cmr/m/n/10 )[])\OML/cmm/m/it/10 sgd\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 spawnin
-g\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 res\OT1/cmr/m/n/10 )[]) \OMS/cmsy/m/n/10 ^^T
-
- []
-
-[3]
-Overfull \hbox (64.0897pt too wide) in paragraph at lines 176--176
- \OT1/cmr/m/n/10 ((\OMS/cmsy/m/n/10 6 9\OML/cmm/m/it/10 j \OMS/cmsy/m/n/10 2 \O
-T1/cmr/m/n/10 [0\OML/cmm/m/it/10 ::\OMS/cmsy/m/n/10 j\OML/cmm/m/it/10 floresOrd
-enadas\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 flores\OT1/cmr/m/n/10 (\OML/cmm/m/it/10
- n\OT1/cmr/m/n/10 ))\OMS/cmsy/m/n/10 j ^^@ \OT1/cmr/m/n/10 1)\OML/cmm/m/it/10 A
-taca \OMS/cmsy/m/n/10 62 \OML/cmm/m/it/10 habilidades\OT1/cmr/m/n/10 (\OML/cmm/
-m/it/10 prm\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 floresOrdenadas\OT1/cmr/m/n/10 (\O
-ML/cmm/m/it/10 flores\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 n\OT1/cmr/m/n/10 ))[])) 
-\OMS/cmsy/m/n/10 ^
+) [3]
+Overfull \hbox (64.97398pt too wide) in paragraph at lines 173--173
+ $\OT1/cmr/m/n/10 ((\OMS/cmsy/m/n/10 6 9\OML/cmm/m/it/10 j \OMS/cmsy/m/n/10 2 \
+OT1/cmr/m/n/10 [0\OML/cmm/m/it/10 ::\OMS/cmsy/m/n/10 j\OML/cmm/m/it/10 floresOr
+denadas\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 flores\OT1/cmr/m/n/10 (\OML/cmm/m/it/1
+0 n\OT1/cmr/m/n/10 ))\OMS/cmsy/m/n/10 j   \OT1/cmr/m/n/10 1)\OML/cmm/m/it/10 At
+aca \OMS/cmsy/m/n/10 62 \OML/cmm/m/it/10 habilidades\OT1/cmr/m/n/10 (\OML/cmm/m
+/it/10 prm\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 floresOrdenadas\OT1/cmr/m/n/10 (\OM
+L/cmm/m/it/10 flores\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 n\OT1/cmr/m/n/10 ))[])) \
+OMS/cmsy/m/n/10 ^$
  []
 
 [4]
-Overfull \hbox (16.8248pt too wide) in paragraph at lines 201--201
+Overfull \hbox (16.8248pt too wide) in paragraph at lines 198--198
  []\OT1/cmtt/m/n/10 asegura $\OT1/cmr/m/n/10 (\OMS/cmsy/m/n/10 8\OML/cmm/m/it/1
 0 f \OMS/cmsy/m/n/10 2 \OML/cmm/m/it/10 flores\OT1/cmr/m/n/10 (\OML/cmm/m/it/10
  pre\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 n\OT1/cmr/m/n/10 ))\OML/cmm/m/it/10 ; Exp
@@ -593,86 +595,136 @@ lotar \OMS/cmsy/m/n/10 2 \OML/cmm/m/it/10 Habilidades\OT1/cmr/m/n/10 (\OML/cmm/
 m/it/10 prm\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 )) \OMS/cmsy/m/n/
 10 ^ \OML/cmm/m/it/10 hayVampiros\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 pre\OT1/cmr/
 m/n/10 (\OML/cmm/m/it/10 n\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ; sgd\OT1/cmr/m/n/1
-0 (\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 )))[] 
+0 (\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 )))[] $
  []
 
 
-LaTeX Warning: Command \~ invalid in math mode on input line 202.
+LaTeX Warning: Command \~ invalid in math mode on input line 199.
 
 ! Please use \mathaccent for accents in math mode.
 \add@accent ...@spacefactor \spacefactor }\accent 
                                                   #1 #2\egroup \spacefactor ...
-l.202 ...(n), sgd(f)) \leq 0) f \not\in flores(n)}
+l.199 ...(n), sgd(f)) \leq 0) f \not\in flores(n)}
                                                   
-? 
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
 ! You can't use `\spacefactor' in math mode.
 \add@accent ...}\accent #1 #2\egroup \spacefactor 
                                                   \accent@spacefactor 
-l.202 ...(n), sgd(f)) \leq 0) f \not\in flores(n)}
+l.199 ...(n), sgd(f)) \leq 0) f \not\in flores(n)}
                                                   
-? 
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `\spacefactor' in math mode.
+<argument> ...cefactor \spacefactor }\spacefactor 
+                                                  \accent@spacefactor 
+l.199 ...(n), sgd(f)) \leq 0) f \not\in flores(n)}
+                                                  
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+Missing character: There is no Ë in font cmex10!
 Missing character: There is no Ë in font cmex10!
 
-Overfull \hbox (63.65588pt too wide) in paragraph at lines 202--202
+Overfull \hbox (63.65588pt too wide) in paragraph at lines 199--199
  []\OT1/cmtt/m/n/10 asegura $\OT1/cmr/m/n/10 (\OMS/cmsy/m/n/10 8\OML/cmm/m/it/1
 0 f \OMS/cmsy/m/n/10 2 \OML/cmm/m/it/10 flores\OT1/cmr/m/n/10 (\OML/cmm/m/it/10
  pre\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 n\OT1/cmr/m/n/10 ))\OML/cmm/m/it/10 ; Exp
 lotar \OMS/cmsy/m/n/10 62 \OML/cmm/m/it/10 Habilidades\OT1/cmr/m/n/10 (\OML/cmm
 /m/it/10 prm\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 )) \OMS/cmsy/m/n
 /10 ^ \OML/cmm/m/it/10 trd\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 ) 
-\OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 da[]oVampiros\OT1/cmr/m/n/10 (\OML/cmm/m/
-it/10 pre\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 n\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ;
- sgd\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 )) \OMS/cmsy/m/n/10 ^^T
+\OMS/cmsy/m/n/10   \OML/cmm/m/it/10 da[]oVampiros\OT1/cmr/m/n/10 (\OML/cmm/m/it
+/10 pre\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 n\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ; s
+gd\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 )) \OMS/cmsy/m/n/10 $
  []
 
 
-LaTeX Warning: Command \~ invalid in math mode on input line 203.
+LaTeX Warning: Command \~ invalid in math mode on input line 200.
 
 ! Please use \mathaccent for accents in math mode.
 \add@accent ...@spacefactor \spacefactor }\accent 
                                                   #1 #2\egroup \spacefactor ...
-l.203 ...=trd(f)-da\~{n}oVampiros(pre(n), sgd(f))}
+l.200 ...=trd(f)-da\~{n}oVampiros(pre(n), sgd(f))}
                                                   
-? 
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
 ! You can't use `\spacefactor' in math mode.
 \add@accent ...}\accent #1 #2\egroup \spacefactor 
                                                   \accent@spacefactor 
-l.203 ...=trd(f)-da\~{n}oVampiros(pre(n), sgd(f))}
+l.200 ...=trd(f)-da\~{n}oVampiros(pre(n), sgd(f))}
                                                   
-? 
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
 
-LaTeX Warning: Command \~ invalid in math mode on input line 203.
+! You can't use `\spacefactor' in math mode.
+<argument> ...cefactor \spacefactor }\spacefactor 
+                                                  \accent@spacefactor 
+l.200 ...=trd(f)-da\~{n}oVampiros(pre(n), sgd(f))}
+                                                  
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 200.
 
 ! Please use \mathaccent for accents in math mode.
 \add@accent ...@spacefactor \spacefactor }\accent 
                                                   #1 #2\egroup \spacefactor ...
-l.203 ...=trd(f)-da\~{n}oVampiros(pre(n), sgd(f))}
+l.200 ...=trd(f)-da\~{n}oVampiros(pre(n), sgd(f))}
                                                   
-? 
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
 ! You can't use `\spacefactor' in math mode.
 \add@accent ...}\accent #1 #2\egroup \spacefactor 
                                                   \accent@spacefactor 
-l.203 ...=trd(f)-da\~{n}oVampiros(pre(n), sgd(f))}
+l.200 ...=trd(f)-da\~{n}oVampiros(pre(n), sgd(f))}
                                                   
-? 
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `\spacefactor' in math mode.
+<argument> ...cefactor \spacefactor }\spacefactor 
+                                                  \accent@spacefactor 
+l.200 ...=trd(f)-da\~{n}oVampiros(pre(n), sgd(f))}
+                                                  
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+Missing character: There is no Ë in font cmex10!
+Missing character: There is no Ë in font cmex10!
 Missing character: There is no Ë in font cmex10!
 Missing character: There is no Ë in font cmex10!
 
-Overfull \hbox (67.54478pt too wide) in paragraph at lines 203--203
+Overfull \hbox (67.54478pt too wide) in paragraph at lines 200--200
  []\OT1/cmtt/m/n/10 asegura $\OT1/cmr/m/n/10 (\OMS/cmsy/m/n/10 8\OML/cmm/m/it/1
 0 f \OMS/cmsy/m/n/10 2 \OML/cmm/m/it/10 flores\OT1/cmr/m/n/10 (\OML/cmm/m/it/10
  pre\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 n\OT1/cmr/m/n/10 ))\OML/cmm/m/it/10 ; Exp
 lotar \OMS/cmsy/m/n/10 62 \OML/cmm/m/it/10 Habilidades\OT1/cmr/m/n/10 (\OML/cmm
 /m/it/10 prm\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 )) \OMS/cmsy/m/n
 /10 ^ \OML/cmm/m/it/10 trd\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 ))
- \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 da[]oVampiros\OT1/cmr/m/n/10 (\OML/cmm/m
-/it/10 pre\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 n\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 
-; sgd\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 )) \OMS/cmsy/m/n/10 ^^U
-
+ \OMS/cmsy/m/n/10   \OML/cmm/m/it/10 da[]oVampiros\OT1/cmr/m/n/10 (\OML/cmm/m/i
+t/10 pre\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 n\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ; 
+sgd\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 )) \OMS/cmsy/m/n/10 $
  []
 
 
-Overfull \hbox (23.49149pt too wide) in paragraph at lines 204--204
+Overfull \hbox (23.49149pt too wide) in paragraph at lines 201--201
  []\OT1/cmtt/m/n/10 asegura $\OT1/cmr/m/n/10 (\OMS/cmsy/m/n/10 8\OML/cmm/m/it/1
 0 f \OMS/cmsy/m/n/10 2 \OML/cmm/m/it/10 flores\OT1/cmr/m/n/10 (\OML/cmm/m/it/10
  pre\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 n\OT1/cmr/m/n/10 ))\OML/cmm/m/it/10 ; Exp
@@ -680,59 +732,110 @@ lotar \OMS/cmsy/m/n/10 2 \OML/cmm/m/it/10 Habilidades\OT1/cmr/m/n/10 (\OML/cmm/
 m/it/10 prm\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 )) \OMS/cmsy/m/n/
 10 ^ :\OML/cmm/m/it/10 hayVampiros\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 pre\OT1/cmr
 /m/n/10 (\OML/cmm/m/it/10 n\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ; sgd\OT1/cmr/m/n/
-10 (\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 )))[] 
+10 (\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 )))[] $
  []
 
 
-LaTeX Warning: Command \~ invalid in math mode on input line 206.
+LaTeX Warning: Command \~ invalid in math mode on input line 203.
 
 ! Please use \mathaccent for accents in math mode.
 \add@accent ...@spacefactor \spacefactor }\accent 
                                                   #1 #2\egroup \spacefactor ...
-l.206 ...), sgd(v)) \leq 0) v \not\in vampiros(n)}
+l.203 ...), sgd(v)) \leq 0) v \not\in vampiros(n)}
                                                   
-? 
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
 ! You can't use `\spacefactor' in math mode.
 \add@accent ...}\accent #1 #2\egroup \spacefactor 
                                                   \accent@spacefactor 
-l.206 ...), sgd(v)) \leq 0) v \not\in vampiros(n)}
+l.203 ...), sgd(v)) \leq 0) v \not\in vampiros(n)}
                                                   
-? 
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `\spacefactor' in math mode.
+<argument> ...cefactor \spacefactor }\spacefactor 
+                                                  \accent@spacefactor 
+l.203 ...), sgd(v)) \leq 0) v \not\in vampiros(n)}
+                                                  
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+Missing character: There is no Ë in font cmex10!
 Missing character: There is no Ë in font cmex10!
 
-LaTeX Warning: Command \~ invalid in math mode on input line 207.
+LaTeX Warning: Command \~ invalid in math mode on input line 204.
 
 ! Please use \mathaccent for accents in math mode.
 \add@accent ...@spacefactor \spacefactor }\accent 
                                                   #1 #2\egroup \spacefactor ...
-l.207 ...=trd(v)-da\~{n}oVampiros(pre(n), sgd(f))}
+l.204 ...=trd(v)-da\~{n}oVampiros(pre(n), sgd(f))}
                                                   
-? 
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
 ! You can't use `\spacefactor' in math mode.
 \add@accent ...}\accent #1 #2\egroup \spacefactor 
                                                   \accent@spacefactor 
-l.207 ...=trd(v)-da\~{n}oVampiros(pre(n), sgd(f))}
+l.204 ...=trd(v)-da\~{n}oVampiros(pre(n), sgd(f))}
                                                   
-? 
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
 
-LaTeX Warning: Command \~ invalid in math mode on input line 207.
+! You can't use `\spacefactor' in math mode.
+<argument> ...cefactor \spacefactor }\spacefactor 
+                                                  \accent@spacefactor 
+l.204 ...=trd(v)-da\~{n}oVampiros(pre(n), sgd(f))}
+                                                  
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 204.
 
 ! Please use \mathaccent for accents in math mode.
 \add@accent ...@spacefactor \spacefactor }\accent 
                                                   #1 #2\egroup \spacefactor ...
-l.207 ...=trd(v)-da\~{n}oVampiros(pre(n), sgd(f))}
+l.204 ...=trd(v)-da\~{n}oVampiros(pre(n), sgd(f))}
                                                   
-? 
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
 ! You can't use `\spacefactor' in math mode.
 \add@accent ...}\accent #1 #2\egroup \spacefactor 
                                                   \accent@spacefactor 
-l.207 ...=trd(v)-da\~{n}oVampiros(pre(n), sgd(f))}
+l.204 ...=trd(v)-da\~{n}oVampiros(pre(n), sgd(f))}
                                                   
-? 
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `\spacefactor' in math mode.
+<argument> ...cefactor \spacefactor }\spacefactor 
+                                                  \accent@spacefactor 
+l.204 ...=trd(v)-da\~{n}oVampiros(pre(n), sgd(f))}
+                                                  
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+Missing character: There is no Ë in font cmex10!
+Missing character: There is no Ë in font cmex10!
 Missing character: There is no Ë in font cmex10!
 Missing character: There is no Ë in font cmex10!
 
-Overfull \hbox (17.85704pt too wide) in paragraph at lines 213--213
+Overfull \hbox (17.85704pt too wide) in paragraph at lines 210--210
  []\OT1/cmtt/m/n/10 asegura $\OT1/cmr/m/n/10 (\OMS/cmsy/m/n/10 8\OML/cmm/m/it/1
 0 v \OMS/cmsy/m/n/10 2 \OML/cmm/m/it/10 spawning\OT1/cmr/m/n/10 (\OML/cmm/m/it/
 10 pre\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 n\OT1/cmr/m/n/10 ))\OML/cmm/m/it/10 ; v
@@ -742,10 +845,10 @@ Overfull \hbox (17.85704pt too wide) in paragraph at lines 213--213
 r/m/n/10 (\OML/cmm/m/it/10 n\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ; sgd\OT1/cmr/m/n
 /10 (\OML/cmm/m/it/10 v\OT1/cmr/m/n/10 ))\OML/cmm/m/it/10 ; vida\OT1/cmr/m/n/10
  (\OML/cmm/m/it/10 prm\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 v\OT1/cmr/m/n/10 ))) \O
-MS/cmsy/m/n/10 2
+MS/cmsy/m/n/10 2$
  []
 
-(./tipos/juego.tex
+(C:\Users\Nicol√°s\Documents\GitHub\Algo1-TPE\TPE\tipos/juego.tex
 Overfull \hbox (44.19417pt too wide) in paragraph at lines 5--5
  []\OT1/cmtt/m/n/10 invariante floresDistintas \OT1/cmr/m/n/10 : $(\OMS/cmsy/m/
 n/10 8\OML/cmm/m/it/10 i; k \OMS/cmsy/m/n/10   \OT1/cmr/m/n/10 [0\OML/cmm/m/it/
@@ -757,7 +860,7 @@ Iguales\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 flores\OT1/cmr/m/n/10 (\OML/cmm/m/it/1
  []
 
 ) [5]
-Overfull \hbox (20.82492pt too wide) in paragraph at lines 252--252
+Overfull \hbox (20.82492pt too wide) in paragraph at lines 249--249
  []\OT1/cmtt/m/n/10 asegura losAnterioresSonIguales \OT1/cmr/m/n/10 : $(\OMS/cm
 sy/m/n/10 8\OML/cmm/m/it/10 k \OMS/cmsy/m/n/10   \OT1/cmr/m/n/10 (0\OML/cmm/m/i
 t/10 ::i\OT1/cmr/m/n/10 ))\OML/cmm/m/it/10 nivelesIguales\OT1/cmr/m/n/10 (\OML/
@@ -767,7 +870,7 @@ cmm/m/it/10 j\OT1/cmr/m/n/10 ))[])$\OT1/cmr/bx/n/10 ;
  []
 
 
-Overfull \hbox (26.07487pt too wide) in paragraph at lines 268--268
+Overfull \hbox (26.07487pt too wide) in paragraph at lines 265--265
  []\OT1/cmtt/m/n/10 asegura losAnterioresSonIguales2 \OT1/cmr/m/n/10 : $(\OMS/c
 msy/m/n/10 8\OML/cmm/m/it/10 k \OMS/cmsy/m/n/10   \OT1/cmr/m/n/10 (0\OML/cmm/m/
 it/10 ::i\OT1/cmr/m/n/10 ))\OML/cmm/m/it/10 nivelesIguales\OT1/cmr/m/n/10 (\OML
@@ -777,7 +880,7 @@ cmm/m/it/10 ; niveles\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 pre\OT1/cmr/m/n/10 (\OML
  []
 
 
-Overfull \hbox (3.6612pt too wide) in paragraph at lines 280--280
+Overfull \hbox (3.6612pt too wide) in paragraph at lines 277--277
  []\OT1/cmtt/m/n/10 asegura $\OT1/cmr/m/n/10 (\OMS/cmsy/m/n/10 8\OML/cmm/m/it/1
 0 v \OMS/cmsy/m/n/10 2 \OML/cmm/m/it/10 vampiros\OT1/cmr/m/n/10 (\OML/cmm/m/it/
 10 niveles\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 pre\OT1/cmr/m/n/10 (\OML/cmm/m/it/1
@@ -785,11 +888,11 @@ Overfull \hbox (3.6612pt too wide) in paragraph at lines 280--280
  2 \OML/cmm/m/it/10 vampiros\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 niveles\OT1/cmr/m
 /n/10 (\OML/cmm/m/it/10 j\OT1/cmr/m/n/10 )[]))\OML/cmm/m/it/10 prm\OT1/cmr/m/n/
 10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 ) == \OML/cmm/m/it/10 prm\OT1/cmr/m/n/10 
-(\OML/cmm/m/it/10 v\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 ^
+(\OML/cmm/m/it/10 v\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 ^$
  []
 
 
-Overfull \hbox (3.6612pt too wide) in paragraph at lines 282--282
+Overfull \hbox (3.6612pt too wide) in paragraph at lines 279--279
  []\OT1/cmtt/m/n/10 asegura $\OT1/cmr/m/n/10 (\OMS/cmsy/m/n/10 8\OML/cmm/m/it/1
 0 v \OMS/cmsy/m/n/10 2 \OML/cmm/m/it/10 vampiros\OT1/cmr/m/n/10 (\OML/cmm/m/it/
 10 niveles\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 j\OT1/cmr/m/n/10 )[]))(\OMS/cmsy/m/
@@ -797,11 +900,11 @@ n/10 9\OML/cmm/m/it/10 x \OMS/cmsy/m/n/10 2 \OML/cmm/m/it/10 vampiros\OT1/cmr/m
 /n/10 (\OML/cmm/m/it/10 niveles\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 pre\OT1/cmr/m/
 n/10 (\OML/cmm/m/it/10 j\OT1/cmr/m/n/10 ))[]))\OML/cmm/m/it/10 prm\OT1/cmr/m/n/
 10 (\OML/cmm/m/it/10 v\OT1/cmr/m/n/10 ) == \OML/cmm/m/it/10 prm\OT1/cmr/m/n/10 
-(\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 ^
+(\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 ^$
  []
 
 
-Overfull \hbox (26.07487pt too wide) in paragraph at lines 285--285
+Overfull \hbox (26.07487pt too wide) in paragraph at lines 282--282
  []\OT1/cmtt/m/n/10 asegura losAnterioresSonIguales3 \OT1/cmr/m/n/10 : $(\OMS/c
 msy/m/n/10 8\OML/cmm/m/it/10 k \OMS/cmsy/m/n/10   \OT1/cmr/m/n/10 (0\OML/cmm/m/
 it/10 ::i\OT1/cmr/m/n/10 ))\OML/cmm/m/it/10 nivelesIguales\OT1/cmr/m/n/10 (\OML
@@ -811,104 +914,112 @@ cmm/m/it/10 ; niveles\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 pre\OT1/cmr/m/n/10 (\OML
  []
 
 
-Overfull \hbox (24.75244pt too wide) in paragraph at lines 286--286
- \OML/cmm/m/it/10 turno\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 niveles\OT1/cmr/m/n/10
- (\OML/cmm/m/it/10 pre\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 j\OT1/cmr/m/n/10 ))[]) 
-== \OML/cmm/m/it/10 turno\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 niveles\OT1/cmr/m/n/
-10 (\OML/cmm/m/it/10 j\OT1/cmr/m/n/10 )[]) \OMS/cmsy/m/n/10 ^ \OML/cmm/m/it/10 
-soles\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 niveles\OT1/cmr/m/n/10 (\OML/cmm/m/it/10
- pre\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 j\OT1/cmr/m/n/10 ))[]) == \OML/cmm/m/it/1
-0 soles\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 niveles\OT1/cmr/m/n/10 (\OML/cmm/m/it/
-10 j\OT1/cmr/m/n/10 )[]) \OMS/cmsy/m/n/10 ^
- []
-
-
-Overfull \hbox (10.5679pt too wide) in paragraph at lines 296--296
-\OT1/cmtt/m/n/10 aux vidaFloresOk \OT1/cmr/m/n/10 (fs: [(Flor, Posi-cion, Vida)
-]) : $[]$ = $(\OMS/cmsy/m/n/10 8\OML/cmm/m/it/10 f \OMS/cmsy/m/n/10   \OML/cmm/
-m/it/10 fs\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 trd\OT1/cmr/m/n/10 (\OML/cmm/m/it/1
-0 f\OT1/cmr/m/n/10 ) \OML/cmm/m/it/10 > \OT1/cmr/m/n/10 0 \OMS/cmsy/m/n/10 ^ \O
-ML/cmm/m/it/10 trd\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 ) \OMS/cms
-y/m/n/10 ^^T \OML/cmm/m/it/10 vida\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 prm\OT1/cmr
-/m/n/10 (\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 ))$\OT1/cmr/bx/n/10 ; 
+Overfull \hbox (24.75244pt too wide) in paragraph at lines 283--283
+ $\OML/cmm/m/it/10 turno\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 niveles\OT1/cmr/m/n/1
+0 (\OML/cmm/m/it/10 pre\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 j\OT1/cmr/m/n/10 ))[])
+ == \OML/cmm/m/it/10 turno\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 niveles\OT1/cmr/m/n
+/10 (\OML/cmm/m/it/10 j\OT1/cmr/m/n/10 )[]) \OMS/cmsy/m/n/10 ^ \OML/cmm/m/it/10
+ soles\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 niveles\OT1/cmr/m/n/10 (\OML/cmm/m/it/1
+0 pre\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 j\OT1/cmr/m/n/10 ))[]) == \OML/cmm/m/it/
+10 soles\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 niveles\OT1/cmr/m/n/10 (\OML/cmm/m/it
+/10 j\OT1/cmr/m/n/10 )[]) \OMS/cmsy/m/n/10 ^$
  []
 
 [6]
-Overfull \hbox (37.28052pt too wide) in paragraph at lines 326--326
-[]\OT1/cmtt/m/n/10 aux da~noVampiros \OT1/cmr/m/n/10 (n : Nivel, p : Posi-cion)
+Overfull \hbox (32.06937pt too wide) in paragraph at lines 323--323
+[]\OT1/cmtt/m/n/10 aux da~noVampiros \OT1/cmr/m/n/10 (n : Ni-vel, p : Po-si-cio
+n) : $\U/msb/m/n/10 Z$ \OT1/cmr/m/n/10 = $[][\OML/cmm/m/it/10 cuantoPega\OT1/cm
+r/m/n/10 (\OML/cmm/m/it/10 prm\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 v\OT1/cmr/m/n/1
+0 1))\OMS/cmsy/m/n/10 j\OML/cmm/m/it/10 v\OT1/cmr/m/n/10 1 \OMS/cmsy/m/n/10 2 \
+OML/cmm/m/it/10 vampiros\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 n\OT1/cmr/m/n/10 )\OM
+L/cmm/m/it/10 ; sgd\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 v\OT1/cmr/m/n/10 1) ==$
+ []
+
+
+Overfull \hbox (28.83862pt too wide) in paragraph at lines 326--326
+[]\OT1/cmtt/m/n/10 aux da~noFlores \OT1/cmr/m/n/10 (n : Ni-vel, p : Po-si-cion)
  : $\U/msb/m/n/10 Z$ \OT1/cmr/m/n/10 = $[][\OML/cmm/m/it/10 cuantoPega\OT1/cmr/
-m/n/10 (\OML/cmm/m/it/10 prm\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 v\OT1/cmr/m/n/10 
-1))\OMS/cmsy/m/n/10 j\OML/cmm/m/it/10 v\OT1/cmr/m/n/10 1 \OMS/cmsy/m/n/10 2 \OM
-L/cmm/m/it/10 vampiros\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 n\OT1/cmr/m/n/10 )\OML/
-cmm/m/it/10 ; sgd\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 v\OT1/cmr/m/n/10 1) ==
+m/n/10 (\OML/cmm/m/it/10 prm\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 
+1)\OMS/cmsy/m/n/10 j\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 1 \OMS/cmsy/m/n/10 2 \OML
+/cmm/m/it/10 flores\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 n\OT1/cmr/m/n/10 )\OML/cmm
+/m/it/10 ; sgd\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 sgd\OT1/cmr/m/n/10 (\OML/cmm/m/
+it/10 f\OT1/cmr/m/n/10 1)) ==$
  []
 
 
-Overfull \hbox (34.04977pt too wide) in paragraph at lines 329--329
-[]\OT1/cmtt/m/n/10 aux da~noFlores \OT1/cmr/m/n/10 (n : Nivel, p : Posi-cion) :
- $\U/msb/m/n/10 Z$ \OT1/cmr/m/n/10 = $[][\OML/cmm/m/it/10 cuantoPega\OT1/cmr/m/
-n/10 (\OML/cmm/m/it/10 prm\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 1)
-\OMS/cmsy/m/n/10 j\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 1 \OMS/cmsy/m/n/10 2 \OML/c
-mm/m/it/10 flores\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 n\OT1/cmr/m/n/10 )\OML/cmm/m
-/it/10 ; sgd\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 sgd\OT1/cmr/m/n/10 (\OML/cmm/m/it
-/10 f\OT1/cmr/m/n/10 1)) ==
+Overfull \hbox (2.7469pt too wide) in paragraph at lines 332--332
+[]\OT1/cmtt/m/n/10 aux delanteExplota \OT1/cmr/m/n/10 (n : Ni-vel, p : Po-si-ci
+on) : $[]$ = $(\OMS/cmsy/m/n/10 9\OML/cmm/m/it/10 f \OMS/cmsy/m/n/10 2 \OML/cmm
+/m/it/10 flores\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 n\OT1/cmr/m/n/10 )\OML/cmm/m/i
+t/10 ; Explotar \OMS/cmsy/m/n/10 2 \OML/cmm/m/it/10 habilidades\OT1/cmr/m/n/10 
+(\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 ))[] $
  []
 
 
-Overfull \hbox (7.95805pt too wide) in paragraph at lines 335--335
-[]\OT1/cmtt/m/n/10 aux delanteExplota \OT1/cmr/m/n/10 (n : Nivel, p : Posi-cion
-) : $[]$ = $(\OMS/cmsy/m/n/10 9\OML/cmm/m/it/10 f \OMS/cmsy/m/n/10 2 \OML/cmm/m
-/it/10 flores\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 n\OT1/cmr/m/n/10 )\OML/cmm/m/it/
-10 ; Explotar \OMS/cmsy/m/n/10 2 \OML/cmm/m/it/10 habilidades\OT1/cmr/m/n/10 (\
-OML/cmm/m/it/10 f\OT1/cmr/m/n/10 ))[] 
+Overfull \hbox (60.00436pt too wide) in paragraph at lines 335--335
+[]\OT1/cmtt/m/n/10 aux seMueve \OT1/cmr/m/n/10 (v1, v : Vam-pi-ro, nue-voN, vie
+-joN : Ni-vel) : $[]$ = $\OML/cmm/m/it/10 ifThenElse\OT1/cmr/m/n/10 (\OML/cmm/m
+/it/10 hayFlorDelante\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 nuevoN; sgd\OT1/cmr/m/n/
+10 (\OML/cmm/m/it/10 v\OT1/cmr/m/n/10 )) \OMS/cmsy/m/n/10 ^$
  []
 
 
-Overfull \hbox (63.77328pt too wide) in paragraph at lines 338--338
-[]\OT1/cmtt/m/n/10 aux seMueve \OT1/cmr/m/n/10 (v1, v : Vam-piro, nuevoN, viejo
-N : Nivel) : $[]$ = $\OML/cmm/m/it/10 ifThenElse\OT1/cmr/m/n/10 (\OML/cmm/m/it/
-10 hayFlorDelante\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 nuevoN; sgd\OT1/cmr/m/n/10 (
-\OML/cmm/m/it/10 v\OT1/cmr/m/n/10 )) \OMS/cmsy/m/n/10 ^
+Overfull \hbox (14.57625pt too wide) in paragraph at lines 335--335
+$\OML/cmm/m/it/10 ifThenElse\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 hayFlorDelante\OT
+1/cmr/m/n/10 (\OML/cmm/m/it/10 nuevoN; sgd\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 v\O
+T1/cmr/m/n/10 )) \OMS/cmsy/m/n/10 ^ :\OML/cmm/m/it/10 delanteExplota\OT1/cmr/m/
+n/10 (\OML/cmm/m/it/10 nuevoN; sgd\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 v\OT1/cmr/m
+/n/10 ))\OML/cmm/m/it/10 ;  sgd\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 v\OT1/cmr/m/n/
+10 1) == \OML/cmm/m/it/10 sgd\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 v\OT1/cmr/m/n/10
+ )\OML/cmm/m/it/10 ; [] $
  []
 
 
-Overfull \hbox (14.57625pt too wide) in paragraph at lines 338--338
-\OML/cmm/m/it/10 ifThenElse\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 hayFlorDelante\OT1
-/cmr/m/n/10 (\OML/cmm/m/it/10 nuevoN; sgd\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 v\OT
-1/cmr/m/n/10 )) \OMS/cmsy/m/n/10 ^ :\OML/cmm/m/it/10 delanteExplota\OT1/cmr/m/n
-/10 (\OML/cmm/m/it/10 nuevoN; sgd\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 v\OT1/cmr/m/
-n/10 ))\OML/cmm/m/it/10 ;  sgd\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 v\OT1/cmr/m/n/1
-0 1) == \OML/cmm/m/it/10 sgd\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 v\OT1/cmr/m/n/10 
-)\OML/cmm/m/it/10 ; [] 
+Overfull \hbox (53.29881pt too wide) in paragraph at lines 347--347
+[]\OT1/cmtt/m/n/10 aux cuentaFlor \OT1/cmr/m/n/10 (f: (Flor,Posicion,Vida), lis
+-ta: [(Flor,Posicion,Vida)]) : $\U/msb/m/n/10 Z$ \OT1/cmr/m/n/10 = $\OMS/cmsy/m
+/n/10 j\OT1/cmr/m/n/10 [\OML/cmm/m/it/10 x\OMS/cmsy/m/n/10 j\OML/cmm/m/it/10 x 
+\OMS/cmsy/m/n/10 2 \OML/cmm/m/it/10 lista; floresIguales\OT1/cmr/m/n/10 (\OML/c
+mm/m/it/10 x; f\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 ^$
  []
 
-[7] (./resolucionTPEvacia.aux) ) 
+
+Overfull \hbox (26.8168pt too wide) in paragraph at lines 351--351
+[]\OT1/cmtt/m/n/10 aux mismosFlores \OT1/cmr/m/n/10 (f1,f2: [(Flor,Posicion,Vid
+a)]) : $[]$ = $\OMS/cmsy/m/n/10 j\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 1\OMS/cmsy/m
+/n/10 j \OT1/cmr/m/n/10 == \OMS/cmsy/m/n/10 j\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 
+2\OMS/cmsy/m/n/10 j ^ \OT1/cmr/m/n/10 (\OMS/cmsy/m/n/10 8\OML/cmm/m/it/10 f \OM
+S/cmsy/m/n/10 2 \OML/cmm/m/it/10 f\OT1/cmr/m/n/10 1)\OML/cmm/m/it/10 cuentaFlor
+\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 f; f\OT1/cmr/m/n/10 1) ==$
+ []
+
+[7] (C:\Users\Nicol√°s\Documents\GitHub\Algo1-TPE\TPE\resolucionTPEvacia.aux) )
+ 
 Here is how much of TeX's memory you used:
- 3628 strings out of 493305
- 46318 string characters out of 6139896
- 125295 words of memory out of 5000000
- 6996 multiletter control sequences out of 15000+600000
- 8855 words of font info for 36 fonts, out of 8000000 for 9000
- 957 hyphenation exceptions out of 8191
- 29i,12n,43p,619b,261s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmm
-i10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/t
-exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/symbols/msbm10.pfb>
-Output written on resolucionTPEvacia.pdf (7 pages, 537801 bytes).
+ 4236 strings out of 493921
+ 55294 string characters out of 3144867
+ 134365 words of memory out of 3000000
+ 7423 multiletter control sequences out of 15000+200000
+ 8855 words of font info for 36 fonts, out of 3000000 for 9000
+ 841 hyphenation exceptions out of 8191
+ 29i,12n,43p,619b,279s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C
+:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/
+Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Pr
+ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Prog
+ram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program
+ Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Fi
+les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files
+ (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files (x8
+6)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Program Files (x86)
+/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Program Files (x86)
+/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/M
+iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files (x86)/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Program Files (x86)/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on resolucionTPEvacia.pdf (7 pages, 549589 bytes).
 PDF statistics:
- 86 PDF objects out of 1000 (max. 8388607)
- 60 compressed objects within 1 object stream
+ 84 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
