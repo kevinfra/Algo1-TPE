@@ -4,5 +4,5 @@
 	\observador{habilidades}{f: Flor}{[Habilidad]}
 	\medskip
 	\invariante{sinRepetidos(habilidades(f))}
-	\invariante[lasHabilidadesDeterminanLaVidayElGolpe]{vida(f) == \frac{100}{|habilidades(f)|+1} \  \land \newline  if \ Atacar \in habilidades(f) \ Then \ cP == \frac{12}{|habilidades(f)|} \ Else \ cP == 0}
+	\invariante[lasHabilidadesDeterminanLaVidayElGolpe]{vida(f) == \frac{100}{|habilidades(f)|+1} \  \land \newline  if \ Atacar \in habilidades(f) \ Then \ cuantoPega(f) == \frac{12}{|habilidades(f)|} \ Else \ cuantoPega(f) == 0}
 \end{tipo}

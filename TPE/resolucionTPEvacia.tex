@@ -19,7 +19,7 @@
 \usepackage{verbatim}
 \input{../macros/Algo1Macros}
 
-
+	
 % Encabezado
 \lhead{Algoritmos y Estructuras de Datos I}
 \rhead{Grupo 07}
@@ -196,12 +196,11 @@
 	\requiere[noEsElFin]{terminado(n) == False}
 	\modifica{n}
 	\asegura{mismosFloresNivel(flores(n),floresSobrevivientesNoExplotan(flores(pre(n)),pre(n)) \newline ++ floresSobrevivientesExplotan(flores(pre(n)),pre(n)))}
-	\asegura{mismos(vampiros(n),vampirosSobrevivientes(vampiros(pre(n)),n,pre(n)))}
+	\asegura{mismos(vampiros(n),vampirosSobrevivientes(vampiros(pre(n)),n,pre(n)) ++ spawnean(n,pre(n)))}
 	\asegura[noMeCambiesElNivel]{ancho(n)==ancho(pre(n)) \land alto(n)==alto(pre(n))}
-	\asegura[graciasPachamama]{soles(n)==soles(pre(n))+1+ \newline |[1 | j \in flores(n), Generar \in habilidadesF(j_1)]| * (turno(pre(n))+1)}
+	\asegura[graciasPachamama]{soles(n)==soles(pre(n))+1+ \newline |[1 | j \in flores(pre(n)), Generar \in habilidades(prm(j))]|}
 	\asegura[soloPasaUnTurno]{turno(n) == turno(pre(n))+1}
-	\asegura{spawning(n)==[b | b \in spawning(pre(n)), trd(b) > turno(n)]}
-	\asegura{(\forall v \in spawning(pre(n)), v \not\in spawning(n)) (prm(v),(ancho(n),sgd(v)),vida(prm(v))) \in vampiros(n)}
+	\asegura{mismos(spawning(n),[b | b \in spawning(pre(n)), trd(b) > turno(n)])}
 		
 	%\asegura[lasFloresSeMarchitan1]{(\forall k \in flores(n))(\exists f \in flores(pre(n)))k==f \lor \newline (prm(k)==prm(f) \land sgd(k)==sgd(f) \land trd(k) == trd(f) - \sum[cuantoPegaV(prm(v)) \ | v \in vampiros(pre(n)), \ sgd(v)==sgd(f)] }
 	
@@ -216,6 +215,10 @@
 %}
 \end{problema}
 
+\begin{problema}{estaEnJaque}{n:Nivel}{Vampiro}
+    \requiere{|vampiros(n)| > 0}
+	\asegura{result \in [prm(v)|v \in vampiros(n),vaAPerderMasVida(v,n)]}
+\end{problema}
 
 
 
@@ -238,6 +241,7 @@
 	\requiere {turno(n)==0}
 	\requiere {|flores(n)|==0}
 	\requiere {|vampiros(n)|==0}
+	\requiere {(\forall v1 \selec spawning(n)) prm(v1) \in vampiros(j)}
 	\requiere {i\geq 0 \land i \leq |niveles(j)|}
 	\modifica {j}
 	\asegura[losAnterioresSonIguales] {(\forall k \leftarrow (0..i)) nivelesIguales(niveles(j)_{k},niveles(pre(j))_{k})}
@@ -254,13 +258,14 @@
 \begin{problema}{jugarNivel}{j: Juego, n: Nivel, i: \ent}{}
 	\requiere[rangoValido]{alto(n) == alto(niveles(j)_i) \land ancho(n)==ancho(niveles(j)_i)}
 	\requiere[noTeQuedesSinTurno]{turno(niveles(j)_i) \leq turno(n)}
-	\requiere[noGanasteNiPerdisteAun]{|spawning(n)| == |spawning(niveles(j)_i)|}
+	\requiere[spawningCorrido]{mismos(spawning(n),[s|s \in spawning(niveles(j)_i),turno(n) < trd(s)]}
+	\requiere[VampirosFloresValidas]{(\forall f \selec flores(n)) estaIncluido(prm(f),flores(j)) \land \newline ((\forall v \selec vampiros(n)) prm(v) \in vampiros(j)}
 	\modifica{j}
 	\asegura[losAnterioresSonIguales2] {(\forall k \leftarrow (0..i)) nivelesIguales(niveles(j)_{k},niveles(pre(j))_{k})}
 	\asegura[esElNivelQueQuiero2] {nivelesIguales(n,niveles(j)_i) }
 	\asegura[losSiguientesSonIguales2] {(\forall k \leftarrow (i..|niveles(j)|)) \newline nivelesIguales(niveles(j)_{k},niveles(pre(j))_{k})}
-	\asegura{mismos(flores(j), sinRepetidos(flores(pre(j))++florcitas(n)))}
-	\asegura{mismos(vampiros(j), sinRepetidos(vampiros(pre(j))++vampiritos(n)))}
+	\asegura{mismosFlores(flores(j),flores(pre(j)))}
+	\asegura{mismos(vampiros(j),vampiros(pre(j)))}
 
 \end{problema}
 
@@ -271,10 +276,11 @@
 	\asegura {(\forall v \in vampiros(niveles(pre(j)_i)))(\exists x \in vampiros(niveles(j)_i))prm(x) == prm(v) \land sgd(x) == sgd(v) \land trd(x) == {\frac{trd(v)}{2}}}
 	\asegura {|vampiros(niveles(pre(j)))| == |vampiros(niveles(j))|}
 	\asegura {(\forall v \in vampiros(niveles(j)_i))(\exists x \in vampiros(niveles(pre(j))_i))prm(v) == prm(x) \land sgd(v) == sgd(x) \land trd(v) == \frac{trd(x)}{2}}
+	\asegura {(\forall v \in vampiros(n)) cuenta(v,vampiros(n)) == cuentaConDobleDeVida(v,vampiros(pre(n))}
 	\asegura{mismosFlores(flores(j),flores(pre(j))}
 	\asegura{mismos(vampiros(j),vampiros(pre(j))}
 	\asegura[losAnterioresSonIguales] {(\forall k \leftarrow (0..i)) nivelesIguales(niveles(j)_{k},niveles(pre(j))_{k})}
-	\asegura[esElNivelQueQuiero] {ancho(niveles(pre(j))_i)==ancho(niveles(j)_i) \ \land \newline alto(niveles(pre(j))_i)==alto(niveles(j)_i) \land \newline turno(niveles(pre(j))_i)==turno(niveles(j)_i) \land soles(niveles(pre(j))_i)==soles(niveles(j)_i) \land mismosFloresNivel(flores(niveles(pre(j))_i),flores(niveles(j)_i)) \land \newline mismos(spawning(niveles(pre(j))_i),spawning(niveles(j)_i)=  }
+	\asegura[esElNivelQueQuiero] {ancho(niveles(pre(j))_i)==ancho(niveles(j)_i) \ \land \newline alto(niveles(pre(j))_i)==alto(niveles(j)_i) \land \newline turno(niveles(pre(j))_i)==turno(niveles(j)_i) \land soles(niveles(pre(j))_i)==soles(niveles(j)_i) \land mismosFloresNivel(flores(niveles(pre(j))_i),flores(niveles(j)_i)) \land \newline mismos(spawning(niveles(pre(j))_i),spawning(niveles(j)_i))  }
 	\asegura[losSiguientesSonIguales] {(\forall k \leftarrow (i..|niveles(j)|)) \newline nivelesIguales(niveles(j)_{k},niveles(pre(j))_{k})}
 \end{problema}
 
@@ -292,7 +298,7 @@
 \aux{cuenta}{x: T, a: [T]}{Int}{|[y | y  \in  a, y == x]|}
 \aux{mismos}{a, b : [T]}{\bool}{(|a| == |b| \land (\forall c \in a) cuenta(c,a) == cuenta(c,b))}
 \aux{sinRepetidos}{xs : [T]}{\bool}{(\forall i, j \leftarrow [0..|xs|), \ i \neq j) xs_i \neq xs_j}
-\aux{noHayVampirosEnElMedio}{v : (Vampiro, Posicion, Vida), f : (Flor, Posicion, Vida), n : Nivel}{\bool}{\newline (\not\exists k \in vampiros(n))k_{2,2} \geq f_{2,2} \land k_{2,2} < v_{2,2}}
+\aux{noHayVampirosEnElMedio}{p : Posicion, f : (Flor, Posicion, Vida), n : Nivel}{\bool}{\newline (\not\exists k \in vampiros(n))prm(sgd(k)) \geq prm(sgd(f)) \land prm(sgd(k)) < prm(p)}
 \aux{nivelGanado}{n:Nivel}{\bool}{vampiros(n)==\lvacia \land spawning(n)==\lvacia}
 \aux{nivGsL}{j: Juego}{[\ent]}{[i \ | \ i \in [1..|niveles(j)|), nivelGanado(niveles(j)_i)]}
 \aux{nivelesIguales} {n1,n2: Nivel}{\bool}{ancho(n1)==ancho(n2)\land alto(n1)==alto(n2) \land \newline turno(n1)==turno(n2) \land soles(n1)==soles(n2) \land mismosFloresNivel(flores(n1),flores(n2)) \land \newline mismos(vampiros(n1),vampiros(n2))\land mismos(spawning(n1),spawning(n2))}
@@ -322,7 +328,7 @@
 	\sum [cuantoPega(prm(v1)) | v1 \in vampiros(n), sgd(v1)==p]
 }
 \aux{da\~{n}oFlores}{n : Nivel, p : Posicion}{\ent}{
-	\sum [cuantoPega(prm(f1) | f1 \in flores(n), sgd(sgd(f1)) == sgd(p) \land (\not\exists v1 \in vampiros(n))( sgd(p)==sgd(sgd(v1)) \land prm(p) > prm(sgd(v1)))
+	\sum [cuantoPega(prm(f1) | f1 \in flores(n), sgd(sgd(f1)) == sgd(p) \land noHayVampirosEnElMedio(p,f1,n)
 }
 
 \aux{hayFlorDelante}{n : Nivel, p : Posicion}{\bool}{
@@ -380,6 +386,18 @@
 
 \aux{vampirosSobrevivientes}{vampiros:[(Vampiro,Posicion,Vida)],nuevoN,viejoN: Nivel}{[(Vampiro,Posicion,Vida)]}{
 [(prm(v),seMueve(v,nuevoN),trd(v)-da\~{n}oFlores(viejoN,sgd(v)))|v \in vampiros,trd(v)-da\~{n}oFlores(viejoN,sgd(v)) > 0]
+}
+
+\aux{vaAPerderMasVida}{v: (Vampiro,Posicion,Vida), n: Nivel}{\bool}{
+(\forall v1 \in vampiros(n)) \newline da\~{n}oFlores(n, sgd(v)) \geq  da\~{n}oFlores(n, sgd(v1))
+}
+
+\aux{cuentaConDobleDeVida}{v : (Vampiro,Posicion,Vida), lV : [(Vampiro,Posicion,Vida)]}{\ent}{
+ |[1 | x  \in  lV, prm(v) == prm(x) \land sgd(v)==sgd(x) \land 2*trd(v)==trd(x)]|
+}
+
+\aux{spawnean}{nuevoN, viejoN: Nivel}{[(Vampiro,Posicion,Vida)]}{
+[(prm(s),(ancho(n),sgd(s)),vida(prm(s)))|s \in spawning(viejoN), s \not\in spawning(nuevoN)]
 }
 \end{document}
 

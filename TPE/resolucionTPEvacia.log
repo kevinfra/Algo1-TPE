@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.4.8)  29 APR 2015 15:40
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.4.16)  30 APR 2015 19:59
 entering extended mode
 **resolucionTPEvacia.tex
-(C:\Users\user\Documents\GitHub\Algo1-TPE\TPE\resolucionTPEvacia.tex
+(C:\Users\Nicol√°s\Documents\GitHub\Algo1-TPE\TPE\resolucionTPEvacia.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -55,7 +55,7 @@ Package babel Info: Making . an active character on input line 585.
 Package babel Info: Making < an active character on input line 630.
 Package babel Info: Making > an active character on input line 630.
 ))
-(C:\Users\user\AppData\Roaming\MiKTeX\2.9\tex\latex\soul\soul.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\soul\soul.sty"
 Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
 \SOUL@word=\toks15
 \SOUL@lasttoken=\toks16
@@ -75,7 +75,7 @@ Package: inputenc 2008/03/30 v1.1d Input encoding file
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\latin1.def"
 File: latin1.def 2008/03/30 v1.1d Input encoding file
 ))
-(C:\Users\user\AppData\Roaming\MiKTeX\2.9\tex\latex\framed\framed.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\framed\framed.sty"
 Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
 \OuterFrameSep=\skip44
 \fb@frw=\dimen107
@@ -208,7 +208,7 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@dimlist=\toks35
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
-(C:\Users\user\AppData\Roaming\MiKTeX\2.9\tex\latex\fancyhdr\fancyhdr.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr.sty"
 \fancy@headwidth=\skip51
 \f@ncyO@elh=\skip52
 \f@ncyO@erh=\skip53
@@ -247,7 +247,7 @@ Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
 \verbatim@line=\toks39
 \verbatim@in@stream=\read1
 )
-(C:\Users\user\Documents\GitHub\Algo1-TPE\macros\Algo1Macros.tex
+(C:\Users\Nicol√°s\Documents\GitHub\Algo1-TPE\macros\Algo1Macros.tex
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ifthen.sty"
 Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 )
@@ -299,11 +299,11 @@ Package: multicol 2011/06/27 v1.7a multicolumn formatting (FMi)
 \colbreak@box=\box57
 \multicol@sort@counter=\count118
 )
-(C:\Users\user\AppData\Roaming\MiKTeX\2.9\tex\latex\textpos\textpos.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\textpos\textpos.sty"
 Package: textpos 2014/01/03 v1.7j
 
 Package: textpos 2014/01/03 1.7j, absolute positioning of text on the page
-(C:\Users\user\AppData\Roaming\MiKTeX\2.9\tex\latex\ms\everyshi.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ms\everyshi.sty"
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 )
 \TP@textbox=\box58
@@ -379,7 +379,7 @@ Package color Info: Driver file: pdftex.def on input line 130.
 \c@exercise=\count120
 \c@consigna=\count121
 )
-(C:\Users\user\Documents\GitHub\Algo1-TPE\TPE\resolucionTPEvacia.aux)
+(C:\Users\Nicol√°s\Documents\GitHub\Algo1-TPE\TPE\resolucionTPEvacia.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
 LaTeX Font Info:    ... okay on input line 32.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
@@ -428,7 +428,7 @@ LaTeX Font Info:    ... okay on input line 32.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 ABD: EveryShipout initializing macros
-(C:\Users\user\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
+("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count122
 \scratchdimen=\dimen150
@@ -511,14 +511,14 @@ Overfull \hbox (22.05222pt too wide) in paragraph at lines 57--57
 
 [1
 
-{C:/Users/user/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Users/use
-r/Documents/GitHub/Algo1-TPE/TPE/logo_dc.jpg> <C:/Users/user/Documents/GitHub/A
-lgo1-TPE/TPE/logo_uba.jpg>]
-(C:\Users\user\Documents\GitHub\Algo1-TPE\TPE\tipos/tipos.tex
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Users/Nicol√°s/Documen
+ts/GitHub/Algo1-TPE/TPE/logo_dc.jpg> <C:/Users/Nicol√°s/Documents/GitHub/Algo1-
+TPE/TPE/logo_uba.jpg>]
+(C:\Users\Nicol√°s\Documents\GitHub\Algo1-TPE\TPE\tipos/tipos.tex
 LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <10> not available
 (Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 1.
 )
-(C:\Users\user\Documents\GitHub\Algo1-TPE\TPE\tipos/flor.tex
+(C:\Users\Nicol√°s\Documents\GitHub\Algo1-TPE\TPE\tipos/flor.tex
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 1.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
@@ -526,9 +526,16 @@ File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 1.
-)
-(C:\Users\user\Documents\GitHub\Algo1-TPE\TPE\tipos/vampiro.tex) [2]
-(C:\Users\user\Documents\GitHub\Algo1-TPE\TPE\tipos/nivel.tex
+
+Overfull \hbox (12.24889pt too wide) in paragraph at lines 7--7
+ $\OML/cmm/m/it/10 if Atacar \OMS/cmsy/m/n/10 2 \OML/cmm/m/it/10 habilidades\OT
+1/cmr/m/n/10 (\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 ) \OML/cmm/m/it/10 Then cuantoP
+ega\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 ) == [] \OML/cmm/m/it/10 
+Else cuantoPega\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 ) ==$
+ []
+
+) (C:\Users\Nicol√°s\Documents\GitHub\Algo1-TPE\TPE\tipos/vampiro.tex) [2]
+(C:\Users\Nicol√°s\Documents\GitHub\Algo1-TPE\TPE\tipos/nivel.tex
 Overfull \hbox (66.07236pt too wide) in paragraph at lines 11--11
  []\OT1/cmtt/m/n/10 invariante spawningOrdenado \OT1/cmr/m/n/10 : $(((\OMS/cmsy
 /m/n/10 8\OML/cmm/m/it/10 i \OMS/cmsy/m/n/10 2 \OT1/cmr/m/n/10 [0\OML/cmm/m/it/
@@ -597,20 +604,17 @@ L/cmm/m/it/10 ; floresSobrevivientesNoExplotan\OT1/cmr/m/n/10 (\OML/cmm/m/it/10
  []
 
 
-Overfull \hbox (17.85704pt too wide) in paragraph at lines 204--204
- []\OT1/cmtt/m/n/10 asegura $\OT1/cmr/m/n/10 (\OMS/cmsy/m/n/10 8\OML/cmm/m/it/1
-0 v \OMS/cmsy/m/n/10 2 \OML/cmm/m/it/10 spawning\OT1/cmr/m/n/10 (\OML/cmm/m/it/
-10 pre\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 n\OT1/cmr/m/n/10 ))\OML/cmm/m/it/10 ; v
- \OMS/cmsy/m/n/10 62 \OML/cmm/m/it/10 spawning\OT1/cmr/m/n/10 (\OML/cmm/m/it/10
- n\OT1/cmr/m/n/10 ))(\OML/cmm/m/it/10 prm\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 v\OT
-1/cmr/m/n/10 )\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 (\OML/cmm/m/it/10 ancho\OT1/cm
-r/m/n/10 (\OML/cmm/m/it/10 n\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ; sgd\OT1/cmr/m/n
-/10 (\OML/cmm/m/it/10 v\OT1/cmr/m/n/10 ))\OML/cmm/m/it/10 ; vida\OT1/cmr/m/n/10
- (\OML/cmm/m/it/10 prm\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 v\OT1/cmr/m/n/10 ))) \O
-MS/cmsy/m/n/10 2$
+Overfull \hbox (85.09961pt too wide) in paragraph at lines 199--199
+ []\OT1/cmtt/m/n/10 asegura $\OML/cmm/m/it/10 mismos\OT1/cmr/m/n/10 (\OML/cmm/m
+/it/10 vampiros\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 n\OT1/cmr/m/n/10 )\OML/cmm/m/i
+t/10 ; vampirosSobrevivientes\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 vampiros\OT1/cmr
+/m/n/10 (\OML/cmm/m/it/10 pre\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 n\OT1/cmr/m/n/10
+ ))\OML/cmm/m/it/10 ; n; pre\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 n\OT1/cmr/m/n/10 
+)) + +\OML/cmm/m/it/10 spawnean\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 n; pre\OT1/cmr
+/m/n/10 (\OML/cmm/m/it/10 n\OT1/cmr/m/n/10 )))$\OT1/cmr/bx/n/10 ; 
  []
 
-(C:\Users\user\Documents\GitHub\Algo1-TPE\TPE\tipos/juego.tex
+(C:\Users\Nicol√°s\Documents\GitHub\Algo1-TPE\TPE\tipos/juego.tex
 Overfull \hbox (44.19417pt too wide) in paragraph at lines 5--5
  []\OT1/cmtt/m/n/10 invariante floresDistintas \OT1/cmr/m/n/10 : $(\OMS/cmsy/m/
 n/10 8\OML/cmm/m/it/10 i; k \OMS/cmsy/m/n/10   \OT1/cmr/m/n/10 [0\OML/cmm/m/it/
@@ -644,7 +648,7 @@ t/10 v\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 2$
  []
 
 )
-Overfull \hbox (20.82492pt too wide) in paragraph at lines 243--243
+Overfull \hbox (20.82492pt too wide) in paragraph at lines 247--247
  []\OT1/cmtt/m/n/10 asegura losAnterioresSonIguales \OT1/cmr/m/n/10 : $(\OMS/cm
 sy/m/n/10 8\OML/cmm/m/it/10 k \OMS/cmsy/m/n/10   \OT1/cmr/m/n/10 (0\OML/cmm/m/i
 t/10 ::i\OT1/cmr/m/n/10 ))\OML/cmm/m/it/10 nivelesIguales\OT1/cmr/m/n/10 (\OML/
@@ -654,7 +658,18 @@ cmm/m/it/10 j\OT1/cmr/m/n/10 ))[])$\OT1/cmr/bx/n/10 ;
  []
 
 [5]
-Overfull \hbox (26.07487pt too wide) in paragraph at lines 259--259
+Overfull \hbox (3.85602pt too wide) in paragraph at lines 261--261
+ []\OT1/cmtt/m/n/10 requiere spawningCorrido \OT1/cmr/m/n/10 : $\OML/cmm/m/it/1
+0 mismos\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 spawning\OT1/cmr/m/n/10 (\OML/cmm/m/i
+t/10 n\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 [\OML/cmm/m/it/10 s\O
+MS/cmsy/m/n/10 j\OML/cmm/m/it/10 s \OMS/cmsy/m/n/10 2 \OML/cmm/m/it/10 spawning
+\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 niveles\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 j\OT
+1/cmr/m/n/10 )[])\OML/cmm/m/it/10 ; turno\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 n\OT
+1/cmr/m/n/10 ) \OML/cmm/m/it/10 <$
+ []
+
+
+Overfull \hbox (26.07487pt too wide) in paragraph at lines 264--264
  []\OT1/cmtt/m/n/10 asegura losAnterioresSonIguales2 \OT1/cmr/m/n/10 : $(\OMS/c
 msy/m/n/10 8\OML/cmm/m/it/10 k \OMS/cmsy/m/n/10   \OT1/cmr/m/n/10 (0\OML/cmm/m/
 it/10 ::i\OT1/cmr/m/n/10 ))\OML/cmm/m/it/10 nivelesIguales\OT1/cmr/m/n/10 (\OML
@@ -664,7 +679,7 @@ cmm/m/it/10 ; niveles\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 pre\OT1/cmr/m/n/10 (\OML
  []
 
 
-Overfull \hbox (3.6612pt too wide) in paragraph at lines 271--271
+Overfull \hbox (3.6612pt too wide) in paragraph at lines 276--276
  []\OT1/cmtt/m/n/10 asegura $\OT1/cmr/m/n/10 (\OMS/cmsy/m/n/10 8\OML/cmm/m/it/1
 0 v \OMS/cmsy/m/n/10 2 \OML/cmm/m/it/10 vampiros\OT1/cmr/m/n/10 (\OML/cmm/m/it/
 10 niveles\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 pre\OT1/cmr/m/n/10 (\OML/cmm/m/it/1
@@ -676,7 +691,7 @@ Overfull \hbox (3.6612pt too wide) in paragraph at lines 271--271
  []
 
 
-Overfull \hbox (3.6612pt too wide) in paragraph at lines 273--273
+Overfull \hbox (3.6612pt too wide) in paragraph at lines 278--278
  []\OT1/cmtt/m/n/10 asegura $\OT1/cmr/m/n/10 (\OMS/cmsy/m/n/10 8\OML/cmm/m/it/1
 0 v \OMS/cmsy/m/n/10 2 \OML/cmm/m/it/10 vampiros\OT1/cmr/m/n/10 (\OML/cmm/m/it/
 10 niveles\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 j\OT1/cmr/m/n/10 )[]))(\OMS/cmsy/m/
@@ -688,7 +703,18 @@ n/10 (\OML/cmm/m/it/10 j\OT1/cmr/m/n/10 ))[]))\OML/cmm/m/it/10 prm\OT1/cmr/m/n/
  []
 
 
-Overfull \hbox (20.82492pt too wide) in paragraph at lines 276--276
+Overfull \hbox (49.38332pt too wide) in paragraph at lines 279--279
+ []\OT1/cmtt/m/n/10 asegura $\OT1/cmr/m/n/10 (\OMS/cmsy/m/n/10 8\OML/cmm/m/it/1
+0 v \OMS/cmsy/m/n/10 2 \OML/cmm/m/it/10 vampiros\OT1/cmr/m/n/10 (\OML/cmm/m/it/
+10 n\OT1/cmr/m/n/10 ))\OML/cmm/m/it/10 cuenta\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 
+v; vampiros\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 n\OT1/cmr/m/n/10 )) == \OML/cmm/m/
+it/10 cuentaConDobleDeVida\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 v; vampiros\OT1/cmr
+/m/n/10 (\OML/cmm/m/it/10 pre\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 n\OT1/cmr/m/n/10
+ ))$\OT1/cmr/bx/n/10 ; 
+ []
+
+
+Overfull \hbox (20.82492pt too wide) in paragraph at lines 282--282
  []\OT1/cmtt/m/n/10 asegura losAnterioresSonIguales \OT1/cmr/m/n/10 : $(\OMS/cm
 sy/m/n/10 8\OML/cmm/m/it/10 k \OMS/cmsy/m/n/10   \OT1/cmr/m/n/10 (0\OML/cmm/m/i
 t/10 ::i\OT1/cmr/m/n/10 ))\OML/cmm/m/it/10 nivelesIguales\OT1/cmr/m/n/10 (\OML/
@@ -698,7 +724,7 @@ cmm/m/it/10 j\OT1/cmr/m/n/10 ))[])$\OT1/cmr/bx/n/10 ;
  []
 
 
-Overfull \hbox (24.75244pt too wide) in paragraph at lines 277--277
+Overfull \hbox (24.75244pt too wide) in paragraph at lines 283--283
  $\OML/cmm/m/it/10 turno\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 niveles\OT1/cmr/m/n/1
 0 (\OML/cmm/m/it/10 pre\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 j\OT1/cmr/m/n/10 ))[])
  == \OML/cmm/m/it/10 turno\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 niveles\OT1/cmr/m/n
@@ -710,7 +736,7 @@ Overfull \hbox (24.75244pt too wide) in paragraph at lines 277--277
  []
 
 [6]
-Overfull \hbox (32.06937pt too wide) in paragraph at lines 323--323
+Overfull \hbox (32.06937pt too wide) in paragraph at lines 329--329
 []\OT1/cmtt/m/n/10 aux da~noVampiros \OT1/cmr/m/n/10 (n : Ni-vel, p : Po-si-cio
 n) : $\U/msb/m/n/10 Z$ \OT1/cmr/m/n/10 = $[][\OML/cmm/m/it/10 cuantoPega\OT1/cm
 r/m/n/10 (\OML/cmm/m/it/10 prm\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 v\OT1/cmr/m/n/1
@@ -720,7 +746,7 @@ L/cmm/m/it/10 ; sgd\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 v\OT1/cmr/m/n/10 1) ==$
  []
 
 
-Overfull \hbox (28.83862pt too wide) in paragraph at lines 326--326
+Overfull \hbox (28.83862pt too wide) in paragraph at lines 332--332
 []\OT1/cmtt/m/n/10 aux da~noFlores \OT1/cmr/m/n/10 (n : Ni-vel, p : Po-si-cion)
  : $\U/msb/m/n/10 Z$ \OT1/cmr/m/n/10 = $[][\OML/cmm/m/it/10 cuantoPega\OT1/cmr/
 m/n/10 (\OML/cmm/m/it/10 prm\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 
@@ -731,7 +757,7 @@ it/10 f\OT1/cmr/m/n/10 1)) ==$
  []
 
 
-Overfull \hbox (2.7469pt too wide) in paragraph at lines 332--332
+Overfull \hbox (2.7469pt too wide) in paragraph at lines 338--338
 []\OT1/cmtt/m/n/10 aux delanteExplota \OT1/cmr/m/n/10 (n : Ni-vel, p : Po-si-ci
 on) : $[]$ = $(\OMS/cmsy/m/n/10 9\OML/cmm/m/it/10 f \OMS/cmsy/m/n/10 2 \OML/cmm
 /m/it/10 flores\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 n\OT1/cmr/m/n/10 )\OML/cmm/m/i
@@ -740,7 +766,7 @@ t/10 ; Explotar \OMS/cmsy/m/n/10 2 \OML/cmm/m/it/10 habilidades\OT1/cmr/m/n/10
  []
 
 
-Overfull \hbox (58.54877pt too wide) in paragraph at lines 347--347
+Overfull \hbox (58.54877pt too wide) in paragraph at lines 353--353
 []\OT1/cmtt/m/n/10 aux cuentaFlorN \OT1/cmr/m/n/10 (f: (Flor,Posicion,Vida), li
 s-ta: [(Flor,Posicion,Vida)]) : $\U/msb/m/n/10 Z$ \OT1/cmr/m/n/10 = $\OMS/cmsy/
 m/n/10 j\OT1/cmr/m/n/10 [\OML/cmm/m/it/10 x\OMS/cmsy/m/n/10 j\OML/cmm/m/it/10 x
@@ -749,7 +775,7 @@ cmm/m/it/10 x; f\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 ^$
  []
 
 
-Overfull \hbox (62.19154pt too wide) in paragraph at lines 351--351
+Overfull \hbox (62.19154pt too wide) in paragraph at lines 357--357
 []\OT1/cmtt/m/n/10 aux mismosFloresNivel \OT1/cmr/m/n/10 (f1,f2: [(Flor,Posicio
 n,Vida)]) : $[]$ = $\OMS/cmsy/m/n/10 j\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 1\OMS/c
 msy/m/n/10 j \OT1/cmr/m/n/10 == \OMS/cmsy/m/n/10 j\OML/cmm/m/it/10 f\OT1/cmr/m/
@@ -759,12 +785,12 @@ aFlorN\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 f; f\OT1/cmr/m/n/10 1) ==$
  []
 
 
-LaTeX Warning: Command \~ invalid in math mode on input line 375.
+LaTeX Warning: Command \~ invalid in math mode on input line 381.
 
 ! Please use \mathaccent for accents in math mode.
 \add@accent ...@spacefactor \spacefactor }\accent 
                                                   #1 #2\egroup \spacefactor ...
-l.375 }
+l.381 }
        
 I'm changing \accent to \mathaccent here; wish me luck.
 (Accents are not the same in formulas as they are in text.)
@@ -772,7 +798,7 @@ I'm changing \accent to \mathaccent here; wish me luck.
 ! You can't use `\spacefactor' in math mode.
 \add@accent ...}\accent #1 #2\egroup \spacefactor 
                                                   \accent@spacefactor 
-l.375 }
+l.381 }
        
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -782,7 +808,7 @@ return to the right one by typing `I}' or `I$' or `I\par'.
 ! You can't use `\spacefactor' in math mode.
 <argument> ...cefactor \spacefactor }\spacefactor 
                                                   \accent@spacefactor 
-l.375 }
+l.381 }
        
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -790,12 +816,12 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 
-LaTeX Warning: Command \~ invalid in math mode on input line 375.
+LaTeX Warning: Command \~ invalid in math mode on input line 381.
 
 ! Please use \mathaccent for accents in math mode.
 \add@accent ...@spacefactor \spacefactor }\accent 
                                                   #1 #2\egroup \spacefactor ...
-l.375 }
+l.381 }
        
 I'm changing \accent to \mathaccent here; wish me luck.
 (Accents are not the same in formulas as they are in text.)
@@ -803,7 +829,7 @@ I'm changing \accent to \mathaccent here; wish me luck.
 ! You can't use `\spacefactor' in math mode.
 \add@accent ...}\accent #1 #2\egroup \spacefactor 
                                                   \accent@spacefactor 
-l.375 }
+l.381 }
        
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -813,7 +839,7 @@ return to the right one by typing `I}' or `I$' or `I\par'.
 ! You can't use `\spacefactor' in math mode.
 <argument> ...cefactor \spacefactor }\spacefactor 
                                                   \accent@spacefactor 
-l.375 }
+l.381 }
        
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -825,19 +851,19 @@ Missing character: There is no Ë in font cmex10!
 Missing character: There is no Ë in font cmex10!
 Missing character: There is no Ë in font cmex10!
 
-Overfull \hbox (8.49237pt too wide) in paragraph at lines 375--375
+Overfull \hbox (8.49237pt too wide) in paragraph at lines 381--381
 []\OT1/cmtt/m/n/10 aux floresSobrevivientesNoExplotan \OT1/cmr/m/n/10 (fl: [(Fl
 or,Posicion,Vida)] , n: Ni-vel) : [(Flor,Posicion,Vida)]
  []
 
 [7]
 
-LaTeX Warning: Command \~ invalid in math mode on input line 383.
+LaTeX Warning: Command \~ invalid in math mode on input line 389.
 
 ! Please use \mathaccent for accents in math mode.
 \add@accent ...@spacefactor \spacefactor }\accent 
                                                   #1 #2\egroup \spacefactor ...
-l.383 }
+l.389 }
        
 I'm changing \accent to \mathaccent here; wish me luck.
 (Accents are not the same in formulas as they are in text.)
@@ -845,7 +871,7 @@ I'm changing \accent to \mathaccent here; wish me luck.
 ! You can't use `\spacefactor' in math mode.
 \add@accent ...}\accent #1 #2\egroup \spacefactor 
                                                   \accent@spacefactor 
-l.383 }
+l.389 }
        
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -855,7 +881,7 @@ return to the right one by typing `I}' or `I$' or `I\par'.
 ! You can't use `\spacefactor' in math mode.
 <argument> ...cefactor \spacefactor }\spacefactor 
                                                   \accent@spacefactor 
-l.383 }
+l.389 }
        
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -863,12 +889,12 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 
-LaTeX Warning: Command \~ invalid in math mode on input line 383.
+LaTeX Warning: Command \~ invalid in math mode on input line 389.
 
 ! Please use \mathaccent for accents in math mode.
 \add@accent ...@spacefactor \spacefactor }\accent 
                                                   #1 #2\egroup \spacefactor ...
-l.383 }
+l.389 }
        
 I'm changing \accent to \mathaccent here; wish me luck.
 (Accents are not the same in formulas as they are in text.)
@@ -876,7 +902,7 @@ I'm changing \accent to \mathaccent here; wish me luck.
 ! You can't use `\spacefactor' in math mode.
 \add@accent ...}\accent #1 #2\egroup \spacefactor 
                                                   \accent@spacefactor 
-l.383 }
+l.389 }
        
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -886,7 +912,7 @@ return to the right one by typing `I}' or `I$' or `I\par'.
 ! You can't use `\spacefactor' in math mode.
 <argument> ...cefactor \spacefactor }\spacefactor 
                                                   \accent@spacefactor 
-l.383 }
+l.389 }
        
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -898,13 +924,13 @@ Missing character: There is no Ë in font cmex10!
 Missing character: There is no Ë in font cmex10!
 Missing character: There is no Ë in font cmex10!
 
-Overfull \hbox (6.62398pt too wide) in paragraph at lines 383--383
+Overfull \hbox (6.62398pt too wide) in paragraph at lines 389--389
 []\OT1/cmtt/m/n/10 aux vampirosSobrevivientes \OT1/cmr/m/n/10 (vam-pi-ros:[(Vam
 piro,Posicion,Vida)],nuevoN,viejoN: Ni-vel) : [(Vam-
  []
 
 
-Overfull \hbox (62.02107pt too wide) in paragraph at lines 383--383
+Overfull \hbox (62.02107pt too wide) in paragraph at lines 389--389
 \OT1/cmr/m/n/10 pi-ro,Posicion,Vida)] = $[(\OML/cmm/m/it/10 prm\OT1/cmr/m/n/10 
 (\OML/cmm/m/it/10 v\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ; seMueve\OT1/cmr/m/n/10 (
 \OML/cmm/m/it/10 v; nuevoN\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ; trd\OT1/cmr/m/n/1
@@ -915,31 +941,108 @@ oFlores\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 viejoN; sgd\OT1/cmr/m/n/10 (\OML/cmm/m
 /n/10 ) \OMS/cmsy/m/n/10  $
  []
 
-[8] (C:\Users\user\Documents\GitHub\Algo1-TPE\TPE\resolucionTPEvacia.aux) ) 
+
+LaTeX Warning: Command \~ invalid in math mode on input line 393.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ...@spacefactor \spacefactor }\accent 
+                                                  #1 #2\egroup \spacefactor ...
+l.393 }
+       
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+! You can't use `\spacefactor' in math mode.
+\add@accent ...}\accent #1 #2\egroup \spacefactor 
+                                                  \accent@spacefactor 
+l.393 }
+       
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `\spacefactor' in math mode.
+<argument> ...cefactor \spacefactor }\spacefactor 
+                                                  \accent@spacefactor 
+l.393 }
+       
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 393.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ...@spacefactor \spacefactor }\accent 
+                                                  #1 #2\egroup \spacefactor ...
+l.393 }
+       
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+! You can't use `\spacefactor' in math mode.
+\add@accent ...}\accent #1 #2\egroup \spacefactor 
+                                                  \accent@spacefactor 
+l.393 }
+       
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `\spacefactor' in math mode.
+<argument> ...cefactor \spacefactor }\spacefactor 
+                                                  \accent@spacefactor 
+l.393 }
+       
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+Missing character: There is no Ë in font cmex10!
+Missing character: There is no Ë in font cmex10!
+Missing character: There is no Ë in font cmex10!
+Missing character: There is no Ë in font cmex10!
+
+Overfull \hbox (79.54935pt too wide) in paragraph at lines 401--401
+[]\OT1/cmtt/m/n/10 aux spawnean \OT1/cmr/m/n/10 (nue-voN, vie-joN: Ni-vel) : [(
+Vam-pi-ro,Posicion,Vida)] = $[(\OML/cmm/m/it/10 prm\OT1/cmr/m/n/10 (\OML/cmm/m/
+it/10 s\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 (\OML/cmm/m/it/10 an
+cho\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 n\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ; sgd\O
+T1/cmr/m/n/10 (\OML/cmm/m/it/10 s\OT1/cmr/m/n/10 ))\OML/cmm/m/it/10 ; vida\OT1/
+cmr/m/n/10 (\OML/cmm/m/it/10 prm\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 s\OT1/cmr/m/n
+/10 )))\OMS/cmsy/m/n/10 j\OML/cmm/m/it/10 s \OMS/cmsy/m/n/10 2$
+ []
+
+[8] (C:\Users\Nicol√°s\Documents\GitHub\Algo1-TPE\TPE\resolucionTPEvacia.aux) )
+ 
 Here is how much of TeX's memory you used:
  4237 strings out of 493921
- 55351 string characters out of 3144880
+ 55309 string characters out of 3144867
  136365 words of memory out of 3000000
  7424 multiletter control sequences out of 15000+200000
  8855 words of font info for 36 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  29i,12n,43p,488b,279s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/
-Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
-ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Prog
-ram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Progra
-m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program 
-Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Fil
-es (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files 
-(x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files (x8
-6)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files (x86)/M
-iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Program Files (x86)/MiK
-TeX 2.9/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Program Files (x86)/MiK
-TeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTe
-X 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files (x86)/MiKTeX 2
-.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Program Files (x86)/MiKTeX 2.9
-/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on resolucionTPEvacia.pdf (8 pages, 551838 bytes).
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C
+:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/
+Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Pr
+ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Prog
+ram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program
+ Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Fi
+les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files
+ (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files (x8
+6)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Program Files (x86)
+/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Program Files (x86)
+/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/M
+iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files (x86)/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Program Files (x86)/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on resolucionTPEvacia.pdf (8 pages, 552206 bytes).
 PDF statistics:
  87 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
