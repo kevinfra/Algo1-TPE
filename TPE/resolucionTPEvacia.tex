@@ -289,6 +289,11 @@
 	
 \end{problema}
 
+\begin{problema}{nivelesSoleados}{j: Juego}{[Nivel]}
+	\asegura[noTerminaron]{mismosNiveles(result,[n|n \in niveles(j),terminado(n)==false])}
+	\asegura[estanOrdenados]{(\forall i \in [0..|result|-1)) solesGenerados(result_i) \leq solesGenerados(result_{i+1})}
+\end{problema}
+
 \newpage
 
 \section{Auxiliares}
@@ -328,7 +333,7 @@
 	\sum [cuantoPega(prm(v1)) | v1 \in vampiros(n), sgd(v1)==p]
 }
 \aux{da\~{n}oFlores}{n : Nivel, p : Posicion}{\ent}{
-	\sum [cuantoPega(prm(f1) | f1 \in flores(n), sgd(sgd(f1)) == sgd(p) \land noHayVampirosEnElMedio(p,f1,n)
+	\sum [cuantoPega(prm(f1) | f1 \in flores(n), sgd(sgd(f1)) == sgd(p) \land noHayVampirosEnElMedio(p,f1,n) \land prm(sgd(f1)) \leq prm(p)]
 }
 
 \aux{hayFlorDelante}{n : Nivel, p : Posicion}{\bool}{
@@ -399,5 +404,7 @@
 \aux{spawnean}{nuevoN, viejoN: Nivel}{[(Vampiro,Posicion,Vida)]}{
 [(prm(s),(ancho(n),sgd(s)),vida(prm(s)))|s \in spawning(viejoN), s \not\in spawning(nuevoN)]
 }
+
+\aux{solesGenerados}{n: Nivel}{\ent}{soles(n)+1 + |[1 | j \in flores(n), Generar \in habilidades(prm(j))}
 \end{document}
 
