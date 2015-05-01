@@ -217,7 +217,7 @@
 
 \begin{problema}{estaEnJaque}{n:Nivel}{Vampiro}
     \requiere{|vampiros(n)| > 0}
-	\asegura{result \in [prm(v)|v \in vampiros(n),vaAPerderMasVida(v,n)]}
+	\asegura{res \in [prm(v)|v \in vampiros(n),vaAPerderMasVida(v,n)]}
 \end{problema}
 
 
@@ -290,8 +290,8 @@
 \end{problema}
 
 \begin{problema}{nivelesSoleados}{j: Juego}{[Nivel]}
-	\asegura[noTerminaron]{mismosNiveles(result,[n|n \in niveles(j),terminado(n)==false])}
-	\asegura[estanOrdenados]{(\forall i \in [0..|result|-1)) solesGenerados(result_i) \leq solesGenerados(result_{i+1})}
+	\asegura[noTerminaron]{mismosNiveles(res,[n|n \in niveles(j),terminado(n)==false])}
+	\asegura[estanOrdenados]{(\forall i \in [0..|res|-1)) solesGenerados(res_i) \leq solesGenerados(res_{i+1})}
 \end{problema}
 
 \newpage
@@ -320,12 +320,7 @@
 \aux{floresOrdenadas}{lF : [(Flor,Posicion,Vida)], n: Nivel}{[(Flor,Posicion,Vida)]}{
 [x | i \in [0..alto(n)], j \in [0..ancho(n)], x \in lF, estaEnLaPosicion(i,j,sgd(x))]
 	}
-\aux{florcitas}{n : Nivel}{[Flor]}{
-	[prm(flores(n)_k) | k \in [0..|flores(n)|)]
-	}
-\aux{vampiritos}{n : Nivel}{[Vampiro]}{
-	[prm(vampiros(n)_k) | k \in [0..|vampiros(n)|)]
-}
+
 \aux{hayVampiros}{n : Nivel, p : Posicion}{\bool}{
 	(\exists v \in vampiros(n))sgd(v)==p
 }
@@ -337,13 +332,13 @@
 }
 
 \aux{hayFlorDelante}{n : Nivel, p : Posicion}{\bool}{
-	(\exists f \in flores(n))prm(sgd(f))-1 == prm(p) \land sgd(sgd(f))==sgd(p)}
+	(\exists f \in flores(n))prm(sgd(f)) == prm(p) \land sgd(sgd(f))==sgd(p)}
 
 \aux{delanteExplota}{n : Nivel, p : Posicion}{\bool}{
-	(\exists f \in flores(n), Explotar \in habilidades(f)) \newline  prm(sgd(f))-1 == prm(p) \land sgd(sgd(f))==sgd(p)}
+	(\exists f \in flores(n), Explotar \in habilidades(f)) \newline  prm(sgd(f)) == prm(p) \land sgd(sgd(f))==sgd(p)}
 
 \aux{seMueve}{v : (Vampiro,Posicion,Vida), nuevoN, viejoN : Nivel}{(\ent,\ent)}{
-	\newline ifThenElse(hayFlorDelante(nuevoN,sgd(v)) \land delanteExplota(viejoN,sgd(v)), \ (prm(sgd(v))+1,sgd(sgd(v))), \newline ifThenElse(hayFlorDelante(nuevoN,sgd(v)) \land \neg delanteExplota(viejoN,sgd(v)), \ sgd(v), \newline ifThenElse(clase(prm(v1))==Caminante, \ (prm(sgd(v))-1,sgd(sgd(v))), \newline ifThenElse(sgd(sgd(v)) > 1 \land sgd(sgd(v)) \leq alto(nuevoN), \ (prm(sgd(v))-1,sgd(sgd(v))+1), \newline (prm(sgd(v))-1,sgd(sgd(v)))))))}
+	\newline ifThenElse(hayFlorDelante(viejoN,sgd(v)) \land delanteExplota(viejoN,sgd(v)), \ (prm(sgd(v))+1,sgd(sgd(v))), \newline ifThenElse(hayFlorDelante(nuevoN,sgd(v)) \land \neg delanteExplota(nuevoN,sgd(v)), \ sgd(v), \newline ifThenElse(clase(prm(v1))==Caminante, \ (prm(sgd(v))-1,sgd(sgd(v))), \newline ifThenElse(sgd(sgd(v)) > 1 \land sgd(sgd(v)) \leq alto(nuevoN), \ (prm(sgd(v))-1,sgd(sgd(v))+1), \newline (prm(sgd(v))-1,sgd(sgd(v)))))))}
 	
 \aux{posicionFlorValida}{f: Flor, n: Nivel}{\bool}{
 (prm(sgd(f)) > 0)\land(prm(sgd(f))\leq ancho(n))\land(sgd(sgd(f)) > 0)\land(sgd(sgd(f))\leq alto(n)) \ 
