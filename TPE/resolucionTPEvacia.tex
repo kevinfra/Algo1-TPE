@@ -342,8 +342,8 @@
 \aux{delanteExplota}{n : Nivel, p : Posicion}{\bool}{
 	(\exists f \in flores(n), Explotar \in habilidades(f)) \newline  prm(sgd(f))-1 == prm(p) \land sgd(sgd(f))==sgd(p)}
 
-\aux{seMueve}{v : (Vampiro,Posicion,Vida), nuevoN : Nivel}{(\ent,\ent)}{
-	\newline ifThenElse(hayFlorDelante(nuevoN,sgd(v)) \land delanteExplota(nuevoN,sgd(v)), \ (prm(sgd(v))+1,sgd(sgd(v))), \newline ifThenElse(hayFlorDelante(nuevoN,sgd(v)) \land \neg delanteExplota(nuevoN,sgd(v)), \ sgd(v), \newline ifThenElse(clase(prm(v1))==Caminante, \ (prm(sgd(v))-1,sgd(sgd(v))), \newline ifThenElse(sgd(sgd(v)) > 1 \land sgd(sgd(v)) \leq alto(nuevoN), \ (prm(sgd(v))-1,sgd(sgd(v))+1), \newline (prm(sgd(v))-1,sgd(sgd(v)))))))}
+\aux{seMueve}{v : (Vampiro,Posicion,Vida), nuevoN, viejoN : Nivel}{(\ent,\ent)}{
+	\newline ifThenElse(hayFlorDelante(nuevoN,sgd(v)) \land delanteExplota(viejoN,sgd(v)), \ (prm(sgd(v))+1,sgd(sgd(v))), \newline ifThenElse(hayFlorDelante(nuevoN,sgd(v)) \land \neg delanteExplota(viejoN,sgd(v)), \ sgd(v), \newline ifThenElse(clase(prm(v1))==Caminante, \ (prm(sgd(v))-1,sgd(sgd(v))), \newline ifThenElse(sgd(sgd(v)) > 1 \land sgd(sgd(v)) \leq alto(nuevoN), \ (prm(sgd(v))-1,sgd(sgd(v))+1), \newline (prm(sgd(v))-1,sgd(sgd(v)))))))}
 	
 \aux{posicionFlorValida}{f: Flor, n: Nivel}{\bool}{
 (prm(sgd(f)) > 0)\land(prm(sgd(f))\leq ancho(n))\land(sgd(sgd(f)) > 0)\land(sgd(sgd(f))\leq alto(n)) \ 
@@ -390,7 +390,7 @@
 }
 
 \aux{vampirosSobrevivientes}{vampiros:[(Vampiro,Posicion,Vida)],nuevoN,viejoN: Nivel}{[(Vampiro,Posicion,Vida)]}{
-[(prm(v),seMueve(v,nuevoN),trd(v)-da\~{n}oFlores(viejoN,sgd(v)))|v \in vampiros,trd(v)-da\~{n}oFlores(viejoN,sgd(v)) > 0]
+[(prm(v),seMueve(v,nuevoN,viejoN),trd(v)-da\~{n}oFlores(viejoN,sgd(v)))|v \in vampiros,trd(v)-da\~{n}oFlores(viejoN,sgd(v)) > 0]
 }
 
 \aux{vaAPerderMasVida}{v: (Vampiro,Posicion,Vida), n: Nivel}{\bool}{
