@@ -196,9 +196,9 @@
 	\requiere[noEsElFin]{terminado(n) == False}
 	\modifica{n}
 	\asegura{mismosFloresNivel(flores(n),floresSobrevivientesNoExplotan(flores(pre(n)),pre(n)) \newline ++ floresSobrevivientesExplotan(flores(pre(n)),pre(n)))}
-	\asegura{mismos(vampiros(n),vampirosSobrevivientes(vampiros(pre(n)),n,pre(n)) ++ spawnean(n,pre(n)))}
+	\asegura{mismos(vampiros(n),vampirosSobrevivientes(vampiros(pre(n)),n,pre(n)) \newline ++ spawnean(n,pre(n)))}
 	\asegura[noMeCambiesElNivel]{ancho(n)==ancho(pre(n)) \land alto(n)==alto(pre(n))}
-	\asegura[graciasPachamama]{soles(n)==soles(pre(n))+1+ \newline |[1 | j \in flores(pre(n)), Generar \in habilidades(prm(j))]|}
+	\asegura[graciasPachamama]{soles(n)==soles(pre(n))+ solesGenerados(pre(n))}
 	\asegura[soloPasaUnTurno]{turno(n) == turno(pre(n))+1}
 	\asegura{mismos(spawning(n),[b | b \in spawning(pre(n)), trd(b) > turno(n)])}
 		
@@ -333,7 +333,7 @@
 	\sum [cuantoPega(prm(v1)) | v1 \in vampiros(n), sgd(v1)==p]
 }
 \aux{da\~{n}oFlores}{n : Nivel, p : Posicion}{\ent}{
-	\sum [cuantoPega(prm(f1) | f1 \in flores(n), sgd(sgd(f1)) == sgd(p) \land noHayVampirosEnElMedio(p,f1,n) \land prm(sgd(f1)) \leq prm(p)]
+	\sum [cuantoPega(prm(f1) | f1 \in flores(n), sgd(sgd(f1)) == sgd(p) \land prm(sgd(f1)) \leq prm(p) \land noHayVampirosEnElMedio(p,f1,n)]
 }
 
 \aux{hayFlorDelante}{n : Nivel, p : Posicion}{\bool}{
@@ -394,7 +394,7 @@
 }
 
 \aux{vaAPerderMasVida}{v: (Vampiro,Posicion,Vida), n: Nivel}{\bool}{
-(\forall v1 \in vampiros(n)) \newline da\~{n}oFlores(n, sgd(v)) \geq  da\~{n}oFlores(n, sgd(v1))
+(\forall v1 \in vampiros(n)) \newline cuantoDa\~{n}oRecibe(v,n) \geq  cuantoDa\~{n}oRecibe(v1,n)
 }
 
 \aux{cuentaConDobleDeVida}{v : (Vampiro,Posicion,Vida), lV : [(Vampiro,Posicion,Vida)]}{\ent}{
@@ -402,9 +402,13 @@
 }
 
 \aux{spawnean}{nuevoN, viejoN: Nivel}{[(Vampiro,Posicion,Vida)]}{
-[(prm(s),(ancho(n),sgd(s)),vida(prm(s)))|s \in spawning(viejoN), s \not\in spawning(nuevoN)]
+[(prm(s),(ancho(n),sgd(s)),vida(prm(s)))| \newline s \in spawning(viejoN), s \not\in spawning(nuevoN)]
 }
 
-\aux{solesGenerados}{n: Nivel}{\ent}{soles(n)+1 + |[1 | j \in flores(n), Generar \in habilidades(prm(j))}
+\aux{solesGenerados}{n: Nivel}{\ent}{1 + |[1 | j \in flores(n), Generar \in habilidades(prm(j))]|}
+
+\aux{cuantoDa\~{n}oRecibe}{v: (Vampiro,Posicion,Vida), n: Nivel}{\ent}{
+if \ (da\~{n}oFlores(n,sgd(v)) > trd(v)) \ then \ trd(v) \ else \ da\~{n}oFlores(n,sgd(v))
+}
 \end{document}
 
